@@ -14,7 +14,8 @@ export default function TradesTable({ trades }: { trades: Trade[] }) {
               <th className="px-4 py-3">Action</th>
               <th className="px-4 py-3 text-right">Shares Change</th>
               <th className="px-4 py-3 text-right">Percent Change</th>
-              <th className="px-4 py-3 text-right">Market Value</th>
+              <th className="px-4 py-3 text-right">Market Value Change</th>
+              <th className="px-4 py-3 text-right">Current Market Value</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-100">
@@ -28,12 +29,13 @@ export default function TradesTable({ trades }: { trades: Trade[] }) {
                 </td>
                 <td className="px-4 py-3 text-right tabular-nums">{formatNumber(trade.sharesChange)}</td>
                 <td className="px-4 py-3 text-right tabular-nums">{formatPercent(trade.percentChange)}</td>
-                <td className="px-4 py-3 text-right tabular-nums">{formatCurrency(trade.marketValue)}</td>
+                <td className="px-4 py-3 text-right tabular-nums">{formatCurrency(trade.marketValueChange)}</td>
+                <td className="px-4 py-3 text-right tabular-nums">{formatCurrency(trade.currentMarketValue)}</td>
               </tr>
             ))}
             {trades.length === 0 && (
               <tr>
-                <td className="px-4 py-8 text-center text-slate-500" colSpan={7}>
+                <td className="px-4 py-8 text-center text-slate-500" colSpan={8}>
                   No trades match the current filters.
                 </td>
               </tr>

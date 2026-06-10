@@ -25,6 +25,9 @@ export interface Trade {
   currentShares: number;
   sharesChange: number;
   percentChange: number | null;
+  previousMarketValue: number;
+  currentMarketValue: number;
+  marketValueChange: number;
   marketValue: number;
   weight: number;
   sourceUrl: string;
@@ -41,6 +44,22 @@ export interface PerformancePoint {
   updatedAt: string;
 }
 
+export interface FundDataStatus {
+  status: "success" | "failed" | "missing";
+  rowCount: number;
+  sourceUrl: string;
+  error: string;
+}
+
+export interface DataStatus {
+  lastSuccessfulUpdate: string | null;
+  latestHoldingDate: string | null;
+  isSampleData: boolean;
+  funds: Record<ArkFund, FundDataStatus>;
+  warnings: string[];
+  updatedAt: string;
+}
+
 export interface DataBundle {
   latestHoldings: Holding[];
   holdingsHistory: Holding[];
@@ -48,4 +67,5 @@ export interface DataBundle {
   topBuys: Trade[];
   topSells: Trade[];
   performance: PerformancePoint[];
+  dataStatus: DataStatus;
 }

@@ -1,5 +1,5 @@
 import { ArrowDownRight, ArrowUpRight, CalendarDays, Layers } from "lucide-react";
-import { formatNumber } from "../data";
+import { formatCurrency, formatNumber } from "../data";
 import type { Holding, Trade } from "../types/ark";
 
 interface Props {
@@ -18,13 +18,13 @@ export default function DashboardCards({ holdings, topBuy, topSell }: Props) {
     {
       label: "Largest buy",
       value: topBuy ? `${topBuy.fund} ${topBuy.ticker}` : "No data",
-      detail: topBuy ? `${formatNumber(topBuy.sharesChange)} shares` : "Waiting for two snapshots",
+      detail: topBuy ? `${formatCurrency(topBuy.marketValueChange)} · ${formatNumber(topBuy.sharesChange)} shares` : "Waiting for two snapshots",
       icon: ArrowUpRight,
     },
     {
       label: "Largest sell",
       value: topSell ? `${topSell.fund} ${topSell.ticker}` : "No data",
-      detail: topSell ? `${formatNumber(Math.abs(topSell.sharesChange))} shares` : "Waiting for two snapshots",
+      detail: topSell ? `${formatCurrency(Math.abs(topSell.marketValueChange))} · ${formatNumber(Math.abs(topSell.sharesChange))} shares` : "Waiting for two snapshots",
       icon: ArrowDownRight,
     },
   ];

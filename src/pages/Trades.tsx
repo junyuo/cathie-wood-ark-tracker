@@ -21,14 +21,16 @@ export default function Trades() {
       .filter((item) => fund === "All" || item.fund === fund)
       .filter((item) => action === "All" || item.action === action)
       .filter((item) => item.ticker.toLowerCase().includes(ticker.toLowerCase()))
-      .sort((a, b) => Math.abs(b.sharesChange) - Math.abs(a.sharesChange));
+      .sort((a, b) => Math.abs(b.marketValueChange) - Math.abs(a.marketValueChange));
   }, [action, date, fund, ticker, trades]);
 
   return (
     <div className="space-y-5">
       <div>
         <h2 className="text-xl font-semibold">Daily Trades</h2>
-        <p className="text-sm text-slate-600">Changes are calculated from the latest two holding snapshots.</p>
+        <p className="text-sm text-slate-600">
+          Buy, Sell, New Position, and Sold Out are inferred from public ETF holdings snapshot differences. They are not real-time trade confirmations and are not Cathie Wood personal account transactions.
+        </p>
       </div>
       <div className="grid gap-3 rounded-lg border border-slate-200 bg-white p-4 shadow-sm sm:grid-cols-2 lg:grid-cols-4">
         <select className="rounded-md border border-slate-300 px-3 py-2" value={date} onChange={(e) => setDate(e.target.value)}>

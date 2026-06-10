@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import DataStatusPanel from "../components/DataStatusPanel";
 import DashboardCards from "../components/DashboardCards";
 import TopHoldingsChart from "../components/TopHoldingsChart";
 import { loadData } from "../data";
@@ -26,6 +27,7 @@ export default function Dashboard() {
           Daily public holdings tracker for ARK Invest ETFs. Last updated: {updatedAt ?? "No data yet"}.
         </p>
       </div>
+      {data && <DataStatusPanel status={data.dataStatus} />}
       <DashboardCards holdings={holdings} topBuy={topBuy} topSell={topSell} />
       <section className="grid gap-4 lg:grid-cols-2">
         {funds.map((fund) => (

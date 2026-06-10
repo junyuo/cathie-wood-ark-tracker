@@ -7,10 +7,9 @@ import json
 import re
 from pathlib import Path
 
+from data_quality import FUNDS, HISTORY_PATH, LATEST_PATH, RAW_PATH, STATUS_PATH, read_json, utc_now, validate_holdings, write_status
+
 DATA_DIR = Path("public/data")
-RAW_PATH = DATA_DIR / "raw_holdings.json"
-LATEST_PATH = DATA_DIR / "latest_holdings.json"
-HISTORY_PATH = DATA_DIR / "holdings_history.json"
 
 
 def parse_number(value: object) -> float:
@@ -54,6 +53,7 @@ def dedupe_history(rows: list[dict]) -> list[dict]:
 
 def main() -> None:
     raw_payload = json.loads(RAW_PATH.read_text(encoding="utf-8"))
+    raw_errors = raw_payload.get("errors", {})
     latest = [normalize(row) for row in raw_payload["rows"]]
     latest = [item for item in latest if item["fund"] and item["date"] and item["ticker"]]
 
@@ -61,9 +61,37 @@ def main() -> None:
     if HISTORY_PATH.exists():
         existing_history = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
 
+    if not latest:
+        existing_latest = json.loads(LATEST_PATH.read_text(encoding="utf-8")) if LATEST_PATH.exists() else []
+        previous_status = read_json(STATUS_PATH, {"isSampleData": True})
+        write_status(
+            rows=existing_latest,
+            errors={fund: raw_errors.get(fund, "No rows returned for this ETF.") for fund in FUNDS},
+            warnings=["ARK holdings fetch returned no usable rows. Existing published data was preserved."],
+            is_sample_data=bool(previous_status.get("isSampleData", True)),
+        )
+        print("No normalized holdings were available. Existing holdings were preserved and data_status.json was updated.")
+        return
+
+    validation_errors, warnings = validate_holdings(latest, existing_history)
+    if validation_errors:
+        existing_latest = json.loads(LATEST_PATH.read_text(encoding="utf-8")) if LATEST_PATH.exists() else []
+        previous_status = read_json(STATUS_PATH, {"isSampleData": True})
+        write_status(
+            rows=existing_latest,
+            errors={fund: "; ".join(validation_errors) for fund in FUNDS},
+            warnings=warnings + ["Candidate data failed validation. Existing published data was preserved."],
+            is_sample_data=bool(previous_status.get("isSampleData", True)),
+        )
+        print("Candidate holdings failed validation. Existing holdings were preserved and data_status.json was updated.")
+        for error in validation_errors:
+            print(f"Validation error: {error}")
+        return
+
     history = dedupe_history(existing_history + latest)
     LATEST_PATH.write_text(json.dumps(latest, indent=2), encoding="utf-8")
     HISTORY_PATH.write_text(json.dumps(history, indent=2), encoding="utf-8")
+    write_status(rows=latest, errors=raw_errors, warnings=warnings, is_sample_data=False, last_successful_update=utc_now())
     print(f"Wrote {len(latest)} latest holdings and {len(history)} history rows")
 
 

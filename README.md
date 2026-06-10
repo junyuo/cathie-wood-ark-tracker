@@ -40,6 +40,16 @@ python scripts/calculate_performance.py
 
 Generated data lives in `public/data`.
 
+Key generated files:
+
+- `latest_holdings.json`: latest normalized ETF holdings.
+- `holdings_history.json`: accumulated normalized holding snapshots.
+- `daily_trades.json`: inferred snapshot-to-snapshot holding changes.
+- `top_buys.json` and `top_sells.json`: largest inferred changes by estimated market value change.
+- `data_status.json`: last successful update, per-ETF fetch status, warnings, and sample-data status.
+
+If ARK's site blocks or changes the public CSV source, the update workflow preserves the existing published holdings and records the failure in `data_status.json`.
+
 ## Build
 
 ```bash
@@ -65,6 +75,6 @@ No paid API and no API key are required.
 
 ## Data Limitations and Disclaimer
 
-Holdings files are public ETF disclosures and may lag actual portfolio activity. Calculated trade actions compare disclosed share counts between the latest two available snapshots; they are derived changes, not broker trade confirmations.
+Holdings files are public ETF disclosures and may lag actual portfolio activity. Calculated trade actions compare disclosed share counts between the latest two available snapshots; they are derived changes, not broker trade confirmations and not Cathie Wood personal account transactions.
 
 Performance data is intentionally a placeholder in the MVP until a reliable no-key market data source is added. This site is for research and informational use only and is not investment advice.

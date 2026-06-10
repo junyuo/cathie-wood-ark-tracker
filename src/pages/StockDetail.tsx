@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import HoldingsTable from "../components/HoldingsTable";
+import StockHistoryCharts from "../components/StockHistoryCharts";
 import { loadData } from "../data";
 import type { Holding } from "../types/ark";
 
@@ -37,6 +38,7 @@ export default function StockDetail() {
           <input className="mt-1 w-full max-w-xs rounded-md border border-slate-300 px-3 py-2" value={query} onChange={(e) => setQuery(e.target.value.toUpperCase())} />
         </label>
       </div>
+      <StockHistoryCharts history={filtered} ticker={query} />
       <HoldingsTable holdings={filtered} />
     </div>
   );

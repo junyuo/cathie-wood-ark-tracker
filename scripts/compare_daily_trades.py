@@ -49,6 +49,8 @@ def main() -> None:
         current_shares = int(current["shares"]) if current else 0
         shares_change = current_shares - previous_shares
         percent_change = None if previous_shares == 0 else round((shares_change / previous_shares) * 100, 4)
+        previous_market_value = float(previous["marketValue"]) if previous else 0
+        current_market_value = float(current["marketValue"]) if current else 0
         trade = {
             "fund": display["fund"],
             "date": current_date,
@@ -59,15 +61,18 @@ def main() -> None:
             "currentShares": current_shares,
             "sharesChange": shares_change,
             "percentChange": percent_change,
-            "marketValue": current["marketValue"] if current else 0,
+            "previousMarketValue": previous_market_value,
+            "currentMarketValue": current_market_value,
+            "marketValueChange": round(current_market_value - previous_market_value, 2),
+            "marketValue": current_market_value,
             "weight": current["weight"] if current else 0,
             "sourceUrl": display.get("sourceUrl", ""),
             "updatedAt": display.get("updatedAt", ""),
         }
         trades.append(trade)
 
-    top_buys = sorted([item for item in trades if item["sharesChange"] > 0], key=lambda item: item["sharesChange"], reverse=True)[:25]
-    top_sells = sorted([item for item in trades if item["sharesChange"] < 0], key=lambda item: item["sharesChange"])[:25]
+    top_buys = sorted([item for item in trades if item["marketValueChange"] > 0], key=lambda item: item["marketValueChange"], reverse=True)[:25]
+    top_sells = sorted([item for item in trades if item["marketValueChange"] < 0], key=lambda item: item["marketValueChange"])[:25]
     TRADES_PATH.write_text(json.dumps(trades, indent=2), encoding="utf-8")
     TOP_BUYS_PATH.write_text(json.dumps(top_buys, indent=2), encoding="utf-8")
     TOP_SELLS_PATH.write_text(json.dumps(top_sells, indent=2), encoding="utf-8")

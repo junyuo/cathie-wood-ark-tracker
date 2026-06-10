@@ -91,13 +91,12 @@ def main() -> None:
         except (requests.RequestException, RuntimeError) as exc:
             errors[fund] = str(exc)
 
-    if not raw_rows:
-        raise SystemExit(f"No ARK holdings downloaded. Errors: {errors}")
-
     RAW_PATH.write_text(json.dumps({"rows": raw_rows, "errors": errors}, indent=2), encoding="utf-8")
     print(f"Wrote {len(raw_rows)} raw holdings to {RAW_PATH}")
     if errors:
         print(f"Warnings: {errors}")
+    if not raw_rows:
+        print("No ARK holdings downloaded. Existing published data will be preserved by the normalize step.")
 
 
 if __name__ == "__main__":
