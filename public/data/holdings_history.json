@@ -1,0 +1,38 @@
+[
+  {
+    "fund": "ARKK",
+    "date": "2026-06-08",
+    "company": "TESLA INC",
+    "ticker": "TSLA",
+    "cusip": "88160R101",
+    "shares": 950000,
+    "marketValue": 166250000,
+    "weight": 10.1,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+    "updatedAt": "2026-06-09T00:00:00Z"
+  },
+  {
+    "fund": "ARKK",
+    "date": "2026-06-09",
+    "company": "TESLA INC",
+    "ticker": "TSLA",
+    "cusip": "88160R101",
+    "shares": 1000000,
+    "marketValue": 175000000,
+    "weight": 10.5,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKK",
+    "date": "2026-06-09",
+    "company": "COINBASE GLOBAL INC",
+    "ticker": "COIN",
+    "cusip": "19260Q107",
+    "shares": 500000,
+    "marketValue": 120000000,
+    "weight": 7.2,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  }
+]

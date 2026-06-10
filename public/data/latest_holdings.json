@@ -1,0 +1,86 @@
+[
+  {
+    "fund": "ARKK",
+    "date": "2026-06-09",
+    "company": "TESLA INC",
+    "ticker": "TSLA",
+    "cusip": "88160R101",
+    "shares": 1000000,
+    "marketValue": 175000000,
+    "weight": 10.5,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKK",
+    "date": "2026-06-09",
+    "company": "COINBASE GLOBAL INC",
+    "ticker": "COIN",
+    "cusip": "19260Q107",
+    "shares": 500000,
+    "marketValue": 120000000,
+    "weight": 7.2,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKW",
+    "date": "2026-06-09",
+    "company": "ROKU INC",
+    "ticker": "ROKU",
+    "cusip": "77543R102",
+    "shares": 600000,
+    "marketValue": 42000000,
+    "weight": 6.8,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKG",
+    "date": "2026-06-09",
+    "company": "CRISPR THERAPEUTICS AG",
+    "ticker": "CRSP",
+    "cusip": "H17182108",
+    "shares": 300000,
+    "marketValue": 18000000,
+    "weight": 5.1,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKQ",
+    "date": "2026-06-09",
+    "company": "TERADYNE INC",
+    "ticker": "TER",
+    "cusip": "880770102",
+    "shares": 200000,
+    "marketValue": 26000000,
+    "weight": 4.9,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKF",
+    "date": "2026-06-09",
+    "company": "SHOPIFY INC",
+    "ticker": "SHOP",
+    "cusip": "82509L107",
+    "shares": 450000,
+    "marketValue": 31500000,
+    "weight": 6.1,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKX",
+    "date": "2026-06-09",
+    "company": "TRIMBLE INC",
+    "ticker": "TRMB",
+    "cusip": "896239100",
+    "shares": 350000,
+    "marketValue": 21000000,
+    "weight": 5.7,
+    "sourceUrl": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  }
+]
