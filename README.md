@@ -59,6 +59,8 @@ The app uses React Router `HashRouter` so GitHub Pages refreshes do not produce 
 - `.github/workflows/update-data.yml` fetches and commits updated JSON data on weekdays.
 - `.github/workflows/deploy-pages.yml` builds the Vite app and deploys `dist` to GitHub Pages.
 
+In the repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**. If GitHub Pages is configured to deploy from the branch root, it will serve the unbuilt Vite `index.html` and the page will appear blank.
+
 No paid API and no API key are required.
 
 ## Data Limitations and Disclaimer
