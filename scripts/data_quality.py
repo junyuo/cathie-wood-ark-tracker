@@ -35,6 +35,22 @@ def latest_date(rows: list[dict]) -> str | None:
     return dates[-1] if dates else None
 
 
+def freshness_for(date_value: str | None) -> tuple[str, int | None]:
+    if not date_value:
+        return "unknown", None
+    try:
+        holding_date = datetime.fromisoformat(date_value).date()
+    except ValueError:
+        return "unknown", None
+
+    age_days = (datetime.now(timezone.utc).date() - holding_date).days
+    if age_days <= 3:
+        return "fresh", age_days
+    if age_days <= 7:
+        return "stale", age_days
+    return "old", age_days
+
+
 def build_fund_status(rows: list[dict], errors: dict[str, str]) -> dict[str, dict]:
     status: dict[str, dict] = {}
     for fund in FUNDS:
@@ -97,9 +113,12 @@ def write_status(
     previous = read_json(STATUS_PATH, {})
     previous_last_success = previous.get("lastSuccessfulUpdate")
     row_date = latest_date(rows)
+    freshness_status, data_age_days = freshness_for(row_date or previous.get("latestHoldingDate"))
     payload = {
         "lastSuccessfulUpdate": last_successful_update or previous_last_success,
         "latestHoldingDate": row_date or previous.get("latestHoldingDate"),
+        "freshnessStatus": freshness_status,
+        "dataAgeDays": data_age_days,
         "isSampleData": is_sample_data,
         "funds": build_fund_status(rows, errors or {}),
         "warnings": warnings or [],

@@ -6,9 +6,10 @@ interface Props {
   holdings: Holding[];
   topBuy?: Trade;
   topSell?: Trade;
+  isSampleData?: boolean;
 }
 
-export default function DashboardCards({ holdings, topBuy, topSell }: Props) {
+export default function DashboardCards({ holdings, topBuy, topSell, isSampleData = false }: Props) {
   const latestDate = holdings[0]?.date ?? "No data";
   const fundCount = new Set(holdings.map((item) => item.fund)).size;
 
@@ -17,14 +18,14 @@ export default function DashboardCards({ holdings, topBuy, topSell }: Props) {
     { label: "Tracked ETFs", value: fundCount.toString(), detail: "ARKK, ARKW, ARKG, ARKQ, ARKF, ARKX", icon: Layers },
     {
       label: "Largest buy",
-      value: topBuy ? `${topBuy.fund} ${topBuy.ticker}` : "No data",
-      detail: topBuy ? `${formatCurrency(topBuy.marketValueChange)} · ${formatNumber(topBuy.sharesChange)} shares` : "Waiting for two snapshots",
+      value: !isSampleData && topBuy ? `${topBuy.fund} ${topBuy.ticker}` : "No live data",
+      detail: isSampleData ? "Hidden while seed/sample data is active" : topBuy ? `${formatCurrency(topBuy.marketValueChange)} · ${formatNumber(topBuy.sharesChange)} shares` : "Waiting for two snapshots",
       icon: ArrowUpRight,
     },
     {
       label: "Largest sell",
-      value: topSell ? `${topSell.fund} ${topSell.ticker}` : "No data",
-      detail: topSell ? `${formatCurrency(Math.abs(topSell.marketValueChange))} · ${formatNumber(Math.abs(topSell.sharesChange))} shares` : "Waiting for two snapshots",
+      value: !isSampleData && topSell ? `${topSell.fund} ${topSell.ticker}` : "No live data",
+      detail: isSampleData ? "Hidden while seed/sample data is active" : topSell ? `${formatCurrency(Math.abs(topSell.marketValueChange))} · ${formatNumber(Math.abs(topSell.sharesChange))} shares` : "Waiting for two snapshots",
       icon: ArrowDownRight,
     },
   ];

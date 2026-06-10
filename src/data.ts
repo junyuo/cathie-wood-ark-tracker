@@ -5,6 +5,8 @@ export const FUNDS: ArkFund[] = ["ARKK", "ARKW", "ARKG", "ARKQ", "ARKF", "ARKX"]
 const fallbackDataStatus: DataStatus = {
   lastSuccessfulUpdate: null,
   latestHoldingDate: null,
+  freshnessStatus: "unknown",
+  dataAgeDays: null,
   isSampleData: true,
   funds: {
     ARKK: { status: "missing", rowCount: 0, sourceUrl: "", error: "data_status.json has not been generated yet." },

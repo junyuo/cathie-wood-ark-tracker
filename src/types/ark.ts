@@ -54,6 +54,8 @@ export interface FundDataStatus {
 export interface DataStatus {
   lastSuccessfulUpdate: string | null;
   latestHoldingDate: string | null;
+  freshnessStatus: "fresh" | "stale" | "old" | "unknown";
+  dataAgeDays: number | null;
   isSampleData: boolean;
   funds: Record<ArkFund, FundDataStatus>;
   warnings: string[];

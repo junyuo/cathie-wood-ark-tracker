@@ -14,8 +14,28 @@ function statusIcon(status: FundDataStatus["status"]) {
   return <AlertTriangle className="h-4 w-4" />;
 }
 
+function freshnessLabel(status: DataStatus) {
+  if (status.freshnessStatus === "unknown") return "Freshness unknown";
+  const age = status.dataAgeDays === null ? "" : ` · ${status.dataAgeDays} day${status.dataAgeDays === 1 ? "" : "s"} old`;
+  if (status.freshnessStatus === "fresh") return `Fresh${age}`;
+  if (status.freshnessStatus === "stale") return `Stale${age}`;
+  return `Old${age}`;
+}
+
+function freshnessStyles(status: DataStatus["freshnessStatus"]) {
+  if (status === "fresh") return "bg-emerald-50 text-emerald-700 ring-emerald-200";
+  if (status === "stale") return "bg-amber-50 text-amber-800 ring-amber-200";
+  if (status === "old") return "bg-rose-50 text-rose-700 ring-rose-200";
+  return "bg-slate-100 text-slate-600 ring-slate-200";
+}
+
 export default function DataStatusPanel({ status }: { status: DataStatus }) {
-  const hasWarnings = status.isSampleData || status.warnings.length > 0 || FUNDS.some((fund) => status.funds[fund]?.status !== "success");
+  const hasWarnings =
+    status.isSampleData ||
+    status.warnings.length > 0 ||
+    status.freshnessStatus === "stale" ||
+    status.freshnessStatus === "old" ||
+    FUNDS.some((fund) => status.funds[fund]?.status !== "success");
 
   return (
     <section className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
@@ -26,17 +46,22 @@ export default function DataStatusPanel({ status }: { status: DataStatus }) {
             Last successful update: {status.lastSuccessfulUpdate ?? "No successful live update yet"} · Latest holding date: {status.latestHoldingDate ?? "No data"}
           </p>
         </div>
-        {hasWarnings && (
-          <span className="inline-flex w-fit items-center gap-2 rounded-md bg-amber-50 px-3 py-2 text-sm font-medium text-amber-800 ring-1 ring-amber-200">
-            <AlertTriangle className="h-4 w-4" />
-            Review data warnings
+        <div className="flex flex-wrap gap-2">
+          <span className={`inline-flex w-fit items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ring-1 ${freshnessStyles(status.freshnessStatus)}`}>
+            {freshnessLabel(status)}
           </span>
-        )}
+          {hasWarnings && (
+            <span className="inline-flex w-fit items-center gap-2 rounded-md bg-amber-50 px-3 py-2 text-sm font-medium text-amber-800 ring-1 ring-amber-200">
+              <AlertTriangle className="h-4 w-4" />
+              Review data warnings
+            </span>
+          )}
+        </div>
       </div>
 
       {status.isSampleData && (
         <p className="mt-3 rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-800 ring-1 ring-amber-200">
-          This deployment is still showing seed/sample holdings until the first successful ARK source update completes.
+          Seed/sample holdings are loaded only to keep the static dashboard usable before the first successful ARK source update. Trade summary cards are muted while sample data is active.
         </p>
       )}
 

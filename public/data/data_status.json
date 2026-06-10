@@ -1,6 +1,8 @@
 {
   "lastSuccessfulUpdate": null,
   "latestHoldingDate": "2026-06-09",
+  "freshnessStatus": "fresh",
+  "dataAgeDays": 1,
   "isSampleData": true,
   "funds": {
     "ARKK": {

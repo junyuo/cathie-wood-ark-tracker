@@ -87,9 +87,12 @@ def main() -> None:
 
     for fund in FUNDS:
         try:
-            raw_rows.extend(fetch_fund(fund))
+            fund_rows = fetch_fund(fund)
+            raw_rows.extend(fund_rows)
+            print(f"{fund}: fetched {len(fund_rows)} rows")
         except (requests.RequestException, RuntimeError) as exc:
             errors[fund] = str(exc)
+            print(f"{fund}: failed - {exc}")
 
     RAW_PATH.write_text(json.dumps({"rows": raw_rows, "errors": errors}, indent=2), encoding="utf-8")
     print(f"Wrote {len(raw_rows)} raw holdings to {RAW_PATH}")

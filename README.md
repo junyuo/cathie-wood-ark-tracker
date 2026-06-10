@@ -50,6 +50,8 @@ Key generated files:
 
 If ARK's site blocks or changes the public CSV source, the update workflow preserves the existing published holdings and records the failure in `data_status.json`.
 
+Freshness is also recorded in `data_status.json`: data up to 3 calendar days old is treated as fresh, 4-7 days as stale, and more than 7 days as old. The dashboard surfaces these states so users can judge whether the holdings are current enough for research.
+
 ## Build
 
 ```bash

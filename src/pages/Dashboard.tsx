@@ -28,7 +28,7 @@ export default function Dashboard() {
         </p>
       </div>
       {data && <DataStatusPanel status={data.dataStatus} />}
-      <DashboardCards holdings={holdings} topBuy={topBuy} topSell={topSell} />
+      <DashboardCards holdings={holdings} topBuy={topBuy} topSell={topSell} isSampleData={data?.dataStatus.isSampleData} />
       <section className="grid gap-4 lg:grid-cols-2">
         {funds.map((fund) => (
           <TopHoldingsChart key={fund} holdings={holdings} fund={fund} />
