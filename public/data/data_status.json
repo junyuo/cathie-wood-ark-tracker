@@ -6,44 +6,44 @@
   "isSampleData": true,
   "funds": {
     "ARKK": {
-      "status": "sample",
+      "status": "failed",
       "rowCount": 2,
       "sourceUrl": "https://ark-funds.com/",
-      "error": "Bundled sample rows are active; no official ARK update has completed yet."
+      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv"
     },
     "ARKW": {
-      "status": "sample",
+      "status": "failed",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": "Bundled sample rows are active; no official ARK update has completed yet."
+      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv"
     },
     "ARKG": {
-      "status": "sample",
+      "status": "failed",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": "Bundled sample rows are active; no official ARK update has completed yet."
+      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv"
     },
     "ARKQ": {
-      "status": "sample",
+      "status": "failed",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": "Bundled sample rows are active; no official ARK update has completed yet."
+      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv"
     },
     "ARKF": {
-      "status": "sample",
+      "status": "failed",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": "Bundled sample rows are active; no official ARK update has completed yet."
+      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv"
     },
     "ARKX": {
-      "status": "sample",
+      "status": "failed",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": "Bundled sample rows are active; no official ARK update has completed yet."
+      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv"
     }
   },
   "warnings": [
-    "Sample data is bundled for offline development until a successful ARK source update runs."
+    "ARK holdings fetch failed for all configured ETFs. Existing published data was preserved."
   ],
-  "updatedAt": "2026-06-11T06:41:39.224459+00:00"
+  "updatedAt": "2026-06-11T07:44:46.149963+00:00"
 }

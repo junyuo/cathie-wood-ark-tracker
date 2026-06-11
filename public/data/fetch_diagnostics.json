@@ -1,8 +1,280 @@
 {
-  "updatedAt": "2026-06-11T06:41:39.224782+00:00",
+  "updatedAt": "2026-06-11T07:44:46.149198+00:00",
   "rowCount": 0,
-  "fundsAttempted": [],
-  "errors": {},
-  "attempts": [],
-  "note": "No official fetch diagnostics have been generated yet. This placeholder is replaced by scripts/fetch_ark_holdings.py during the GitHub Actions update workflow."
+  "fundsAttempted": [
+    "ARKK",
+    "ARKW",
+    "ARKG",
+    "ARKQ",
+    "ARKF",
+    "ARKX"
+  ],
+  "errors": {
+    "ARKK": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv",
+    "ARKW": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv",
+    "ARKG": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv",
+    "ARKQ": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv",
+    "ARKF": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv",
+    "ARKX": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv"
+  },
+  "attempts": [
+    {
+      "fund": "ARKK",
+      "stage": "fund-page-discovery",
+      "url": "https://www.ark-funds.com/funds/arkk",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "discoveredUrls": [],
+      "error": ""
+    },
+    {
+      "fund": "ARKK",
+      "stage": "holdings-csv",
+      "url": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv"
+    },
+    {
+      "fund": "ARKK",
+      "stage": "holdings-csv",
+      "url": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv"
+    },
+    {
+      "fund": "ARKK",
+      "stage": "holdings-csv",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv",
+      "statusCode": 404,
+      "contentType": "application/xml",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:8f4a7e6b-b01e-009f-7c76-f919ff000000 Time:2026-06-11T07:44:43.6285262Z</Message></Error>",
+      "rowCount": 0,
+      "headers": [],
+      "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv"
+    },
+    {
+      "fund": "ARKW",
+      "stage": "fund-page-discovery",
+      "url": "https://www.ark-funds.com/funds/arkw",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "discoveredUrls": [],
+      "error": ""
+    },
+    {
+      "fund": "ARKW",
+      "stage": "holdings-csv",
+      "url": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv"
+    },
+    {
+      "fund": "ARKW",
+      "stage": "holdings-csv",
+      "url": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv"
+    },
+    {
+      "fund": "ARKW",
+      "stage": "holdings-csv",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv",
+      "statusCode": 404,
+      "contentType": "application/xml",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:f01500df-d01e-001f-4076-f9e6f9000000 Time:2026-06-11T07:44:44.1301160Z</Message></Error>",
+      "rowCount": 0,
+      "headers": [],
+      "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv"
+    },
+    {
+      "fund": "ARKG",
+      "stage": "fund-page-discovery",
+      "url": "https://www.ark-funds.com/funds/arkg",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "discoveredUrls": [],
+      "error": ""
+    },
+    {
+      "fund": "ARKG",
+      "stage": "holdings-csv",
+      "url": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv"
+    },
+    {
+      "fund": "ARKG",
+      "stage": "holdings-csv",
+      "url": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv"
+    },
+    {
+      "fund": "ARKG",
+      "stage": "holdings-csv",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv",
+      "statusCode": 404,
+      "contentType": "application/xml",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:838a2100-501e-005c-6576-f900a5000000 Time:2026-06-11T07:44:44.6023135Z</Message></Error>",
+      "rowCount": 0,
+      "headers": [],
+      "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv"
+    },
+    {
+      "fund": "ARKQ",
+      "stage": "fund-page-discovery",
+      "url": "https://www.ark-funds.com/funds/arkq",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "discoveredUrls": [],
+      "error": ""
+    },
+    {
+      "fund": "ARKQ",
+      "stage": "holdings-csv",
+      "url": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv"
+    },
+    {
+      "fund": "ARKQ",
+      "stage": "holdings-csv",
+      "url": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv"
+    },
+    {
+      "fund": "ARKQ",
+      "stage": "holdings-csv",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv",
+      "statusCode": 404,
+      "contentType": "application/xml",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:16a117ce-301e-0038-3176-f9f13d000000 Time:2026-06-11T07:44:45.0869356Z</Message></Error>",
+      "rowCount": 0,
+      "headers": [],
+      "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv"
+    },
+    {
+      "fund": "ARKF",
+      "stage": "fund-page-discovery",
+      "url": "https://www.ark-funds.com/funds/arkf",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "discoveredUrls": [],
+      "error": ""
+    },
+    {
+      "fund": "ARKF",
+      "stage": "holdings-csv",
+      "url": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv"
+    },
+    {
+      "fund": "ARKF",
+      "stage": "holdings-csv",
+      "url": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv"
+    },
+    {
+      "fund": "ARKF",
+      "stage": "holdings-csv",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv",
+      "statusCode": 404,
+      "contentType": "application/xml",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:a7bbfda0-a01e-0083-6b76-f94b9f000000 Time:2026-06-11T07:44:45.6011126Z</Message></Error>",
+      "rowCount": 0,
+      "headers": [],
+      "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv"
+    },
+    {
+      "fund": "ARKX",
+      "stage": "fund-page-discovery",
+      "url": "https://www.ark-funds.com/funds/arkx",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "discoveredUrls": [],
+      "error": ""
+    },
+    {
+      "fund": "ARKX",
+      "stage": "holdings-csv",
+      "url": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv"
+    },
+    {
+      "fund": "ARKX",
+      "stage": "holdings-csv",
+      "url": "https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv",
+      "statusCode": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "excerpt": "<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+      "rowCount": 0,
+      "headers": [],
+      "error": "403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv"
+    },
+    {
+      "fund": "ARKX",
+      "stage": "holdings-csv",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv",
+      "statusCode": 404,
+      "contentType": "application/xml",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:fddc65f9-f01e-0055-5176-f94576000000 Time:2026-06-11T07:44:46.1081261Z</Message></Error>",
+      "rowCount": 0,
+      "headers": [],
+      "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv"
+    }
+  ]
 }
