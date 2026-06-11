@@ -12,6 +12,7 @@ const missingStatus: FundDataStatus = {
 function statusStyle(status: FundDataStatus["status"]) {
   if (status === "success") return "bg-emerald-50 text-buy ring-emerald-200";
   if (status === "failed") return "bg-red-50 text-sell ring-red-200";
+  if (status === "sample") return "bg-sky-50 text-sky-800 ring-sky-200";
   return "bg-amber-50 text-amber-800 ring-amber-200";
 }
 

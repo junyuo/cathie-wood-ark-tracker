@@ -85,7 +85,17 @@ If share counts are unavailable and normalize to zero in both snapshots, market 
 - `funds.{ETF}.error`
 - `warnings`
 
+When bundled sample data is active, each ETF status is marked `sample` instead of `success`. A `success` status means the row came from a completed official ARK source update.
+
 If a fetch or validation step fails, the scripts preserve the last successful `latest_holdings.json` and `holdings_history.json` instead of publishing empty or partial data. The failure is written to `data_status.json` and shown in the Dashboard Data Quality section.
+
+`public/data/fetch_diagnostics.json` records the fetch root-cause evidence for each attempted official source:
+
+- fund page discovery status, content type, excerpt, and discovered CSV URLs
+- candidate CSV URL status, content type, response excerpt, parsed headers, row count, and error
+- per-ETF errors
+
+The GitHub Actions update workflow commits `data_status.json` and `fetch_diagnostics.json` even when the data update fails, then marks the workflow failed. This keeps the last good holdings intact while still publishing enough evidence to debug source URL, blocking, or format changes.
 
 ## Trades Summary
 

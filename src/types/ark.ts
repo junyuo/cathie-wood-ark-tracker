@@ -64,7 +64,7 @@ export interface PerformancePoint {
 }
 
 export interface FundDataStatus {
-  status: "success" | "failed" | "missing";
+  status: "success" | "failed" | "missing" | "sample";
   rowCount: number;
   sourceUrl: string;
   error: string;

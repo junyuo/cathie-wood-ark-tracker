@@ -8,7 +8,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from common import parse_number
+from common import build_fund_status, parse_number
 from compare_daily_trades import infer_action
 
 
@@ -151,6 +151,10 @@ def main() -> None:
     assert parse_number("N/A") == 0
     assert parse_number("") == 0
     assert parse_number("(12.5)") == -12.5
+
+    sample_status = build_fund_status([{"fund": "ARKK", "sourceUrl": "sample"}], is_sample_data=True)
+    assert sample_status["ARKK"]["status"] == "sample"
+    assert sample_status["ARKW"]["status"] == "missing"
 
     previous = {"shares": 100, "marketValue": 1000, "weight": 1.0}
     current = {"shares": 150, "marketValue": 1500, "weight": 1.2}

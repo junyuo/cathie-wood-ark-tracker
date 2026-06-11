@@ -6,44 +6,44 @@
   "isSampleData": true,
   "funds": {
     "ARKK": {
-      "status": "success",
+      "status": "sample",
       "rowCount": 2,
       "sourceUrl": "https://ark-funds.com/",
-      "error": ""
+      "error": "Bundled sample rows are active; no official ARK update has completed yet."
     },
     "ARKW": {
-      "status": "success",
+      "status": "sample",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": ""
+      "error": "Bundled sample rows are active; no official ARK update has completed yet."
     },
     "ARKG": {
-      "status": "success",
+      "status": "sample",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": ""
+      "error": "Bundled sample rows are active; no official ARK update has completed yet."
     },
     "ARKQ": {
-      "status": "success",
+      "status": "sample",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": ""
+      "error": "Bundled sample rows are active; no official ARK update has completed yet."
     },
     "ARKF": {
-      "status": "success",
+      "status": "sample",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": ""
+      "error": "Bundled sample rows are active; no official ARK update has completed yet."
     },
     "ARKX": {
-      "status": "success",
+      "status": "sample",
       "rowCount": 1,
       "sourceUrl": "https://ark-funds.com/",
-      "error": ""
+      "error": "Bundled sample rows are active; no official ARK update has completed yet."
     }
   },
   "warnings": [
     "Sample data is bundled for offline development until a successful ARK source update runs."
   ],
-  "updatedAt": "2026-06-11T06:22:53.853682+00:00"
+  "updatedAt": "2026-06-11T06:41:39.224459+00:00"
 }

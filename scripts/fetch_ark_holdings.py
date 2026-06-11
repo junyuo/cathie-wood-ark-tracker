@@ -32,17 +32,38 @@ REQUIRED_HEADER_ALIASES = {
 }
 
 
-def candidate_urls(fund: str) -> list[str]:
+def response_excerpt(text: str, limit: int = 300) -> str:
+    return " ".join(text[:limit].split())
+
+
+def candidate_urls(fund: str, diagnostics: list[dict]) -> list[str]:
     urls = [template.format(fund=fund) for template in KNOWN_URLS]
     page_url = f"https://www.ark-funds.com/funds/{fund.lower()}"
+    page_diagnostic = {
+        "fund": fund,
+        "stage": "fund-page-discovery",
+        "url": page_url,
+        "statusCode": None,
+        "contentType": "",
+        "excerpt": "",
+        "discoveredUrls": [],
+        "error": "",
+    }
     try:
         response = requests.get(page_url, headers=HEADERS, timeout=25)
+        page_diagnostic["statusCode"] = response.status_code
+        page_diagnostic["contentType"] = response.headers.get("content-type", "")
+        page_diagnostic["excerpt"] = response_excerpt(response.text)
         if response.ok:
             for token in response.text.replace("\\/", "/").split('"'):
                 if "csv" in token.lower() and fund.lower() in token.lower():
-                    urls.insert(0, urljoin(page_url, token))
+                    discovered_url = urljoin(page_url, token)
+                    urls.insert(0, discovered_url)
+                    page_diagnostic["discoveredUrls"].append(discovered_url)
     except requests.RequestException as exc:
+        page_diagnostic["error"] = str(exc)
         print(f"{fund}: fund page discovery failed: {exc}")
+    diagnostics.append(page_diagnostic)
     return list(dict.fromkeys(urls))
 
 
@@ -61,16 +82,31 @@ def validate_csv_headers(fieldnames: list[str] | None, fund: str, url: str) -> N
         )
 
 
-def fetch_fund(fund: str) -> tuple[list[dict], str]:
+def fetch_fund(fund: str, diagnostics: list[dict]) -> tuple[list[dict], str]:
     errors: list[str] = []
-    for url in candidate_urls(fund):
+    for url in candidate_urls(fund, diagnostics):
+        attempt = {
+            "fund": fund,
+            "stage": "holdings-csv",
+            "url": url,
+            "statusCode": None,
+            "contentType": "",
+            "excerpt": "",
+            "rowCount": 0,
+            "headers": [],
+            "error": "",
+        }
         try:
             response = requests.get(url, headers=HEADERS, timeout=25)
+            attempt["statusCode"] = response.status_code
+            attempt["contentType"] = response.headers.get("content-type", "")
+            attempt["excerpt"] = response_excerpt(response.text)
             response.raise_for_status()
             if "ticker" not in response.text.lower():
                 raise ValueError("response does not look like holdings CSV")
             rows = []
             reader = csv.DictReader(io.StringIO(response.text))
+            attempt["headers"] = reader.fieldnames or []
             validate_csv_headers(reader.fieldnames, fund, url)
             for row in reader:
                 if any(row.values()):
@@ -78,8 +114,12 @@ def fetch_fund(fund: str) -> tuple[list[dict], str]:
                     row["_sourceUrl"] = url
                     row["_updatedAt"] = utc_now()
                     rows.append(row)
+            attempt["rowCount"] = len(rows)
+            diagnostics.append(attempt)
             return rows, ""
         except (requests.RequestException, ValueError) as exc:
+            attempt["error"] = str(exc)
+            diagnostics.append(attempt)
             errors.append(f"{url}: {exc}")
     return [], "; ".join(errors)
 
@@ -87,8 +127,9 @@ def fetch_fund(fund: str) -> tuple[list[dict], str]:
 def main() -> None:
     all_rows: list[dict] = []
     errors: dict[str, str] = {}
+    diagnostics: list[dict] = []
     for fund in FUNDS:
-        rows, error = fetch_fund(fund)
+        rows, error = fetch_fund(fund, diagnostics)
         if rows:
             print(f"{fund}: fetched {len(rows)} rows")
             all_rows.extend(rows)
@@ -96,6 +137,16 @@ def main() -> None:
             print(f"{fund}: failed - {error}")
             errors[fund] = error
     write_json(DATA_DIR / "raw_holdings.json", {"rows": all_rows, "errors": errors})
+    write_json(
+        DATA_DIR / "fetch_diagnostics.json",
+        {
+            "updatedAt": utc_now(),
+            "rowCount": len(all_rows),
+            "fundsAttempted": list(FUNDS.keys()),
+            "errors": errors,
+            "attempts": diagnostics,
+        },
+    )
     print(f"Wrote {len(all_rows)} raw rows")
     if not all_rows:
         existing = read_json(DATA_DIR / "latest_holdings.json", [])

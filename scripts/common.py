@@ -100,7 +100,7 @@ def enrich_holdings(rows: list[dict]) -> list[dict]:
     return enriched
 
 
-def build_fund_status(rows: list[dict], errors: dict[str, str] | None = None) -> dict[str, dict]:
+def build_fund_status(rows: list[dict], errors: dict[str, str] | None = None, is_sample_data: bool = False) -> dict[str, dict]:
     errors = errors or {}
     status: dict[str, dict] = {}
     for fund in FUNDS:
@@ -110,8 +110,8 @@ def build_fund_status(rows: list[dict], errors: dict[str, str] | None = None) ->
             state = "failed"
             error = errors[fund]
         elif fund_rows:
-            state = "success"
-            error = ""
+            state = "sample" if is_sample_data else "success"
+            error = "Bundled sample rows are active; no official ARK update has completed yet." if is_sample_data else ""
         else:
             state = "missing"
             error = "No holdings rows available for this ETF."
@@ -136,7 +136,7 @@ def write_data_status(
         "freshnessStatus": freshness_status,
         "dataAgeDays": data_age_days,
         "isSampleData": is_sample_data,
-        "funds": build_fund_status(rows, errors),
+        "funds": build_fund_status(rows, errors, is_sample_data),
         "warnings": warnings or [],
         "updatedAt": utc_now(),
     }

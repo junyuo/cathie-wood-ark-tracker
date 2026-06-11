@@ -24,15 +24,41 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch and build data
+        id: build-data
         run: |
+          set +e
           python scripts/fetch_ark_holdings.py
-          python scripts/normalize_holdings.py
-          python scripts/compare_daily_trades.py
-          python scripts/calculate_summary.py
-          python scripts/calculate_performance.py
+          FETCH_EXIT=$?
+
+          PIPELINE_EXIT=$FETCH_EXIT
+          if [ "$FETCH_EXIT" -eq 0 ]; then
+            python scripts/normalize_holdings.py
+            NORMALIZE_EXIT=$?
+            PIPELINE_EXIT=$NORMALIZE_EXIT
+
+            if [ "$NORMALIZE_EXIT" -eq 0 ]; then
+              python scripts/compare_daily_trades.py
+              COMPARE_EXIT=$?
+              python scripts/calculate_summary.py
+              SUMMARY_EXIT=$?
+              python scripts/calculate_performance.py
+              PERFORMANCE_EXIT=$?
+
+              if [ "$COMPARE_EXIT" -ne 0 ]; then PIPELINE_EXIT=$COMPARE_EXIT; fi
+              if [ "$SUMMARY_EXIT" -ne 0 ]; then PIPELINE_EXIT=$SUMMARY_EXIT; fi
+              if [ "$PERFORMANCE_EXIT" -ne 0 ]; then PIPELINE_EXIT=$PERFORMANCE_EXIT; fi
+            fi
+          fi
+
+          echo "pipeline_exit=$PIPELINE_EXIT" >> "$GITHUB_OUTPUT"
+          exit 0
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update ARK holdings data"
           file_pattern: "public/data/*.json"
+
+      - name: Fail when data update failed
+        if: steps.build-data.outputs.pipeline_exit != '0'
+        run: exit 1

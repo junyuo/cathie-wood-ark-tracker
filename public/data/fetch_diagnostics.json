@@ -1,0 +1,8 @@
+{
+  "updatedAt": "2026-06-11T06:41:39.224782+00:00",
+  "rowCount": 0,
+  "fundsAttempted": [],
+  "errors": {},
+  "attempts": [],
+  "note": "No official fetch diagnostics have been generated yet. This placeholder is replaced by scripts/fetch_ark_holdings.py during the GitHub Actions update workflow."
+}
