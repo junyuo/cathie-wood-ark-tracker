@@ -1,6 +1,6 @@
 import type { DailyTrade } from "../types/ark";
 import { actionClass } from "../utils/calculations";
-import { formatPercent, formatSignedNumber } from "../utils/format";
+import { formatCurrency, formatPercent, formatSignedNumber } from "../utils/format";
 
 export default function TradesTable({ trades }: { trades: DailyTrade[] }) {
   return (
@@ -15,6 +15,7 @@ export default function TradesTable({ trades }: { trades: DailyTrade[] }) {
               <th className="px-4 py-3">Action</th>
               <th className="px-4 py-3 text-right">Shares Change</th>
               <th className="px-4 py-3 text-right">Share Change %</th>
+              <th className="px-4 py-3 text-right">Market Value Change</th>
               <th className="px-4 py-3 text-right">Weight Change</th>
             </tr>
           </thead>
@@ -29,12 +30,13 @@ export default function TradesTable({ trades }: { trades: DailyTrade[] }) {
                 </td>
                 <td className="px-4 py-3 text-right tabular-nums">{formatSignedNumber(trade.shareChange)}</td>
                 <td className="px-4 py-3 text-right tabular-nums">{formatPercent(trade.shareChangePercent)}</td>
+                <td className="px-4 py-3 text-right tabular-nums">{formatCurrency(trade.marketValueChange)}</td>
                 <td className="px-4 py-3 text-right tabular-nums">{formatPercent(trade.weightChange)}</td>
               </tr>
             ))}
             {trades.length === 0 && (
               <tr>
-                <td className="px-4 py-8 text-center text-muted" colSpan={7}>
+                <td className="px-4 py-8 text-center text-muted" colSpan={8}>
                   No holding changes match the current filters.
                 </td>
               </tr>

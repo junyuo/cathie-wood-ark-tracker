@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 
 import requests
 
-from common import DATA_DIR, FUNDS, utc_now, write_json
+from common import DATA_DIR, FUNDS, read_json, utc_now, write_data_status, write_json
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; cathie-wood-ark-tracker/1.0; +https://github.com/junyuo/cathie-wood-ark-tracker)",
@@ -98,6 +98,13 @@ def main() -> None:
     write_json(DATA_DIR / "raw_holdings.json", {"rows": all_rows, "errors": errors})
     print(f"Wrote {len(all_rows)} raw rows")
     if not all_rows:
+        existing = read_json(DATA_DIR / "latest_holdings.json", [])
+        write_data_status(
+            rows=existing,
+            errors=errors,
+            warnings=["ARK holdings fetch failed for all configured ETFs. Existing published data was preserved."],
+            is_sample_data=read_json(DATA_DIR / "data_status.json", {}).get("isSampleData", True),
+        )
         raise SystemExit("No ARK holdings downloaded from official public sources. See per-fund errors above.")
 
 

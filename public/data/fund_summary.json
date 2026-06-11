@@ -20,7 +20,12 @@
         "marketValue": 175000000,
         "weight": 10.5,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 1,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKK"
+        ]
       },
       {
         "fund": "ARKK",
@@ -33,10 +38,15 @@
         "marketValue": 120000000,
         "weight": 7.2,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 2,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKK"
+        ]
       }
     ],
-    "updatedAt": "2026-06-11T05:52:48.971883+00:00"
+    "updatedAt": "2026-06-11T06:26:43.372499+00:00"
   },
   {
     "fund": "ARKW",
@@ -59,10 +69,15 @@
         "marketValue": 42000000,
         "weight": 6.8,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 1,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKW"
+        ]
       }
     ],
-    "updatedAt": "2026-06-11T05:52:48.971960+00:00"
+    "updatedAt": "2026-06-11T06:26:43.372622+00:00"
   },
   {
     "fund": "ARKG",
@@ -85,10 +100,15 @@
         "marketValue": 18000000,
         "weight": 5.1,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 1,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKG"
+        ]
       }
     ],
-    "updatedAt": "2026-06-11T05:52:48.971964+00:00"
+    "updatedAt": "2026-06-11T06:26:43.372626+00:00"
   },
   {
     "fund": "ARKQ",
@@ -111,10 +131,15 @@
         "marketValue": 26000000,
         "weight": 4.9,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 1,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKQ"
+        ]
       }
     ],
-    "updatedAt": "2026-06-11T05:52:48.971967+00:00"
+    "updatedAt": "2026-06-11T06:26:43.372629+00:00"
   },
   {
     "fund": "ARKF",
@@ -137,10 +162,15 @@
         "marketValue": 31500000,
         "weight": 6.1,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 1,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKF"
+        ]
       }
     ],
-    "updatedAt": "2026-06-11T05:52:48.971970+00:00"
+    "updatedAt": "2026-06-11T06:26:43.372632+00:00"
   },
   {
     "fund": "ARKX",
@@ -163,9 +193,14 @@
         "marketValue": 21000000,
         "weight": 5.7,
         "sourceUrl": "https://ark-funds.com/",
-        "updatedAt": "2026-06-11T00:00:00Z"
+        "updatedAt": "2026-06-11T00:00:00Z",
+        "rankInFund": 1,
+        "heldByFundCount": 1,
+        "heldByFunds": [
+          "ARKX"
+        ]
       }
     ],
-    "updatedAt": "2026-06-11T05:52:48.971973+00:00"
+    "updatedAt": "2026-06-11T06:26:43.372635+00:00"
   }
 ]

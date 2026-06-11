@@ -61,13 +61,22 @@ def main() -> None:
                 "previousWeight": previous_weight,
                 "currentWeight": current_weight,
                 "weightChange": weight_change,
+                "previousMarketValue": previous_market_value,
+                "currentMarketValue": current_market_value,
+                "marketValueChange": round(value_change, 2),
                 "action": infer_action(prev, curr, share_change, value_change, weight_change),
                 "sourceUrl": display.get("sourceUrl", ""),
             }
         )
     write_json(DATA_DIR / "daily_trades.json", trades)
-    write_json(DATA_DIR / "top_buys.json", sorted([row for row in trades if row["shareChange"] > 0], key=lambda row: row["shareChange"], reverse=True)[:25])
-    write_json(DATA_DIR / "top_sells.json", sorted([row for row in trades if row["shareChange"] < 0], key=lambda row: row["shareChange"])[:25])
+    write_json(
+        DATA_DIR / "top_buys.json",
+        sorted([row for row in trades if row["marketValueChange"] > 0], key=lambda row: row["marketValueChange"], reverse=True)[:25],
+    )
+    write_json(
+        DATA_DIR / "top_sells.json",
+        sorted([row for row in trades if row["marketValueChange"] < 0], key=lambda row: row["marketValueChange"])[:25],
+    )
     print(f"Wrote {len(trades)} inferred changes")
 
 

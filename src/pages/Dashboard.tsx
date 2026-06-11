@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import DataQuality from "../components/DataQuality";
 import DashboardCards from "../components/DashboardCards";
 import Disclaimer from "../components/Disclaimer";
 import TopHoldingsChart from "../components/TopHoldingsChart";
@@ -22,6 +23,7 @@ export default function Dashboard() {
         <h2 className="text-xl font-semibold">Dashboard</h2>
         <p className="text-sm text-muted">Public ARK ETF holdings, inferred daily changes, top holdings, and benchmark placeholders.</p>
       </div>
+      {data && <DataQuality status={data.dataStatus} />}
       <DashboardCards holdings={holdings} topBuy={data?.topBuys[0]} topSell={data?.topSells[0]} />
       <section className="grid gap-4 lg:grid-cols-2">
         {FUNDS.map((fund) => (

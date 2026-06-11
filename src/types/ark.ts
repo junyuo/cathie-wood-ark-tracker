@@ -14,6 +14,9 @@ export interface Holding {
   weight: number;
   sourceUrl: string;
   updatedAt: string;
+  rankInFund?: number;
+  heldByFundCount?: number;
+  heldByFunds?: ArkFund[];
 }
 
 export interface DailyTrade {
@@ -28,6 +31,9 @@ export interface DailyTrade {
   previousWeight: number;
   currentWeight: number;
   weightChange: number;
+  previousMarketValue: number;
+  currentMarketValue: number;
+  marketValueChange: number;
   action: TradeAction;
   sourceUrl: string;
 }
@@ -57,6 +63,24 @@ export interface PerformancePoint {
   updatedAt: string;
 }
 
+export interface FundDataStatus {
+  status: "success" | "failed" | "missing";
+  rowCount: number;
+  sourceUrl: string;
+  error: string;
+}
+
+export interface DataStatus {
+  lastSuccessfulUpdate: string | null;
+  latestHoldingDate: string | null;
+  freshnessStatus: "fresh" | "stale" | "old" | "unknown";
+  dataAgeDays: number | null;
+  isSampleData: boolean;
+  funds: Record<ArkFund, FundDataStatus>;
+  warnings: string[];
+  updatedAt: string;
+}
+
 export interface ArkData {
   latestHoldings: Holding[];
   holdingsHistory: Holding[];
@@ -65,4 +89,5 @@ export interface ArkData {
   topSells: DailyTrade[];
   fundSummary: FundSummary[];
   performance: PerformancePoint[];
+  dataStatus: DataStatus;
 }

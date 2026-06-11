@@ -10,7 +10,12 @@
     "marketValue": 175000000,
     "weight": 10.5,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 1,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKK"
+    ]
   },
   {
     "fund": "ARKK",
@@ -23,7 +28,12 @@
     "marketValue": 120000000,
     "weight": 7.2,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 2,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKK"
+    ]
   },
   {
     "fund": "ARKW",
@@ -36,7 +46,12 @@
     "marketValue": 42000000,
     "weight": 6.8,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 1,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKW"
+    ]
   },
   {
     "fund": "ARKG",
@@ -49,7 +64,12 @@
     "marketValue": 18000000,
     "weight": 5.1,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 1,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKG"
+    ]
   },
   {
     "fund": "ARKQ",
@@ -62,7 +82,12 @@
     "marketValue": 26000000,
     "weight": 4.9,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 1,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKQ"
+    ]
   },
   {
     "fund": "ARKF",
@@ -75,7 +100,12 @@
     "marketValue": 31500000,
     "weight": 6.1,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 1,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKF"
+    ]
   },
   {
     "fund": "ARKX",
@@ -88,6 +118,11 @@
     "marketValue": 21000000,
     "weight": 5.7,
     "sourceUrl": "https://ark-funds.com/",
-    "updatedAt": "2026-06-11T00:00:00Z"
+    "updatedAt": "2026-06-11T00:00:00Z",
+    "rankInFund": 1,
+    "heldByFundCount": 1,
+    "heldByFunds": [
+      "ARKX"
+    ]
   }
 ]

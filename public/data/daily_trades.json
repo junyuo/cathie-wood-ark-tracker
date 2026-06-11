@@ -11,6 +11,9 @@
     "previousWeight": 10.1,
     "currentWeight": 10.5,
     "weightChange": 0.4,
+    "previousMarketValue": 166250000.0,
+    "currentMarketValue": 175000000.0,
+    "marketValueChange": 8750000.0,
     "action": "Buy",
     "sourceUrl": "https://ark-funds.com/"
   }

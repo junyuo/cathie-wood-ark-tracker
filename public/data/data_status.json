@@ -1,0 +1,49 @@
+{
+  "lastSuccessfulUpdate": null,
+  "latestHoldingDate": "2026-06-10",
+  "freshnessStatus": "fresh",
+  "dataAgeDays": 1,
+  "isSampleData": true,
+  "funds": {
+    "ARKK": {
+      "status": "success",
+      "rowCount": 2,
+      "sourceUrl": "https://ark-funds.com/",
+      "error": ""
+    },
+    "ARKW": {
+      "status": "success",
+      "rowCount": 1,
+      "sourceUrl": "https://ark-funds.com/",
+      "error": ""
+    },
+    "ARKG": {
+      "status": "success",
+      "rowCount": 1,
+      "sourceUrl": "https://ark-funds.com/",
+      "error": ""
+    },
+    "ARKQ": {
+      "status": "success",
+      "rowCount": 1,
+      "sourceUrl": "https://ark-funds.com/",
+      "error": ""
+    },
+    "ARKF": {
+      "status": "success",
+      "rowCount": 1,
+      "sourceUrl": "https://ark-funds.com/",
+      "error": ""
+    },
+    "ARKX": {
+      "status": "success",
+      "rowCount": 1,
+      "sourceUrl": "https://ark-funds.com/",
+      "error": ""
+    }
+  },
+  "warnings": [
+    "Sample data is bundled for offline development until a successful ARK source update runs."
+  ],
+  "updatedAt": "2026-06-11T06:22:53.853682+00:00"
+}

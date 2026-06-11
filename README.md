@@ -34,8 +34,13 @@ Each normalized holding contains:
 - `weight`
 - `sourceUrl`
 - `updatedAt`
+- `rankInFund`
+- `heldByFundCount`
+- `heldByFunds`
 
 `shares`, `marketValue`, and `weight` are numeric. The parser handles commas, currency symbols, percent signs, empty values, and `N/A`.
+
+`rankInFund` is calculated from latest holdings by ETF weight. `heldByFunds` and `heldByFundCount` show whether the same ticker appears across multiple ARK ETFs.
 
 Each inferred daily change contains:
 
@@ -64,6 +69,27 @@ Actions are inferred primarily from share-count changes:
 - Shares unchanged: `Unchanged`
 
 If share counts are unavailable and normalize to zero in both snapshots, market value or weight changes may be used as a fallback signal. Weight alone is not used when share counts are available because weight can move due to price changes.
+
+## Data Status
+
+`public/data/data_status.json` records whether the current static data is fresh and complete:
+
+- `lastSuccessfulUpdate`
+- `latestHoldingDate`
+- `freshnessStatus`
+- `dataAgeDays`
+- `isSampleData`
+- `funds.{ETF}.status`
+- `funds.{ETF}.rowCount`
+- `funds.{ETF}.sourceUrl`
+- `funds.{ETF}.error`
+- `warnings`
+
+If a fetch or validation step fails, the scripts preserve the last successful `latest_holdings.json` and `holdings_history.json` instead of publishing empty or partial data. The failure is written to `data_status.json` and shown in the Dashboard Data Quality section.
+
+## Trades Summary
+
+The Trades page summarizes inferred changes with Buy, Sell, New Position, Sold Out, positive share change, and negative share change counts. Filters can isolate New Position, Sold Out, or large absolute share changes.
 
 ## Data Limits
 

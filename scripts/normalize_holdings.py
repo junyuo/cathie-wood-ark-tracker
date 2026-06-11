@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 
-from common import DATA_DIR, FUNDS, first_value, parse_number, read_json, utc_now, write_json
+from common import DATA_DIR, FUNDS, enrich_holdings, first_value, parse_number, read_json, utc_now, write_data_status, write_json
 
 
 REQUIRED_OUTPUT_FIELDS = ("fund", "fundName", "date", "company", "ticker", "shares", "marketValue", "weight", "sourceUrl", "updatedAt")
@@ -52,17 +52,33 @@ def main() -> None:
     latest = [normalize(row) for row in raw["rows"]]
     latest = [row for row in latest if row["fund"] and row["date"] and row["ticker"]]
     if not latest:
+        existing = read_json(DATA_DIR / "latest_holdings.json", [])
+        write_data_status(
+            rows=existing,
+            errors=raw.get("errors", {}),
+            warnings=["No normalized rows were produced. Existing published data was preserved."],
+            is_sample_data=read_json(DATA_DIR / "data_status.json", {}).get("isSampleData", True),
+        )
         print("No normalized rows. Existing public data preserved.")
         return
 
     try:
         validate_latest(latest)
     except ValueError as exc:
+        existing = read_json(DATA_DIR / "latest_holdings.json", [])
+        write_data_status(
+            rows=existing,
+            errors=raw.get("errors", {}),
+            warnings=[str(exc), "Candidate holdings failed validation. Existing published data was preserved."],
+            is_sample_data=read_json(DATA_DIR / "data_status.json", {}).get("isSampleData", True),
+        )
         raise SystemExit(str(exc)) from exc
+    latest = enrich_holdings(latest)
     history = read_json(DATA_DIR / "holdings_history.json", [])
     by_key = {(row["fund"], row["date"], row["ticker"]): row for row in history + latest}
     write_json(DATA_DIR / "latest_holdings.json", latest)
     write_json(DATA_DIR / "holdings_history.json", sorted(by_key.values(), key=lambda row: (row["date"], row["fund"], row["ticker"])))
+    write_data_status(rows=latest, errors=raw.get("errors", {}), is_sample_data=False, last_successful_update=utc_now())
     print(f"Wrote {len(latest)} latest holdings")
 
 

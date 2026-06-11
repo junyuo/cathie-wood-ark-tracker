@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { loadArkData } from "../data";
 import type { ArkData } from "../types/ark";
-import { formatNumber, formatPercent, formatSignedNumber } from "../utils/format";
+import { formatCurrency, formatNumber, formatPercent, formatSignedNumber } from "../utils/format";
 
 export default function StockDetail() {
   const params = useParams();
@@ -28,6 +28,8 @@ export default function StockDetail() {
       return point;
     });
   }, [history]);
+  const totalMarketValue = latestRows.reduce((sum, row) => sum + row.marketValue, 0);
+  const latestAction = recentChanges[0] ? `${recentChanges[0].fund} · ${recentChanges[0].action}` : "No recent inferred action";
 
   return (
     <div className="space-y-5">
@@ -41,6 +43,19 @@ export default function StockDetail() {
           <input className="mt-1 w-full max-w-xs rounded-md border border-slate-300 px-3 py-2" value={ticker} onChange={(event) => setTicker(event.target.value.toUpperCase())} />
         </label>
       </div>
+      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          ["Held by ETFs", latestRows.map((row) => row.fund).join(", ") || "None"],
+          ["Total market value", formatCurrency(totalMarketValue)],
+          ["Total shares", formatNumber(latestRows.reduce((sum, row) => sum + row.shares, 0))],
+          ["Latest action", latestAction],
+        ].map(([label, value]) => (
+          <div key={label} className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+            <p className="text-sm font-medium text-muted">{label}</p>
+            <p className="mt-2 break-words text-lg font-semibold">{value}</p>
+          </div>
+        ))}
+      </section>
       <section className="grid gap-4 lg:grid-cols-2">
         <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
           <h3 className="font-semibold">Latest ETF holdings</h3>
@@ -48,7 +63,9 @@ export default function StockDetail() {
             {latestRows.map((row) => (
               <div key={`${row.fund}-${row.ticker}`} className="rounded-md bg-slate-50 p-3 text-sm">
                 <p className="font-semibold">{row.fund} · {row.company}</p>
-                <p className="mt-1 text-muted">Shares: {formatNumber(row.shares)} · Weight: {formatPercent(row.weight)}</p>
+                <p className="mt-1 text-muted">
+                  Shares: {formatNumber(row.shares)} · Weight: {formatPercent(row.weight)} · Rank: {row.rankInFund ?? "n/a"}
+                </p>
               </div>
             ))}
             {latestRows.length === 0 && <p className="text-sm text-muted">No current ARK ETF holding rows for {normalized}.</p>}
