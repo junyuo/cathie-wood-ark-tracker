@@ -26,11 +26,16 @@
           '</section>' +
           '</main>';
 
-        fetch(base + "data/data_status.json")
-          .then(function (response) {
-            if (!response.ok) throw new Error("HTTP " + response.status);
-            return response.json();
-          })
+        var statusUrls = [base + "data/data_status.json", base + "public/data/data_status.json"];
+        statusUrls
+          .reduce(function (promise, url) {
+            return promise.catch(function () {
+              return fetch(url).then(function (response) {
+                if (!response.ok) throw new Error(url + " returned HTTP " + response.status);
+                return response.json();
+              });
+            });
+          }, Promise.reject())
           .then(function (status) {
             var el = document.getElementById("fallback-status");
             if (!el) return;
