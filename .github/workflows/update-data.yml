@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -61,4 +64,18 @@ jobs:
 
       - name: Fail when data update failed
         if: steps.build-data.outputs.pipeline_exit != '0'
-        run: exit 1
+        run: |
+          echo "::error title=ARK holdings update failed::The official ARK holdings fetch/build pipeline failed. Existing public holdings were preserved. Check public/data/fetch_diagnostics.json and public/data/data_status.json for the root-cause evidence."
+          {
+            echo "## ARK holdings update failed"
+            echo
+            echo "Existing public holdings were preserved."
+            echo
+            echo "Review these files after the auto-commit step:"
+            echo
+            echo "- public/data/fetch_diagnostics.json"
+            echo "- public/data/data_status.json"
+            echo
+            echo "Pipeline exit code: ${{ steps.build-data.outputs.pipeline_exit }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
