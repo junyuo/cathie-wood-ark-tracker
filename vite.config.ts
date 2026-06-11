@@ -9,7 +9,7 @@ export default defineConfig({
       output: {
         entryFileNames: "assets/app.js",
         chunkFileNames: "assets/[name].js",
-        assetFileNames: (assetInfo) => (assetInfo.name?.endsWith(".css") ? "assets/app.css" : "assets/[name][extname]"),
+        assetFileNames: (assetInfo) => (assetInfo.name && assetInfo.name.indexOf(".css") !== -1 ? "assets/app.css" : "assets/[name][extname]"),
       },
     },
   },
