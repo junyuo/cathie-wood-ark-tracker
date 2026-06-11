@@ -1,9 +1,0 @@
-node_modules/
-dist/
-.venv/
-__pycache__/
-.DS_Store
-public/data/raw_holdings.json
-*.tsbuildinfo
-vite.config.js
-vite.config.d.ts
