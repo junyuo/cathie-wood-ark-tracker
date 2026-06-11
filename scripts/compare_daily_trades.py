@@ -6,15 +6,22 @@ from __future__ import annotations
 from common import DATA_DIR, read_json, write_json
 
 
-def infer_action(previous: dict | None, current: dict | None, change: int) -> str:
+def infer_action(previous: dict | None, current: dict | None, share_change: int, value_change: float, weight_change: float) -> str:
     if previous is None and current is not None:
         return "New Position"
     if previous is not None and current is None:
         return "Sold Out"
-    if change > 0:
+    if share_change > 0:
         return "Buy"
-    if change < 0:
+    if share_change < 0:
         return "Sell"
+    previous_shares = int(previous["shares"]) if previous else 0
+    current_shares = int(current["shares"]) if current else 0
+    if previous_shares == 0 and current_shares == 0:
+        if value_change > 0 or weight_change > 0:
+            return "Buy"
+        if value_change < 0 or weight_change < 0:
+            return "Sell"
     return "Unchanged"
 
 
@@ -37,6 +44,10 @@ def main() -> None:
         share_change = current_shares - previous_shares
         previous_weight = float(prev["weight"]) if prev else 0.0
         current_weight = float(curr["weight"]) if curr else 0.0
+        previous_market_value = float(prev["marketValue"]) if prev else 0.0
+        current_market_value = float(curr["marketValue"]) if curr else 0.0
+        value_change = current_market_value - previous_market_value
+        weight_change = round(current_weight - previous_weight, 4)
         trades.append(
             {
                 "date": current_date,
@@ -49,8 +60,8 @@ def main() -> None:
                 "shareChangePercent": None if previous_shares == 0 else round((share_change / previous_shares) * 100, 4),
                 "previousWeight": previous_weight,
                 "currentWeight": current_weight,
-                "weightChange": round(current_weight - previous_weight, 4),
-                "action": infer_action(prev, curr, share_change),
+                "weightChange": weight_change,
+                "action": infer_action(prev, curr, share_change, value_change, weight_change),
                 "sourceUrl": display.get("sourceUrl", ""),
             }
         )

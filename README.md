@@ -15,7 +15,55 @@ This is not a Cathie Wood personal trading record. The site uses ARK Invest ETF 
 
 ## Data Source
 
-The fetch script attempts to download public holdings CSV files from ARK Invest public sources. Frontend pages read static JSON from `public/data/*.json`.
+The fetch script attempts to download public holdings CSV files from ARK Invest public sources, including official ARK fund CSV locations and links discovered from ARK fund pages. Frontend pages read static JSON from `public/data/*.json`.
+
+If ARK changes the public CSV format, the fetch/normalize scripts fail with a clear message that lists missing expected columns instead of publishing empty holdings or fake data.
+
+## Data Fields
+
+Each normalized holding contains:
+
+- `fund`
+- `fundName`
+- `date`
+- `company`
+- `ticker`
+- `cusip`
+- `shares`
+- `marketValue`
+- `weight`
+- `sourceUrl`
+- `updatedAt`
+
+`shares`, `marketValue`, and `weight` are numeric. The parser handles commas, currency symbols, percent signs, empty values, and `N/A`.
+
+Each inferred daily change contains:
+
+- `date`
+- `fund`
+- `ticker`
+- `company`
+- `previousShares`
+- `currentShares`
+- `shareChange`
+- `shareChangePercent`
+- `previousWeight`
+- `currentWeight`
+- `weightChange`
+- `action`
+- `sourceUrl`
+
+## Action Logic
+
+Actions are inferred primarily from share-count changes:
+
+- Previous snapshot missing and current snapshot present: `New Position`
+- Current shares greater than previous shares: `Buy`
+- Current shares less than previous shares: `Sell`
+- Previous snapshot present and current snapshot missing: `Sold Out`
+- Shares unchanged: `Unchanged`
+
+If share counts are unavailable and normalize to zero in both snapshots, market value or weight changes may be used as a fallback signal. Weight alone is not used when share counts are available because weight can move due to price changes.
 
 ## Data Limits
 
@@ -39,6 +87,12 @@ python scripts/normalize_holdings.py
 python scripts/compare_daily_trades.py
 python scripts/calculate_summary.py
 python scripts/calculate_performance.py
+```
+
+For no-network parser checks:
+
+```bash
+python scripts/test_data_processing.py
 ```
 
 ## Build
