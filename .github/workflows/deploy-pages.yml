@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,7 +34,28 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: |
+          cp index.vite.html index.html
+          npm run build
+          git checkout -- index.html
+
+      - name: Update root fallback assets
+        run: |
+          mkdir -p assets
+          cp dist/assets/app.js assets/app.js
+          cp dist/assets/app.css assets/app.css
+
+      - name: Commit root fallback assets
+        run: |
+          if [ -n "$(git status --porcelain assets)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/app.js assets/app.css
+            git commit -m "Update GitHub Pages root fallback assets [skip ci]"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          else
+            echo "Root fallback assets are already current."
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
