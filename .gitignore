@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.tsbuildinfo
+.DS_Store
+public/data/raw_holdings.json

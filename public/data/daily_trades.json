@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-06-10",
+    "fund": "ARKK",
+    "ticker": "TSLA",
+    "company": "TESLA INC",
+    "previousShares": 950000,
+    "currentShares": 1000000,
+    "shareChange": 50000,
+    "shareChangePercent": 5.2632,
+    "previousWeight": 10.1,
+    "currentWeight": 10.5,
+    "weightChange": 0.4,
+    "action": "Buy",
+    "sourceUrl": "https://ark-funds.com/"
+  }
+]

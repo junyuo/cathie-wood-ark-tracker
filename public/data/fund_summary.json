@@ -1,0 +1,171 @@
+[
+  {
+    "fund": "ARKK",
+    "fundName": "ARK Innovation ETF",
+    "date": "2026-06-10",
+    "holdingsCount": 2,
+    "totalMarketValue": 295000000,
+    "topTenWeight": 17.7,
+    "buyCount": 1,
+    "sellCount": 0,
+    "topHoldings": [
+      {
+        "fund": "ARKK",
+        "fundName": "ARK Innovation ETF",
+        "date": "2026-06-10",
+        "company": "TESLA INC",
+        "ticker": "TSLA",
+        "cusip": "88160R101",
+        "shares": 1000000,
+        "marketValue": 175000000,
+        "weight": 10.5,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      },
+      {
+        "fund": "ARKK",
+        "fundName": "ARK Innovation ETF",
+        "date": "2026-06-10",
+        "company": "COINBASE GLOBAL INC",
+        "ticker": "COIN",
+        "cusip": "19260Q107",
+        "shares": 500000,
+        "marketValue": 120000000,
+        "weight": 7.2,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      }
+    ],
+    "updatedAt": "2026-06-11T05:47:51.339630+00:00"
+  },
+  {
+    "fund": "ARKW",
+    "fundName": "ARK Next Generation Internet ETF",
+    "date": "2026-06-10",
+    "holdingsCount": 1,
+    "totalMarketValue": 42000000,
+    "topTenWeight": 6.8,
+    "buyCount": 0,
+    "sellCount": 0,
+    "topHoldings": [
+      {
+        "fund": "ARKW",
+        "fundName": "ARK Next Generation Internet ETF",
+        "date": "2026-06-10",
+        "company": "ROKU INC",
+        "ticker": "ROKU",
+        "cusip": "77543R102",
+        "shares": 600000,
+        "marketValue": 42000000,
+        "weight": 6.8,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      }
+    ],
+    "updatedAt": "2026-06-11T05:47:51.339724+00:00"
+  },
+  {
+    "fund": "ARKG",
+    "fundName": "ARK Genomic Revolution ETF",
+    "date": "2026-06-10",
+    "holdingsCount": 1,
+    "totalMarketValue": 18000000,
+    "topTenWeight": 5.1,
+    "buyCount": 0,
+    "sellCount": 0,
+    "topHoldings": [
+      {
+        "fund": "ARKG",
+        "fundName": "ARK Genomic Revolution ETF",
+        "date": "2026-06-10",
+        "company": "CRISPR THERAPEUTICS AG",
+        "ticker": "CRSP",
+        "cusip": "H17182108",
+        "shares": 300000,
+        "marketValue": 18000000,
+        "weight": 5.1,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      }
+    ],
+    "updatedAt": "2026-06-11T05:47:51.339728+00:00"
+  },
+  {
+    "fund": "ARKQ",
+    "fundName": "ARK Autonomous Technology & Robotics ETF",
+    "date": "2026-06-10",
+    "holdingsCount": 1,
+    "totalMarketValue": 26000000,
+    "topTenWeight": 4.9,
+    "buyCount": 0,
+    "sellCount": 0,
+    "topHoldings": [
+      {
+        "fund": "ARKQ",
+        "fundName": "ARK Autonomous Technology & Robotics ETF",
+        "date": "2026-06-10",
+        "company": "TERADYNE INC",
+        "ticker": "TER",
+        "cusip": "880770102",
+        "shares": 200000,
+        "marketValue": 26000000,
+        "weight": 4.9,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      }
+    ],
+    "updatedAt": "2026-06-11T05:47:51.339731+00:00"
+  },
+  {
+    "fund": "ARKF",
+    "fundName": "ARK Fintech Innovation ETF",
+    "date": "2026-06-10",
+    "holdingsCount": 1,
+    "totalMarketValue": 31500000,
+    "topTenWeight": 6.1,
+    "buyCount": 0,
+    "sellCount": 0,
+    "topHoldings": [
+      {
+        "fund": "ARKF",
+        "fundName": "ARK Fintech Innovation ETF",
+        "date": "2026-06-10",
+        "company": "SHOPIFY INC",
+        "ticker": "SHOP",
+        "cusip": "82509L107",
+        "shares": 450000,
+        "marketValue": 31500000,
+        "weight": 6.1,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      }
+    ],
+    "updatedAt": "2026-06-11T05:47:51.339734+00:00"
+  },
+  {
+    "fund": "ARKX",
+    "fundName": "ARK Space Exploration & Innovation ETF",
+    "date": "2026-06-10",
+    "holdingsCount": 1,
+    "totalMarketValue": 21000000,
+    "topTenWeight": 5.7,
+    "buyCount": 0,
+    "sellCount": 0,
+    "topHoldings": [
+      {
+        "fund": "ARKX",
+        "fundName": "ARK Space Exploration & Innovation ETF",
+        "date": "2026-06-10",
+        "company": "TRIMBLE INC",
+        "ticker": "TRMB",
+        "cusip": "896239100",
+        "shares": 350000,
+        "marketValue": 21000000,
+        "weight": 5.7,
+        "sourceUrl": "https://ark-funds.com/",
+        "updatedAt": "2026-06-11T00:00:00Z"
+      }
+    ],
+    "updatedAt": "2026-06-11T05:47:51.339737+00:00"
+  }
+]

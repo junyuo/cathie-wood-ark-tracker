@@ -1,0 +1,28 @@
+[
+  {
+    "fund": "ARKK",
+    "fundName": "ARK Innovation ETF",
+    "date": "2026-06-09",
+    "company": "TESLA INC",
+    "ticker": "TSLA",
+    "cusip": "88160R101",
+    "shares": 950000,
+    "marketValue": 166250000,
+    "weight": 10.1,
+    "sourceUrl": "https://ark-funds.com/",
+    "updatedAt": "2026-06-10T00:00:00Z"
+  },
+  {
+    "fund": "ARKK",
+    "fundName": "ARK Innovation ETF",
+    "date": "2026-06-10",
+    "company": "TESLA INC",
+    "ticker": "TSLA",
+    "cusip": "88160R101",
+    "shares": 1000000,
+    "marketValue": 175000000,
+    "weight": 10.5,
+    "sourceUrl": "https://ark-funds.com/",
+    "updatedAt": "2026-06-11T00:00:00Z"
+  }
+]
