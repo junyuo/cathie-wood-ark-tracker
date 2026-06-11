@@ -116,6 +116,8 @@ The app uses `HashRouter` to avoid GitHub Pages refresh 404s. In GitHub reposito
 - `deploy-pages.yml`: builds with `npm ci` and deploys `dist`.
 - `update-data.yml`: runs Tuesday through Saturday and can be triggered manually to update `public/data/*.json`.
 
+If GitHub Pages deployment logs show `DEP0040 punycode` and then `The operation was canceled`, the warning is not the failure. It usually means the workflow run itself was canceled while `deploy-pages` was fetching the `github-pages` artifact. Push the latest workflow file before rerunning; old runs may still show a different deploy action version and cancellation behavior.
+
 ## Disclaimer
 
 This site is for research and education only and is not investment advice. Users should verify important holdings data with official ARK Invest sources.
