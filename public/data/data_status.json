@@ -2,7 +2,7 @@
   "lastSuccessfulUpdate": null,
   "latestHoldingDate": "2026-06-10",
   "freshnessStatus": "old",
-  "dataAgeDays": 28,
+  "dataAgeDays": 29,
   "isSampleData": true,
   "funds": {
     "ARKK": {
@@ -45,5 +45,5 @@
   "warnings": [
     "ARK holdings fetch failed for all configured ETFs. Existing published data was preserved."
   ],
-  "updatedAt": "2026-07-08T13:07:16.523234+00:00"
+  "updatedAt": "2026-07-09T14:06:18.619776+00:00"
 }
