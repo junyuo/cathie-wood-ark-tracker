@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:30:10.093450+00:00",
+  "updatedAt": "2026-07-14T12:48:37.046921+00:00",
   "rowCount": 0,
   "fundsAttempted": [
     "ARKK",
@@ -56,7 +56,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv",
       "statusCode": 404,
       "contentType": "application/xml",
-      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:940dbaa7-901e-0088-6331-11b0f4000000 Time:2026-07-11T12:30:08.7445176Z</Message></Error>",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:d72a59fb-d01e-007d-7f8f-1324de000000 Time:2026-07-14T12:48:35.7856157Z</Message></Error>",
       "rowCount": 0,
       "headers": [],
       "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv"
@@ -99,7 +99,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv",
       "statusCode": 404,
       "contentType": "application/xml",
-      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:946aa21e-a01e-0067-4c31-114501000000 Time:2026-07-11T12:30:09.0376993Z</Message></Error>",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:0a941aa3-501e-004c-768f-13c5cd000000 Time:2026-07-14T12:48:36.0353806Z</Message></Error>",
       "rowCount": 0,
       "headers": [],
       "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv"
@@ -142,7 +142,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv",
       "statusCode": 404,
       "contentType": "application/xml",
-      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:1a16e407-401e-000d-2e31-119d29000000 Time:2026-07-11T12:30:09.2911677Z</Message></Error>",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:51669798-b01e-006b-7b8f-13d209000000 Time:2026-07-14T12:48:36.2559853Z</Message></Error>",
       "rowCount": 0,
       "headers": [],
       "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv"
@@ -185,7 +185,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv",
       "statusCode": 404,
       "contentType": "application/xml",
-      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:af21978f-701e-0090-4d31-116f93000000 Time:2026-07-11T12:30:09.5489768Z</Message></Error>",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:fd350d6a-301e-0065-5a8f-13fbb9000000 Time:2026-07-14T12:48:36.4690240Z</Message></Error>",
       "rowCount": 0,
       "headers": [],
       "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv"
@@ -228,7 +228,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv",
       "statusCode": 404,
       "contentType": "application/xml",
-      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:940dbcff-901e-0088-6231-11b0f4000000 Time:2026-07-11T12:30:09.8131368Z</Message></Error>",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:f6264846-a01e-0058-338f-138da2000000 Time:2026-07-14T12:48:36.7102016Z</Message></Error>",
       "rowCount": 0,
       "headers": [],
       "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv"
@@ -271,7 +271,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv",
       "statusCode": 404,
       "contentType": "application/xml",
-      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:802574ad-d01e-000f-0931-112391000000 Time:2026-07-11T12:30:10.0868039Z</Message></Error>",
+      "excerpt": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist. RequestId:360141ae-801e-0070-718f-13ec0a000000 Time:2026-07-14T12:48:37.0500024Z</Message></Error>",
       "rowCount": 0,
       "headers": [],
       "error": "404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv"
