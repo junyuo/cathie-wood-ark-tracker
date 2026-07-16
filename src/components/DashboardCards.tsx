@@ -7,9 +7,10 @@ interface Props {
   holdings: Holding[];
   topBuy?: DailyTrade;
   topSell?: DailyTrade;
+  comparisonReady: boolean;
 }
 
-export default function DashboardCards({ holdings, topBuy, topSell }: Props) {
+export default function DashboardCards({ holdings, topBuy, topSell, comparisonReady }: Props) {
   const shared = sharedTickerLeader(holdings);
   const cards = [
     { label: "Latest data date", value: latestDate(holdings), detail: "Public ARK ETF holdings", icon: CalendarDays },
@@ -17,14 +18,22 @@ export default function DashboardCards({ holdings, topBuy, topSell }: Props) {
     { label: "Total holdings rows", value: formatNumber(holdings.length), detail: "Latest normalized rows", icon: Table2 },
     {
       label: "Largest inferred increase",
-      value: topBuy ? `${topBuy.fund} ${topBuy.ticker}` : "No data",
-      detail: topBuy ? `${formatSignedNumber(topBuy.shareChange)} shares · ${formatPercent(topBuy.shareChangePercent)}` : "Needs two snapshots",
+      value: !comparisonReady ? "Baseline pending" : topBuy ? `${topBuy.fund} ${topBuy.ticker}` : "No data",
+      detail: !comparisonReady
+        ? "Needs two complete ETF snapshots"
+        : topBuy
+          ? `${formatSignedNumber(topBuy.shareChange)} shares · ${formatPercent(topBuy.shareChangePercent)}`
+          : "No inferred increases",
       icon: ArrowUpRight,
     },
     {
       label: "Largest inferred decrease",
-      value: topSell ? `${topSell.fund} ${topSell.ticker}` : "No data",
-      detail: topSell ? `${formatSignedNumber(topSell.shareChange)} shares · ${formatPercent(topSell.shareChangePercent)}` : "Needs two snapshots",
+      value: !comparisonReady ? "Baseline pending" : topSell ? `${topSell.fund} ${topSell.ticker}` : "No data",
+      detail: !comparisonReady
+        ? "Needs two complete ETF snapshots"
+        : topSell
+          ? `${formatSignedNumber(topSell.shareChange)} shares · ${formatPercent(topSell.shareChangePercent)}`
+          : "No inferred decreases",
       icon: ArrowDownRight,
     },
     {

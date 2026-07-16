@@ -24,6 +24,22 @@ export function sharedTickerLeader(holdings: Holding[]) {
   return [...byTicker.entries()].sort((a, b) => b[1].size - a[1].size)[0];
 }
 
+export function completeSnapshotDates(history: Holding[]) {
+  const fundsByDate = new Map<string, Set<ArkFund>>();
+  history.forEach((holding) => {
+    if (!fundsByDate.has(holding.date)) fundsByDate.set(holding.date, new Set());
+    fundsByDate.get(holding.date)?.add(holding.fund);
+  });
+  return [...fundsByDate.entries()]
+    .filter(([, funds]) => FUNDS.every((fund) => funds.has(fund)))
+    .map(([date]) => date)
+    .sort();
+}
+
+export function hasCompleteComparisonBaseline(history: Holding[]) {
+  return completeSnapshotDates(history).length >= 2;
+}
+
 export function actionClass(action: DailyTrade["action"]) {
   if (action === "Buy" || action === "New Position") return "bg-emerald-50 text-buy ring-emerald-200";
   if (action === "Sell" || action === "Sold Out") return "bg-red-50 text-sell ring-red-200";
