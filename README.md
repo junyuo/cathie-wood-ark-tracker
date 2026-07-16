@@ -15,7 +15,7 @@ This is not a Cathie Wood personal trading record. The site uses ARK Invest ETF 
 
 ## Data Source
 
-The fetch script attempts to download public holdings CSV files from ARK Invest public sources, including official ARK fund CSV locations and links discovered from ARK fund pages. Frontend pages read static JSON from `public/data/*.json`.
+The fetch script downloads public holdings CSV files from ARK Invest's official asset host. ARK's current files use full fund names in their filenames rather than ticker-only paths. Fund-page link discovery remains a fallback if those asset paths change. Frontend pages read static JSON from `public/data/*.json`.
 
 If ARK changes the public CSV format, the fetch/normalize scripts fail with a clear message that lists missing expected columns instead of publishing empty holdings or fake data.
 

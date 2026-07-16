@@ -16,10 +16,29 @@ HEADERS = {
     "Accept": "text/csv,text/plain,text/html,*/*",
 }
 
-KNOWN_URLS = (
+ASSET_BASE_URL = "https://assets.ark-funds.com/fund-documents/funds-etf-csv"
+
+# ARK's current public asset filenames use fund names rather than only tickers.
+# ARKF and ARKX keep their previous filenames as fallbacks after their 2025
+# fund-name changes.
+OFFICIAL_ASSET_FILENAMES = {
+    "ARKK": ("ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",),
+    "ARKW": ("ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",),
+    "ARKG": ("ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",),
+    "ARKQ": ("ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",),
+    "ARKF": (
+        "ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+        "ARK_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+    ),
+    "ARKX": (
+        "ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+        "ARK_SPACE_EXPLORATION_&_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+    ),
+}
+
+LEGACY_URLS = (
     "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/{fund}_holdings.csv",
     "https://ark-funds.com/wp-content/fundsiteliterature/csv/{fund}_holdings.csv",
-    "https://assets.ark-funds.com/fund-documents/funds-etf-csv/{fund}_holdings.csv",
 )
 
 REQUIRED_HEADER_ALIASES = {
@@ -27,8 +46,8 @@ REQUIRED_HEADER_ALIASES = {
     "company": ("company", "company name", "name"),
     "ticker": ("ticker", "ticker symbol"),
     "shares": ("shares",),
-    "market value": ("market value($)", "market value", "marketvalue"),
-    "weight": ("weight(%)", "weight", "% of fund"),
+    "market value": ("market value ($)", "market value($)", "market value", "marketvalue"),
+    "weight": ("weight (%)", "weight(%)", "weight", "% of fund"),
 }
 
 
@@ -36,8 +55,14 @@ def response_excerpt(text: str, limit: int = 300) -> str:
     return " ".join(text[:limit].split())
 
 
-def candidate_urls(fund: str, diagnostics: list[dict]) -> list[str]:
-    urls = [template.format(fund=fund) for template in KNOWN_URLS]
+def static_candidate_urls(fund: str) -> list[str]:
+    filenames = OFFICIAL_ASSET_FILENAMES.get(fund, ())
+    official_urls = [f"{ASSET_BASE_URL}/{filename}" for filename in filenames]
+    legacy_urls = [template.format(fund=fund) for template in LEGACY_URLS]
+    return official_urls + legacy_urls
+
+
+def discover_candidate_urls(fund: str, diagnostics: list[dict]) -> list[str]:
     page_url = f"https://www.ark-funds.com/funds/{fund.lower()}"
     page_diagnostic = {
         "fund": fund,
@@ -58,13 +83,12 @@ def candidate_urls(fund: str, diagnostics: list[dict]) -> list[str]:
             for token in response.text.replace("\\/", "/").split('"'):
                 if "csv" in token.lower() and fund.lower() in token.lower():
                     discovered_url = urljoin(page_url, token)
-                    urls.insert(0, discovered_url)
                     page_diagnostic["discoveredUrls"].append(discovered_url)
     except requests.RequestException as exc:
         page_diagnostic["error"] = str(exc)
         print(f"{fund}: fund page discovery failed: {exc}")
     diagnostics.append(page_diagnostic)
-    return list(dict.fromkeys(urls))
+    return list(dict.fromkeys(page_diagnostic["discoveredUrls"]))
 
 
 def validate_csv_headers(fieldnames: list[str] | None, fund: str, url: str) -> None:
@@ -82,45 +106,66 @@ def validate_csv_headers(fieldnames: list[str] | None, fund: str, url: str) -> N
         )
 
 
+def fetch_candidate(fund: str, url: str, diagnostics: list[dict]) -> tuple[list[dict], str]:
+    attempt = {
+        "fund": fund,
+        "stage": "holdings-csv",
+        "url": url,
+        "statusCode": None,
+        "contentType": "",
+        "excerpt": "",
+        "rowCount": 0,
+        "headers": [],
+        "error": "",
+    }
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=25)
+        attempt["statusCode"] = response.status_code
+        attempt["contentType"] = response.headers.get("content-type", "")
+        attempt["excerpt"] = response_excerpt(response.text)
+        response.raise_for_status()
+        if "ticker" not in response.text.lower():
+            raise ValueError("response does not look like holdings CSV")
+        rows = []
+        reader = csv.DictReader(io.StringIO(response.text))
+        attempt["headers"] = reader.fieldnames or []
+        validate_csv_headers(reader.fieldnames, fund, url)
+        for row in reader:
+            if any(row.values()):
+                row["_fund"] = fund
+                row["_sourceUrl"] = url
+                row["_updatedAt"] = utc_now()
+                rows.append(row)
+        attempt["rowCount"] = len(rows)
+        diagnostics.append(attempt)
+        return rows, ""
+    except (requests.RequestException, ValueError) as exc:
+        attempt["error"] = str(exc)
+        diagnostics.append(attempt)
+        return [], f"{url}: {exc}"
+
+
 def fetch_fund(fund: str, diagnostics: list[dict]) -> tuple[list[dict], str]:
     errors: list[str] = []
-    for url in candidate_urls(fund, diagnostics):
-        attempt = {
-            "fund": fund,
-            "stage": "holdings-csv",
-            "url": url,
-            "statusCode": None,
-            "contentType": "",
-            "excerpt": "",
-            "rowCount": 0,
-            "headers": [],
-            "error": "",
-        }
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=25)
-            attempt["statusCode"] = response.status_code
-            attempt["contentType"] = response.headers.get("content-type", "")
-            attempt["excerpt"] = response_excerpt(response.text)
-            response.raise_for_status()
-            if "ticker" not in response.text.lower():
-                raise ValueError("response does not look like holdings CSV")
-            rows = []
-            reader = csv.DictReader(io.StringIO(response.text))
-            attempt["headers"] = reader.fieldnames or []
-            validate_csv_headers(reader.fieldnames, fund, url)
-            for row in reader:
-                if any(row.values()):
-                    row["_fund"] = fund
-                    row["_sourceUrl"] = url
-                    row["_updatedAt"] = utc_now()
-                    rows.append(row)
-            attempt["rowCount"] = len(rows)
-            diagnostics.append(attempt)
+    attempted_urls: set[str] = set()
+
+    for url in static_candidate_urls(fund):
+        attempted_urls.add(url)
+        rows, error = fetch_candidate(fund, url, diagnostics)
+        if rows:
             return rows, ""
-        except (requests.RequestException, ValueError) as exc:
-            attempt["error"] = str(exc)
-            diagnostics.append(attempt)
-            errors.append(f"{url}: {exc}")
+        errors.append(error)
+
+    # Fund pages and the document API may reject automated clients. Discovery
+    # remains a last-resort fallback if the known official asset paths change.
+    for url in discover_candidate_urls(fund, diagnostics):
+        if url in attempted_urls:
+            continue
+        rows, error = fetch_candidate(fund, url, diagnostics)
+        if rows:
+            return rows, ""
+        errors.append(error)
+
     return [], "; ".join(errors)
 
 

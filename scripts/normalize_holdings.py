@@ -19,8 +19,8 @@ def normalize(row: dict) -> dict:
         "ticker": first_value(row, ("ticker", "ticker symbol")).upper(),
         "cusip": first_value(row, ("cusip",)),
         "shares": int(parse_number(first_value(row, ("shares",)))),
-        "marketValue": parse_number(first_value(row, ("market value($)", "market value", "marketvalue"))),
-        "weight": parse_number(first_value(row, ("weight(%)", "weight", "% of fund"))),
+        "marketValue": parse_number(first_value(row, ("market value ($)", "market value($)", "market value", "marketvalue"))),
+        "weight": parse_number(first_value(row, ("weight (%)", "weight(%)", "weight", "% of fund"))),
         "sourceUrl": row.get("_sourceUrl", ""),
         "updatedAt": row.get("_updatedAt", utc_now()),
     }

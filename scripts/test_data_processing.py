@@ -8,8 +8,10 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from common import build_fund_status, parse_number
+import fetch_ark_holdings
+from common import FUNDS, build_fund_status, parse_number
 from compare_daily_trades import infer_action
+from fetch_ark_holdings import fetch_fund, static_candidate_urls
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,8 +28,8 @@ def fixture_row(fund: str, ticker: str, shares: str, weight: str = "4.25%") -> d
         "ticker": ticker,
         "cusip": "123456789",
         "shares": shares,
-        "market value($)": "$12,345.67",
-        "weight(%)": weight,
+        "market value ($)": "$12,345.67",
+        "weight (%)": weight,
     }
 
 
@@ -35,6 +37,45 @@ def run_normalize_fixture(rows: list[dict]) -> tuple[int, str]:
     (DATA_DIR / "raw_holdings.json").write_text(json.dumps({"rows": rows, "errors": {}}, indent=2), encoding="utf-8")
     result = subprocess.run(["python3", "scripts/normalize_holdings.py"], cwd=ROOT, text=True, capture_output=True)
     return result.returncode, result.stdout + result.stderr
+
+
+def test_official_holdings_urls_and_parsing() -> None:
+    csv_text = (
+        "date,fund,company,ticker,cusip,shares,market value ($),weight (%)\n"
+        "07/15/2026,Example Fund,Example Company,TEST,123456789,1000,$10000.00,1.25%\n"
+    )
+    original_get = fetch_ark_holdings.requests.get
+
+    class FakeResponse:
+        status_code = 200
+        headers = {"content-type": "application/octet-stream"}
+        text = csv_text
+        ok = True
+
+        @staticmethod
+        def raise_for_status() -> None:
+            return None
+
+    try:
+        for fund in FUNDS:
+            requested_urls: list[str] = []
+
+            def fake_get(url: str, **_: object) -> FakeResponse:
+                requested_urls.append(url)
+                return FakeResponse()
+
+            fetch_ark_holdings.requests.get = fake_get
+            diagnostics: list[dict] = []
+            rows, error = fetch_fund(fund, diagnostics)
+
+            assert error == ""
+            assert len(rows) == 1
+            assert rows[0]["_fund"] == fund
+            assert requested_urls == [static_candidate_urls(fund)[0]]
+            assert diagnostics[0]["rowCount"] == 1
+            assert diagnostics[0]["url"].startswith(fetch_ark_holdings.ASSET_BASE_URL)
+    finally:
+        fetch_ark_holdings.requests.get = original_get
 
 
 def test_normalize_complete_fixture() -> None:
@@ -168,6 +209,7 @@ def main() -> None:
     missing_shares_current = {"shares": 0, "marketValue": 1200, "weight": 1.1}
     assert infer_action(missing_shares_previous, missing_shares_current, 0, 200, 0.1) == "Buy"
 
+    test_official_holdings_urls_and_parsing()
     test_normalize_complete_fixture()
     test_normalize_missing_fund_preserves_data()
     test_compare_outputs_market_value_changes()
