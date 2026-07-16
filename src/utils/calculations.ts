@@ -11,8 +11,8 @@ export const FUND_NAMES: Record<ArkFund, string> = {
 
 export const FUNDS = Object.keys(FUND_NAMES) as ArkFund[];
 
-export function latestDate(holdings: Holding[]) {
-  return [...new Set(holdings.map((holding) => holding.date))].sort().at(-1) ?? "No data";
+export function latestDate(holdings: Holding[], fallback = "No data") {
+  return [...new Set(holdings.map((holding) => holding.date))].sort().at(-1) ?? fallback;
 }
 
 export function sharedTickerLeader(holdings: Holding[]) {

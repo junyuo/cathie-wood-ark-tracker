@@ -13,16 +13,65 @@
         var root = document.getElementById("root");
         if (!root || root.children.length > 0 || root.textContent.trim()) return;
 
+        var storedLocale;
+        try { storedLocale = window.localStorage.getItem("ark-tracker-locale"); } catch (error) { storedLocale = null; }
+        var languages = navigator.languages || [navigator.language || "en"];
+        var isTraditionalChinese = languages.some(function (language) {
+          return /^(zh-TW|zh-Hant|zh-HK|zh-MO)(-|$)/i.test(language);
+        });
+        var locale = storedLocale === "en" || storedLocale === "zh-TW" ? storedLocale : isTraditionalChinese ? "zh-TW" : "en";
+        var copy = {
+          en: {
+            eyebrow: "ARK Invest public ETF holdings",
+            title: "Cathie Wood ARK Tracker",
+            loadTitle: "Site bundle did not load",
+            help: "GitHub Pages is currently serving the repository source index instead of the Vite build output. Set Pages source to GitHub Actions, then rerun Deploy GitHub Pages.",
+            loading: "Loading data status...",
+            dataStatus: "Data status",
+            sample: "Sample data",
+            lastSuccess: "Last successful update",
+            latestDate: "Latest holding date",
+            none: "none",
+            unknown: "unknown",
+            yes: "yes",
+            no: "no",
+            rows: "rows",
+            loadError: "Data status could not be loaded"
+          },
+          "zh-TW": {
+            eyebrow: "ARK Invest 公開 ETF 持股資料",
+            title: "Cathie Wood ARK Tracker｜ARK ETF 持股追蹤",
+            loadTitle: "網站程式未能載入",
+            help: "GitHub Pages 目前提供的是儲存庫原始首頁，而非 Vite 建置結果。請將 Pages 來源設為 GitHub Actions，再重新執行 Deploy GitHub Pages。",
+            loading: "正在載入資料狀態…",
+            dataStatus: "資料狀態",
+            sample: "範例資料",
+            lastSuccess: "最後成功更新",
+            latestDate: "最新持股日期",
+            none: "無",
+            unknown: "未知",
+            yes: "是",
+            no: "否",
+            rows: "筆",
+            loadError: "無法載入資料狀態"
+          }
+        }[locale];
+        var statusLabels = locale === "zh-TW"
+          ? { success: "成功", failed: "失敗", missing: "缺少", sample: "範例" }
+          : { success: "success", failed: "failed", missing: "missing", sample: "sample" };
+        document.documentElement.lang = locale;
+        document.title = copy.title;
+
         var repoBase = "/cathie-wood-ark-tracker/";
         var base = window.location.pathname.indexOf(repoBase) === 0 ? repoBase : "/";
         root.innerHTML =
           '<main style="max-width:960px;margin:0 auto;padding:32px 20px;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#111827">' +
-          '<p style="margin:0 0 8px;color:#1f4f46;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase">ARK Invest public ETF holdings</p>' +
-          '<h1 style="margin:0 0 12px;font-size:30px;line-height:1.2">Cathie Wood ARK Tracker</h1>' +
+          '<p style="margin:0 0 8px;color:#1f4f46;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase">' + copy.eyebrow + '</p>' +
+          '<h1 style="margin:0 0 12px;font-size:30px;line-height:1.2">' + copy.title + '</h1>' +
           '<section style="border:1px solid #e2e8f0;border-radius:8px;background:#fff;padding:18px;box-shadow:0 1px 2px rgba(15,23,42,.06)">' +
-          '<h2 style="margin:0 0 8px;font-size:18px">Site bundle did not load</h2>' +
-          '<p style="margin:0 0 12px;color:#475569;line-height:1.6">GitHub Pages is currently serving the repository source index instead of the Vite build output. Set Pages source to GitHub Actions, then rerun Deploy GitHub Pages.</p>' +
-          '<div id="fallback-status" style="color:#475569;font-size:14px">Loading data status...</div>' +
+          '<h2 style="margin:0 0 8px;font-size:18px">' + copy.loadTitle + '</h2>' +
+          '<p style="margin:0 0 12px;color:#475569;line-height:1.6">' + copy.help + '</p>' +
+          '<div id="fallback-status" style="color:#475569;font-size:14px">' + copy.loading + '</div>' +
           '</section>' +
           '</main>';
 
@@ -43,19 +92,20 @@
             var rows = Object.keys(funds)
               .map(function (fund) {
                 var item = funds[fund] || {};
-                return fund + ": " + (item.status || "unknown") + " (" + (item.rowCount || 0) + " rows)";
+                var rawStatus = item.status || "unknown";
+                return fund + ": " + (statusLabels[rawStatus] || copy.unknown) + " (" + (item.rowCount || 0) + " " + copy.rows + ")";
               })
               .join("<br>");
             el.innerHTML =
-              "<strong>Data status:</strong><br>" +
-              "Sample data: " + String(Boolean(status.isSampleData)) + "<br>" +
-              "Last successful update: " + (status.lastSuccessfulUpdate || "none") + "<br>" +
-              "Latest holding date: " + (status.latestHoldingDate || "none") + "<br><br>" +
+              "<strong>" + copy.dataStatus + ":</strong><br>" +
+              copy.sample + ": " + (status.isSampleData ? copy.yes : copy.no) + "<br>" +
+              copy.lastSuccess + ": " + (status.lastSuccessfulUpdate || copy.none) + "<br>" +
+              copy.latestDate + ": " + (status.latestHoldingDate || copy.none) + "<br><br>" +
               rows;
           })
           .catch(function (error) {
             var el = document.getElementById("fallback-status");
-            if (el) el.textContent = "Data status could not be loaded: " + error.message;
+            if (el) el.textContent = copy.loadError + ": " + error.message;
           });
       }, 1500);
     </script>

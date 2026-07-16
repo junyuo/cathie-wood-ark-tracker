@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import PerformanceChart from "../components/PerformanceChart";
 import { loadArkData } from "../data";
 import type { PerformancePoint } from "../types/ark";
+import { useI18n } from "../i18n/I18nContext";
 
 export default function Performance() {
+  const { t } = useI18n();
   const [data, setData] = useState<PerformancePoint[]>([]);
 
   useEffect(() => {
@@ -13,8 +15,8 @@ export default function Performance() {
   return (
     <div className="space-y-5">
       <div>
-        <h2 className="text-xl font-semibold">Performance</h2>
-        <p className="text-sm text-muted">Benchmark comparison structure is ready. No fake price-derived metrics are generated in this MVP.</p>
+        <h2 className="text-xl font-semibold">{t("performance.title")}</h2>
+        <p className="text-sm text-muted">{t("performance.description")}</p>
       </div>
       <PerformanceChart data={data} />
     </div>

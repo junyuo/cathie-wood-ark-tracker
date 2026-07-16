@@ -6,10 +6,13 @@ import { loadArkData } from "../data";
 import type { ArkData, ArkFund, TradeAction } from "../types/ark";
 import { completeSnapshotDates, hasCompleteComparisonBaseline } from "../utils/calculations";
 import { formatNumber } from "../utils/format";
+import { useI18n } from "../i18n/I18nContext";
+import type { TranslationKey } from "../i18n/messages";
 
 type FocusFilter = "All" | "New Position" | "Sold Out" | "Large Change";
 
 export default function Trades() {
+  const { locale, t } = useI18n();
   const [data, setData] = useState<ArkData | null>(null);
   const [date, setDate] = useState("All");
   const [fund, setFund] = useState<ArkFund | "All">("All");
@@ -52,22 +55,20 @@ export default function Trades() {
   );
 
   if (!data) {
-    return <p className="text-sm text-muted">Loading holding changes…</p>;
+    return <p className="text-sm text-muted">{t("trades.loading")}</p>;
   }
 
   if (!comparisonReady) {
     return (
       <div className="space-y-5">
         <div>
-          <h2 className="text-xl font-semibold">Daily Holding Changes</h2>
-          <p className="text-sm text-muted">Buy and Sell labels are inferred from ARK ETF share-count changes between public holding snapshots.</p>
+          <h2 className="text-xl font-semibold">{t("trades.title")}</h2>
+          <p className="text-sm text-muted">{t("trades.description")}</p>
         </div>
         <Disclaimer />
         <section className="rounded-lg border border-sky-200 bg-sky-50 p-4 text-sm text-sky-900">
-          <h3 className="font-semibold">Establishing comparison baseline</h3>
-          <p className="mt-1">
-            {completeDates.length} of 2 complete ETF snapshot dates are available. Holding-change rankings and filters will appear after the next distinct date containing all six ETFs.
-          </p>
+          <h3 className="font-semibold">{t("dashboard.baselineTitle")}</h3>
+          <p className="mt-1">{t("trades.baselineProgress", { count: completeDates.length })}</p>
         </section>
       </div>
     );
@@ -76,17 +77,17 @@ export default function Trades() {
   return (
     <div className="space-y-5">
       <div>
-        <h2 className="text-xl font-semibold">Daily Holding Changes</h2>
-        <p className="text-sm text-muted">Buy and Sell labels are inferred from ARK ETF share-count changes between public holding snapshots.</p>
+        <h2 className="text-xl font-semibold">{t("trades.title")}</h2>
+        <p className="text-sm text-muted">{t("trades.description")}</p>
       </div>
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-6">
         {[
-          ["Buy", formatNumber(summary.buyCount)],
-          ["Sell", formatNumber(summary.sellCount)],
-          ["New", formatNumber(summary.newPositionCount)],
-          ["Sold Out", formatNumber(summary.soldOutCount)],
-          ["Shares Added", formatNumber(summary.positiveShareChange)],
-          ["Shares Reduced", formatNumber(summary.negativeShareChange)],
+          [t("trades.buy"), formatNumber(summary.buyCount, locale)],
+          [t("trades.sell"), formatNumber(summary.sellCount, locale)],
+          [t("trades.new"), formatNumber(summary.newPositionCount, locale)],
+          [t("trades.soldOut"), formatNumber(summary.soldOutCount, locale)],
+          [t("trades.sharesAdded"), formatNumber(summary.positiveShareChange, locale)],
+          [t("trades.sharesReduced"), formatNumber(summary.negativeShareChange, locale)],
         ].map(([label, value]) => (
           <div key={label} className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
             <p className="text-sm font-medium text-muted">{label}</p>
@@ -96,29 +97,31 @@ export default function Trades() {
       </section>
       <Disclaimer />
       <div className="grid gap-3 rounded-lg border border-slate-200 bg-white p-4 shadow-sm sm:grid-cols-2 lg:grid-cols-6">
-        <label className="text-sm font-medium text-slate-700">Date
+        <label className="text-sm font-medium text-slate-700">{t("trades.date")}
           <select className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 font-normal" value={date} onChange={(event) => setDate(event.target.value)}>
-            {dates.map((value) => <option key={value}>{value}</option>)}
+            {dates.map((value) => <option key={value} value={value}>{value === "All" ? t("common.all") : value}</option>)}
           </select>
         </label>
-        <label className="text-sm font-medium text-slate-700">ETF<FundSelector id="trades-fund" value={fund} onChange={setFund} /></label>
-        <label className="text-sm font-medium text-slate-700">Ticker
-          <input className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 font-normal" placeholder="Search ticker" value={query} onChange={(event) => setQuery(event.target.value)} />
+        <label className="text-sm font-medium text-slate-700">{t("common.etf")}<FundSelector id="trades-fund" value={fund} onChange={setFund} /></label>
+        <label className="text-sm font-medium text-slate-700">{t("holdings.ticker")}
+          <input className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 font-normal" placeholder={t("holdings.ticker")} value={query} onChange={(event) => setQuery(event.target.value)} />
         </label>
-        <label className="text-sm font-medium text-slate-700">Action
+        <label className="text-sm font-medium text-slate-700">{t("trades.action")}
           <select className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 font-normal" value={action} onChange={(event) => setAction(event.target.value as TradeAction | "All")}>
-            {["All", "Buy", "Sell", "New Position", "Sold Out", "Unchanged"].map((value) => <option key={value}>{value}</option>)}
+            {["All", "Buy", "Sell", "New Position", "Sold Out", "Unchanged"].map((value) => (
+              <option key={value} value={value}>{value === "All" ? t("common.all") : t(`action.${value}` as TranslationKey)}</option>
+            ))}
           </select>
         </label>
-        <label className="text-sm font-medium text-slate-700">Focus
+        <label className="text-sm font-medium text-slate-700">{t("trades.focus")}
           <select className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 font-normal" value={focus} onChange={(event) => setFocus(event.target.value as FocusFilter)}>
-            <option value="All">All changes</option>
-            <option value="New Position">New positions</option>
-            <option value="Sold Out">Sold out</option>
-            <option value="Large Change">Large share change</option>
+            <option value="All">{t("trades.allChanges")}</option>
+            <option value="New Position">{t("trades.newPositions")}</option>
+            <option value="Sold Out">{t("trades.soldOutFilter")}</option>
+            <option value="Large Change">{t("trades.largeChange")}</option>
           </select>
         </label>
-        <label className="text-sm font-medium text-slate-700">Share threshold
+        <label className="text-sm font-medium text-slate-700">{t("trades.threshold")}
           <input
             className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 font-normal disabled:bg-slate-100 disabled:text-slate-400"
             value={threshold}
@@ -129,7 +132,7 @@ export default function Trades() {
           />
         </label>
       </div>
-      <p className="text-sm text-muted" aria-live="polite">Showing {filtered.length} of {trades.length} inferred holding changes.</p>
+      <p className="text-sm text-muted" aria-live="polite">{t("trades.results", { shown: filtered.length, total: trades.length })}</p>
       <TradesTable trades={filtered} />
     </div>
   );

@@ -1,5 +1,6 @@
 import { ArrowDownRight, ArrowUpRight, CalendarDays, Layers, Network, Table2 } from "lucide-react";
 import type { DailyTrade, Holding } from "../types/ark";
+import { useI18n } from "../i18n/I18nContext";
 import { formatNumber, formatPercent, formatSignedNumber } from "../utils/format";
 import { FUNDS, latestDate, sharedTickerLeader } from "../utils/calculations";
 
@@ -11,35 +12,36 @@ interface Props {
 }
 
 export default function DashboardCards({ holdings, topBuy, topSell, comparisonReady }: Props) {
+  const { locale, t } = useI18n();
   const shared = sharedTickerLeader(holdings);
   const cards = [
-    { label: "Latest data date", value: latestDate(holdings), detail: "Public ARK ETF holdings", icon: CalendarDays },
-    { label: "Tracked ETFs", value: formatNumber(FUNDS.length), detail: FUNDS.join(", "), icon: Layers },
-    { label: "Total holdings rows", value: formatNumber(holdings.length), detail: "Latest normalized rows", icon: Table2 },
+    { label: t("cards.latestDate"), value: latestDate(holdings, t("common.noData")), detail: t("cards.publicHoldings"), icon: CalendarDays },
+    { label: t("cards.trackedEtfs"), value: formatNumber(FUNDS.length, locale), detail: FUNDS.join(", "), icon: Layers },
+    { label: t("cards.totalRows"), value: formatNumber(holdings.length, locale), detail: t("cards.normalizedRows"), icon: Table2 },
     {
-      label: "Largest inferred increase",
-      value: !comparisonReady ? "Baseline pending" : topBuy ? `${topBuy.fund} ${topBuy.ticker}` : "No data",
+      label: t("cards.largestIncrease"),
+      value: !comparisonReady ? t("cards.baselinePending") : topBuy ? `${topBuy.fund} ${topBuy.ticker}` : t("common.noData"),
       detail: !comparisonReady
-        ? "Needs two complete ETF snapshots"
+        ? t("cards.needsSnapshots")
         : topBuy
-          ? `${formatSignedNumber(topBuy.shareChange)} shares · ${formatPercent(topBuy.shareChangePercent)}`
-          : "No inferred increases",
+          ? t("cards.changeDetail", { shares: formatSignedNumber(topBuy.shareChange, locale), percent: formatPercent(topBuy.shareChangePercent, locale) })
+          : t("cards.noIncreases"),
       icon: ArrowUpRight,
     },
     {
-      label: "Largest inferred decrease",
-      value: !comparisonReady ? "Baseline pending" : topSell ? `${topSell.fund} ${topSell.ticker}` : "No data",
+      label: t("cards.largestDecrease"),
+      value: !comparisonReady ? t("cards.baselinePending") : topSell ? `${topSell.fund} ${topSell.ticker}` : t("common.noData"),
       detail: !comparisonReady
-        ? "Needs two complete ETF snapshots"
+        ? t("cards.needsSnapshots")
         : topSell
-          ? `${formatSignedNumber(topSell.shareChange)} shares · ${formatPercent(topSell.shareChangePercent)}`
-          : "No inferred decreases",
+          ? t("cards.changeDetail", { shares: formatSignedNumber(topSell.shareChange, locale), percent: formatPercent(topSell.shareChangePercent, locale) })
+          : t("cards.noDecreases"),
       icon: ArrowDownRight,
     },
     {
-      label: "Most shared ticker",
-      value: shared ? shared[0] : "No data",
-      detail: shared ? `Held by ${shared[1].size} ARK ETFs` : "No overlapping holdings yet",
+      label: t("cards.sharedTicker"),
+      value: shared ? shared[0] : t("common.noData"),
+      detail: shared ? t("cards.heldByEtfs", { count: formatNumber(shared[1].size, locale) }) : t("cards.noOverlap"),
       icon: Network,
     },
   ];

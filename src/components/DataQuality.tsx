@@ -1,6 +1,10 @@
 import { AlertTriangle, CheckCircle2, XCircle } from "lucide-react";
 import type { DataStatus, FundDataStatus } from "../types/ark";
+import { useI18n } from "../i18n/I18nContext";
+import type { Locale } from "../i18n/locale";
+import type { TranslationKey } from "../i18n/messages";
 import { FUNDS } from "../utils/calculations";
+import { hasDataIssue, successfulFundCount } from "../utils/dataQuality";
 
 const missingStatus: FundDataStatus = {
   status: "missing",
@@ -22,59 +26,65 @@ function statusIcon(status: FundDataStatus["status"]) {
   return <AlertTriangle className="h-4 w-4" />;
 }
 
-function freshnessText(status: DataStatus) {
-  if (status.freshnessStatus === "unknown") return "Freshness unknown";
-  const age = status.dataAgeDays === null ? "" : ` · ${status.dataAgeDays} day${status.dataAgeDays === 1 ? "" : "s"} old`;
-  return `${status.freshnessStatus}${age}`;
+function freshnessText(status: DataStatus, t: ReturnType<typeof useI18n>["t"]) {
+  if (status.freshnessStatus === "unknown") return t("freshness.unknown");
+  const freshness = t(`freshness.${status.freshnessStatus}` as TranslationKey);
+  const age = status.dataAgeDays === null
+    ? ""
+    : ` · ${status.dataAgeDays === 1 ? t("freshness.ageOne") : t("freshness.ageMany", { count: status.dataAgeDays })}`;
+  return `${freshness}${age}`;
 }
 
-function formatTimestamp(value: string | null) {
-  if (!value) return "No live update yet";
+function formatTimestamp(value: string | null, locale: Locale, noLive: string) {
+  if (!value) return noLive;
   const timestamp = new Date(value);
   if (Number.isNaN(timestamp.getTime())) return value;
-  return new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(timestamp);
+  return new Intl.DateTimeFormat(locale === "zh-TW" ? "zh-TW" : "en-US", { dateStyle: "medium", timeStyle: "short" }).format(timestamp);
 }
 
 export default function DataQuality({ status }: { status: DataStatus }) {
-  const hasIssue =
-    status.isSampleData ||
-    status.warnings.length > 0 ||
-    status.freshnessStatus !== "fresh" ||
-    FUNDS.some((fund) => status.funds[fund]?.status !== "success");
-  const successfulFunds = FUNDS.filter((fund) => status.funds[fund]?.status === "success").length;
+  const { locale, t } = useI18n();
+  const diagnostic = (value: string) => {
+    if (value === "No data status file was found.") return t("quality.noStatusFile");
+    if (value === "data_status.json has not been generated yet.") return t("quality.statusNotGenerated");
+    if (value === missingStatus.error) return t("quality.missingStatus");
+    return locale === "zh-TW" ? `${t("quality.originalDiagnostic")}：${value}` : value;
+  };
+  const hasIssue = hasDataIssue(status);
+  const successfulFunds = successfulFundCount(status);
 
   return (
     <section aria-labelledby="data-quality-heading" className="rounded-lg border border-slate-200 bg-white shadow-sm">
-      <h3 id="data-quality-heading" className="sr-only">Data Quality</h3>
+      <h3 id="data-quality-heading" className="sr-only">{t("quality.heading")}</h3>
       <details open={hasIssue}>
         <summary className="flex cursor-pointer list-none flex-wrap items-center gap-x-2 gap-y-1 px-4 py-3 text-sm marker:hidden">
           <span
             className={`inline-flex items-center gap-2 font-semibold ${hasIssue ? "text-amber-800" : "text-buy"}`}
           >
             {hasIssue ? <AlertTriangle className="h-4 w-4" /> : <CheckCircle2 className="h-4 w-4" />}
-            {hasIssue ? "Review data status" : "Current data healthy"}
+            {hasIssue ? t("quality.review") : t("quality.healthy")}
           </span>
           <span className="text-slate-300" aria-hidden="true">·</span>
-          <span className="text-muted">{status.latestHoldingDate ?? "No holdings date"}</span>
+          <span className="text-muted">{status.latestHoldingDate ?? t("quality.noDate")}</span>
           <span className="text-slate-300" aria-hidden="true">·</span>
-          <span className="text-muted">{successfulFunds}/{FUNDS.length} ETFs</span>
+          <span className="text-muted">{t("quality.etfCount", { success: successfulFunds, total: FUNDS.length })}</span>
           <span className="text-slate-300" aria-hidden="true">·</span>
-          <span className="text-muted">checked {formatTimestamp(status.updatedAt)}</span>
-          <span className="ml-auto text-xs font-medium text-brand">Details</span>
+          <span className="text-muted">{t("quality.checked", { time: formatTimestamp(status.updatedAt, locale, t("quality.noLive")) })}</span>
+          <span className="ml-auto text-xs font-medium text-brand">{t("common.details")}</span>
         </summary>
         <div className="border-t border-slate-200 px-4 pb-4 pt-3">
           <p className="text-sm text-muted">
-            Last success: {formatTimestamp(status.lastSuccessfulUpdate)} · Latest holdings: {status.latestHoldingDate ?? "No data"} · {freshnessText(status)}
+            {t("quality.lastSuccess", { time: formatTimestamp(status.lastSuccessfulUpdate, locale, t("quality.noLive")) })} · {t("quality.latest", { date: status.latestHoldingDate ?? t("common.noData") })} · {freshnessText(status, t)}
           </p>
           {status.isSampleData && (
             <p className="mt-3 rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-900">
-              Sample data is active until the first successful ARK source update completes.
+              {t("quality.sample")}
             </p>
           )}
           {status.warnings.length > 0 && (
             <ul className="mt-3 space-y-1 text-sm text-muted">
               {status.warnings.map((warning) => (
-                <li key={warning}>• {warning}</li>
+                <li key={warning}>• {diagnostic(warning)}</li>
               ))}
             </ul>
           )}
@@ -87,16 +97,20 @@ export default function DataQuality({ status }: { status: DataStatus }) {
                     <p className="font-semibold">{fund}</p>
                     <span className={`inline-flex items-center gap-1 rounded-full px-2 py-1 text-xs font-semibold ring-1 ${statusStyle(fundStatus.status)}`}>
                       {statusIcon(fundStatus.status)}
-                      {fundStatus.status}
+                      {t(`status.${fundStatus.status}` as TranslationKey)}
                     </span>
                   </div>
-                  <p className="mt-2 text-sm text-muted">{fundStatus.rowCount} rows</p>
+                  <p className="mt-2 text-sm text-muted">{t("common.rows", { count: fundStatus.rowCount })}</p>
                   {fundStatus.sourceUrl && (
                     <a className="mt-1 inline-block text-sm font-medium text-brand hover:underline" href={fundStatus.sourceUrl} target="_blank" rel="noreferrer">
-                      Source
+                      {t("common.source")}
                     </a>
                   )}
-                  {fundStatus.error && <p className="mt-2 line-clamp-3 text-xs text-sell">{fundStatus.error}</p>}
+                  {fundStatus.error && (
+                    <p className="mt-2 line-clamp-3 text-xs text-sell">
+                      {diagnostic(fundStatus.error)}
+                    </p>
+                  )}
                 </div>
               );
             })}

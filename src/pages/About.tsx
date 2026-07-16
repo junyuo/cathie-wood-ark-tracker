@@ -1,19 +1,20 @@
 import Disclaimer from "../components/Disclaimer";
+import { useI18n } from "../i18n/I18nContext";
+import type { TranslationKey } from "../i18n/messages";
+
+const paragraphs: TranslationKey[] = ["about.p1", "about.p2", "about.p3", "about.p4", "about.p5"];
 
 export default function About() {
+  const { t } = useI18n();
   return (
     <div className="space-y-5">
       <div>
-        <h2 className="text-xl font-semibold">About / Disclaimer</h2>
-        <p className="text-sm text-muted">Methodology and data limitations for the ARK Invest ETF holdings tracker.</p>
+        <h2 className="text-xl font-semibold">{t("about.title")}</h2>
+        <p className="text-sm text-muted">{t("about.description")}</p>
       </div>
       <section className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
         <div className="space-y-4 text-sm leading-6 text-slate-700">
-          <p>This website uses public ARK Invest ETF holdings disclosures for ARKK, ARKW, ARKG, ARKQ, ARKF, and ARKX.</p>
-          <p>It is not a record of Cathie Wood's personal brokerage account, personal trades, or private transactions.</p>
-          <p>ETF holding changes may reflect ETF creations and redemptions, portfolio activity, market movement, or disclosure timing. Inferred Buy/Sell labels are based primarily on share-count changes between snapshots.</p>
-          <p>This website is for research and education only. It is not investment advice. Users should verify important data against official ARK Invest sources.</p>
-          <p>Data may be delayed, incomplete, unavailable, or affected by source format changes.</p>
+          {paragraphs.map((key) => <p key={key}>{t(key)}</p>)}
         </div>
       </section>
       <Disclaimer />

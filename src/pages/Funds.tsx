@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import TopHoldingsChart from "../components/TopHoldingsChart";
 import { loadArkData } from "../data";
 import type { ArkData } from "../types/ark";
+import { useI18n } from "../i18n/I18nContext";
 import { formatCurrency, formatNumber, formatPercent } from "../utils/format";
 
 export default function Funds() {
+  const { locale, t } = useI18n();
   const [data, setData] = useState<ArkData | null>(null);
 
   useEffect(() => {
@@ -14,8 +16,8 @@ export default function Funds() {
   return (
     <div className="space-y-5">
       <div>
-        <h2 className="text-xl font-semibold">Funds</h2>
-        <p className="text-sm text-muted">ETF-level summaries and Top 10 holdings concentration.</p>
+        <h2 className="text-xl font-semibold">{t("funds.title")}</h2>
+        <p className="text-sm text-muted">{t("funds.description")}</p>
       </div>
       <section className="grid gap-4 lg:grid-cols-2">
         {(data?.fundSummary ?? []).map((summary) => (
@@ -25,12 +27,12 @@ export default function Funds() {
               <p className="text-sm text-muted">{summary.fundName}</p>
             </div>
             <div className="grid grid-cols-2 gap-3 text-sm md:grid-cols-3">
-              <p>Latest date: <span className="font-semibold">{summary.date}</span></p>
-              <p>Holdings: <span className="font-semibold">{formatNumber(summary.holdingsCount)}</span></p>
-              <p>Value: <span className="font-semibold">{formatCurrency(summary.totalMarketValue)}</span></p>
-              <p>Top 10 weight: <span className="font-semibold">{formatPercent(summary.topTenWeight)}</span></p>
-              <p>Increases: <span className="font-semibold text-buy">{formatNumber(summary.buyCount)}</span></p>
-              <p>Decreases: <span className="font-semibold text-sell">{formatNumber(summary.sellCount)}</span></p>
+              <p>{t("funds.latestDate")}: <span className="font-semibold">{summary.date}</span></p>
+              <p>{t("funds.holdings")}: <span className="font-semibold">{formatNumber(summary.holdingsCount, locale)}</span></p>
+              <p>{t("funds.value")}: <span className="font-semibold">{formatCurrency(summary.totalMarketValue, locale)}</span></p>
+              <p>{t("funds.top10Weight")}: <span className="font-semibold">{formatPercent(summary.topTenWeight, locale)}</span></p>
+              <p>{t("funds.increases")}: <span className="font-semibold text-buy">{formatNumber(summary.buyCount, locale)}</span></p>
+              <p>{t("funds.decreases")}: <span className="font-semibold text-sell">{formatNumber(summary.sellCount, locale)}</span></p>
             </div>
             {data && <TopHoldingsChart fund={summary.fund} holdings={data.latestHoldings} />}
           </div>
