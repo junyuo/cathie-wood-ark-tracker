@@ -1,49 +1,47 @@
 {
-  "lastSuccessfulUpdate": null,
-  "latestHoldingDate": "2026-06-10",
-  "freshnessStatus": "old",
-  "dataAgeDays": 35,
-  "isSampleData": true,
+  "lastSuccessfulUpdate": "2026-07-16T00:50:36.764671+00:00",
+  "latestHoldingDate": "07/15/2026",
+  "freshnessStatus": "unknown",
+  "dataAgeDays": null,
+  "isSampleData": false,
   "funds": {
     "ARKK": {
-      "status": "failed",
-      "rowCount": 2,
-      "sourceUrl": "https://ark-funds.com/",
-      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKK_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKK_holdings.csv"
+      "status": "success",
+      "rowCount": 44,
+      "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "error": ""
     },
     "ARKW": {
-      "status": "failed",
-      "rowCount": 1,
-      "sourceUrl": "https://ark-funds.com/",
-      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKW_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKW_holdings.csv"
+      "status": "success",
+      "rowCount": 40,
+      "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
+      "error": ""
     },
     "ARKG": {
-      "status": "failed",
-      "rowCount": 1,
-      "sourceUrl": "https://ark-funds.com/",
-      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKG_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKG_holdings.csv"
+      "status": "success",
+      "rowCount": 31,
+      "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "error": ""
     },
     "ARKQ": {
-      "status": "failed",
-      "rowCount": 1,
-      "sourceUrl": "https://ark-funds.com/",
-      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKQ_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKQ_holdings.csv"
+      "status": "success",
+      "rowCount": 40,
+      "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+      "error": ""
     },
     "ARKF": {
-      "status": "failed",
-      "rowCount": 1,
-      "sourceUrl": "https://ark-funds.com/",
-      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKF_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKF_holdings.csv"
+      "status": "success",
+      "rowCount": 35,
+      "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+      "error": ""
     },
     "ARKX": {
-      "status": "failed",
-      "rowCount": 1,
-      "sourceUrl": "https://ark-funds.com/",
-      "error": "https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv; https://ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv: 403 Client Error: Forbidden for url: https://www.ark-funds.com/wp-content/fundsiteliterature/csv/ARKX_holdings.csv; https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv: 404 Client Error: The specified blob does not exist. for url: https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARKX_holdings.csv"
+      "status": "success",
+      "rowCount": 36,
+      "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+      "error": ""
     }
   },
-  "warnings": [
-    "ARK holdings fetch failed for all configured ETFs. Existing published data was preserved."
-  ],
-  "updatedAt": "2026-07-15T12:52:53.105055+00:00"
+  "warnings": [],
+  "updatedAt": "2026-07-16T00:50:36.764828+00:00"
 }
