@@ -8,6 +8,8 @@ import io
 from urllib.parse import urljoin
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 from common import DATA_DIR, FUNDS, read_json, utc_now, write_data_status, write_json
 
@@ -15,6 +17,9 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; cathie-wood-ark-tracker/1.0; +https://github.com/junyuo/cathie-wood-ark-tracker)",
     "Accept": "text/csv,text/plain,text/html,*/*",
 }
+
+MAX_ATTEMPTS = 3
+RETRYABLE_STATUS_CODES = (429, 500, 502, 503, 504)
 
 ASSET_BASE_URL = "https://assets.ark-funds.com/fund-documents/funds-etf-csv"
 
@@ -51,6 +56,27 @@ REQUIRED_HEADER_ALIASES = {
 }
 
 
+def build_session() -> requests.Session:
+    retry = Retry(
+        total=MAX_ATTEMPTS - 1,
+        connect=MAX_ATTEMPTS - 1,
+        read=MAX_ATTEMPTS - 1,
+        status=MAX_ATTEMPTS - 1,
+        backoff_factor=1,
+        status_forcelist=RETRYABLE_STATUS_CODES,
+        allowed_methods=frozenset({"GET"}),
+        raise_on_status=False,
+        respect_retry_after_header=True,
+    )
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    return session
+
+
+HTTP = build_session()
+
+
 def response_excerpt(text: str, limit: int = 300) -> str:
     return " ".join(text[:limit].split())
 
@@ -75,7 +101,7 @@ def discover_candidate_urls(fund: str, diagnostics: list[dict]) -> list[str]:
         "error": "",
     }
     try:
-        response = requests.get(page_url, headers=HEADERS, timeout=25)
+        response = HTTP.get(page_url, timeout=25)
         page_diagnostic["statusCode"] = response.status_code
         page_diagnostic["contentType"] = response.headers.get("content-type", "")
         page_diagnostic["excerpt"] = response_excerpt(response.text)
@@ -119,7 +145,7 @@ def fetch_candidate(fund: str, url: str, diagnostics: list[dict]) -> tuple[list[
         "error": "",
     }
     try:
-        response = requests.get(url, headers=HEADERS, timeout=25)
+        response = HTTP.get(url, timeout=25)
         attempt["statusCode"] = response.status_code
         attempt["contentType"] = response.headers.get("content-type", "")
         attempt["excerpt"] = response_excerpt(response.text)

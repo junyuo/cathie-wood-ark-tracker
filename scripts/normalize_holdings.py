@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 
-from common import DATA_DIR, FUNDS, enrich_holdings, first_value, parse_number, read_json, utc_now, write_data_status, write_json
+from common import DATA_DIR, FUNDS, enrich_holdings, first_value, normalize_date, parse_number, read_json, utc_now, write_data_status, write_json
 
 
 REQUIRED_OUTPUT_FIELDS = ("fund", "fundName", "date", "company", "ticker", "shares", "marketValue", "weight", "sourceUrl", "updatedAt")
@@ -14,7 +14,7 @@ def normalize(row: dict) -> dict:
     return {
         "fund": fund,
         "fundName": FUNDS.get(fund, fund),
-        "date": first_value(row, ("date", "as of date")),
+        "date": normalize_date(first_value(row, ("date", "as of date"))),
         "company": first_value(row, ("company", "company name", "name")),
         "ticker": first_value(row, ("ticker", "ticker symbol")).upper(),
         "cusip": first_value(row, ("cusip",)),
@@ -47,10 +47,24 @@ def validate_latest(rows: list[dict]) -> None:
         raise ValueError("Invalid normalized holdings:\n" + "\n".join(errors))
 
 
+def normalize_history_dates(rows: list[dict]) -> list[dict]:
+    normalized: list[dict] = []
+    errors: list[str] = []
+    for index, row in enumerate(rows, start=1):
+        date_value = normalize_date(row.get("date"))
+        if not date_value:
+            errors.append(f"history row {index} has unsupported date: {row.get('date')}")
+            continue
+        normalized.append({**row, "date": date_value})
+    if errors:
+        raise ValueError("Invalid holdings history:\n" + "\n".join(errors))
+    return normalized
+
+
 def main() -> None:
     raw = read_json(DATA_DIR / "raw_holdings.json", {"rows": [], "errors": {}})
     latest = [normalize(row) for row in raw["rows"]]
-    latest = [row for row in latest if row["fund"] and row["date"] and row["ticker"]]
+    latest = [row for row in latest if row["fund"] and row["ticker"]]
     if not latest:
         existing = read_json(DATA_DIR / "latest_holdings.json", [])
         write_data_status(
@@ -64,6 +78,7 @@ def main() -> None:
 
     try:
         validate_latest(latest)
+        history = normalize_history_dates(read_json(DATA_DIR / "holdings_history.json", []))
     except ValueError as exc:
         existing = read_json(DATA_DIR / "latest_holdings.json", [])
         write_data_status(
@@ -74,7 +89,6 @@ def main() -> None:
         )
         raise SystemExit(str(exc)) from exc
     latest = enrich_holdings(latest)
-    history = read_json(DATA_DIR / "holdings_history.json", [])
     by_key = {(row["fund"], row["date"], row["ticker"]): row for row in history + latest}
     write_json(DATA_DIR / "latest_holdings.json", latest)
     write_json(DATA_DIR / "holdings_history.json", sorted(by_key.values(), key=lambda row: (row["date"], row["fund"], row["ticker"])))

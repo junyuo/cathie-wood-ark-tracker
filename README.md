@@ -19,6 +19,8 @@ The fetch script downloads public holdings CSV files from ARK Invest's official 
 
 If ARK changes the public CSV format, the fetch/normalize scripts fail with a clear message that lists missing expected columns instead of publishing empty holdings or fake data.
 
+Holdings dates are normalized to ISO `YYYY-MM-DD`. Official downloads use bounded retries for transient connection, rate-limit, and server errors; permanent source or format errors fail immediately.
+
 ## Data Fields
 
 Each normalized holding contains:
@@ -95,7 +97,7 @@ If a fetch or validation step fails, the scripts preserve the last successful `l
 - candidate CSV URL status, content type, response excerpt, parsed headers, row count, and error
 - per-ETF errors
 
-The GitHub Actions update workflow commits `data_status.json` and `fetch_diagnostics.json` even when the data update fails, then marks the workflow failed. This keeps the last good holdings intact while still publishing enough evidence to debug source URL, blocking, or format changes.
+The GitHub Actions update workflow commits `data_status.json` and `fetch_diagnostics.json` even when the data update fails, then marks the workflow failed. The Pages workflow runs after every completed data update so the latest success or failure state is published without relying on bot-generated push events. This keeps the last good holdings intact while still publishing enough evidence to debug source URL, blocking, or format changes.
 
 ## Trades Summary
 

@@ -28,8 +28,19 @@ function freshnessText(status: DataStatus) {
   return `${status.freshnessStatus}${age}`;
 }
 
+function formatTimestamp(value: string | null) {
+  if (!value) return "No live update yet";
+  const timestamp = new Date(value);
+  if (Number.isNaN(timestamp.getTime())) return value;
+  return new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(timestamp);
+}
+
 export default function DataQuality({ status }: { status: DataStatus }) {
-  const hasIssue = status.isSampleData || status.warnings.length > 0 || FUNDS.some((fund) => status.funds[fund]?.status !== "success");
+  const hasIssue =
+    status.isSampleData ||
+    status.warnings.length > 0 ||
+    status.freshnessStatus !== "fresh" ||
+    FUNDS.some((fund) => status.funds[fund]?.status !== "success");
 
   return (
     <section className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
@@ -37,15 +48,20 @@ export default function DataQuality({ status }: { status: DataStatus }) {
         <div>
           <h3 className="text-lg font-semibold">Data Quality</h3>
           <p className="mt-1 text-sm text-muted">
-            Last success: {status.lastSuccessfulUpdate ?? "No live update yet"} · Latest holdings: {status.latestHoldingDate ?? "No data"} · {freshnessText(status)}
+            Last check: {formatTimestamp(status.updatedAt)} · Last success: {formatTimestamp(status.lastSuccessfulUpdate)}
+          </p>
+          <p className="mt-1 text-sm text-muted">
+            Latest holdings: {status.latestHoldingDate ?? "No data"} · {freshnessText(status)}
           </p>
         </div>
-        {hasIssue && (
-          <span className="inline-flex w-fit items-center gap-2 rounded-md bg-amber-50 px-3 py-2 text-sm font-medium text-amber-800 ring-1 ring-amber-200">
-            <AlertTriangle className="h-4 w-4" />
-            Review status
-          </span>
-        )}
+        <span
+          className={`inline-flex w-fit items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ring-1 ${
+            hasIssue ? "bg-amber-50 text-amber-800 ring-amber-200" : "bg-emerald-50 text-buy ring-emerald-200"
+          }`}
+        >
+          {hasIssue ? <AlertTriangle className="h-4 w-4" /> : <CheckCircle2 className="h-4 w-4" />}
+          {hasIssue ? "Review status" : "Current data healthy"}
+        </span>
       </div>
       {status.isSampleData && (
         <p className="mt-3 rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-900">

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +16,7 @@ FUNDS = {
 }
 
 DATA_DIR = Path("public/data")
+DATE_FORMATS = ("%Y-%m-%d", "%m/%d/%Y", "%Y/%m/%d")
 
 
 def utc_now() -> str:
@@ -59,19 +60,27 @@ def first_value(row: dict, names: tuple[str, ...]) -> str:
     return ""
 
 
+def normalize_date(value: object) -> str:
+    text = str(value or "").strip()
+    for date_format in DATE_FORMATS:
+        try:
+            return datetime.strptime(text, date_format).date().isoformat()
+        except ValueError:
+            continue
+    return ""
+
+
 def latest_date(rows: list[dict]) -> str | None:
-    dates = sorted({row.get("date", "") for row in rows if row.get("date")})
+    dates = sorted({date_value for row in rows if (date_value := normalize_date(row.get("date")))})
     return dates[-1] if dates else None
 
 
-def data_freshness(date_value: str | None) -> tuple[str, int | None]:
-    if not date_value:
+def data_freshness(date_value: str | None, today: date | None = None) -> tuple[str, int | None]:
+    normalized = normalize_date(date_value)
+    if not normalized:
         return "unknown", None
-    try:
-        holding_date = datetime.fromisoformat(date_value).date()
-    except ValueError:
-        return "unknown", None
-    age_days = (datetime.now(timezone.utc).date() - holding_date).days
+    holding_date = datetime.fromisoformat(normalized).date()
+    age_days = ((today or datetime.now(timezone.utc).date()) - holding_date).days
     if age_days <= 3:
         return "fresh", age_days
     if age_days <= 7:

@@ -2,17 +2,17 @@
   {
     "fund": "ARKK",
     "fundName": "ARK Innovation ETF",
-    "date": "07/15/2026",
+    "date": "2026-07-15",
     "holdingsCount": 44,
     "totalMarketValue": 6330573524.65,
     "topTenWeight": 49.35,
-    "buyCount": 1,
+    "buyCount": 44,
     "sellCount": 0,
     "topHoldings": [
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TESLA INC",
         "ticker": "TSLA",
         "cusip": "88160R101",
@@ -20,7 +20,7 @@
         "marketValue": 661771148.4,
         "weight": 10.15,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062607+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384183+00:00",
         "rankInFund": 1,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -33,7 +33,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TEMPUS AI INC-CL A",
         "ticker": "TEM",
         "cusip": "88023B103",
@@ -41,7 +41,7 @@
         "marketValue": 373306297.38,
         "weight": 5.73,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062625+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384213+00:00",
         "rankInFund": 2,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -52,7 +52,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROBINHOOD MARKETS INC - A",
         "ticker": "HOOD",
         "cusip": "770700102",
@@ -60,7 +60,7 @@
         "marketValue": 322537328.95,
         "weight": 4.95,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062631+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384223+00:00",
         "rankInFund": 3,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -72,7 +72,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "SHOPIFY INC - CLASS A",
         "ticker": "SHOP",
         "cusip": "82509L107",
@@ -80,7 +80,7 @@
         "marketValue": 304139567.36,
         "weight": 4.66,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062635+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384230+00:00",
         "rankInFund": 4,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -92,7 +92,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "CRISPR THERAPEUTICS AG",
         "ticker": "CRSP",
         "cusip": "H17182108",
@@ -100,7 +100,7 @@
         "marketValue": 297619993.02,
         "weight": 4.56,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062639+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384237+00:00",
         "rankInFund": 5,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -111,7 +111,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ADVANCED MICRO DEVICES",
         "ticker": "AMD",
         "cusip": "007903107",
@@ -119,7 +119,7 @@
         "marketValue": 277317603.42,
         "weight": 4.25,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062643+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384243+00:00",
         "rankInFund": 6,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -133,7 +133,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "SPACE EXPLORATION TECHN-CL A",
         "ticker": "SPCX",
         "cusip": "84615Q103",
@@ -141,7 +141,7 @@
         "marketValue": 276143742.0,
         "weight": 4.24,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062647+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384249+00:00",
         "rankInFund": 7,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -154,7 +154,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "COINBASE GLOBAL INC -CLASS A",
         "ticker": "COIN",
         "cusip": "19260Q107",
@@ -162,7 +162,7 @@
         "marketValue": 268065290.5,
         "weight": 4.11,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062650+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384256+00:00",
         "rankInFund": 8,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -174,7 +174,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "CIRCLE INTERNET GROUP INC",
         "ticker": "CRCL",
         "cusip": "172573107",
@@ -182,7 +182,7 @@
         "marketValue": 218359920.18,
         "weight": 3.35,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062653+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384262+00:00",
         "rankInFund": 9,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -194,7 +194,7 @@
       {
         "fund": "ARKK",
         "fundName": "ARK Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROBLOX CORP -CLASS A",
         "ticker": "RBLX",
         "cusip": "771049103",
@@ -202,7 +202,7 @@
         "marketValue": 218469310.93,
         "weight": 3.35,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.062657+00:00",
+        "updatedAt": "2026-07-16T01:14:36.384268+00:00",
         "rankInFund": 10,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -212,22 +212,22 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-16T00:50:36.823504+00:00"
+    "updatedAt": "2026-07-16T01:14:42.905054+00:00"
   },
   {
     "fund": "ARKW",
     "fundName": "ARK Next Generation Internet ETF",
-    "date": "07/15/2026",
+    "date": "2026-07-15",
     "holdingsCount": 40,
     "totalMarketValue": 1642574429.41,
     "topTenWeight": 47.66,
-    "buyCount": 0,
+    "buyCount": 40,
     "sellCount": 0,
     "topHoldings": [
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TESLA INC",
         "ticker": "TSLA",
         "cusip": "88160R101",
@@ -235,7 +235,7 @@
         "marketValue": 144978901.56,
         "weight": 8.15,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411312+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655465+00:00",
         "rankInFund": 1,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -248,7 +248,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ADVANCED MICRO DEVICES",
         "ticker": "AMD",
         "cusip": "007903107",
@@ -256,7 +256,7 @@
         "marketValue": 143657199.18,
         "weight": 8.08,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411332+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655477+00:00",
         "rankInFund": 2,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -270,7 +270,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROBINHOOD MARKETS INC - A",
         "ticker": "HOOD",
         "cusip": "770700102",
@@ -278,7 +278,7 @@
         "marketValue": 108625425.3,
         "weight": 6.11,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411340+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655579+00:00",
         "rankInFund": 3,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -290,7 +290,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "SHOPIFY INC - CLASS A",
         "ticker": "SHOP",
         "cusip": "82509L107",
@@ -298,7 +298,7 @@
         "marketValue": 84326252.8,
         "weight": 4.74,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411347+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655585+00:00",
         "rankInFund": 4,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -310,7 +310,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ALPHABET INC-CL C",
         "ticker": "GOOG",
         "cusip": "02079K107",
@@ -318,7 +318,7 @@
         "marketValue": 66560573.76,
         "weight": 3.74,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411361+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655860+00:00",
         "rankInFund": 5,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -331,7 +331,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "AMAZON.COM INC",
         "ticker": "AMZN",
         "cusip": "023135106",
@@ -339,7 +339,7 @@
         "marketValue": 66081562.43,
         "weight": 3.71,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411366+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655864+00:00",
         "rankInFund": 6,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -353,7 +353,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "COINBASE GLOBAL INC -CLASS A",
         "ticker": "COIN",
         "cusip": "19260Q107",
@@ -361,7 +361,7 @@
         "marketValue": 61821231.0,
         "weight": 3.48,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411373+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655867+00:00",
         "rankInFund": 7,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -373,7 +373,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "BLOCK INC",
         "ticker": "XYZ",
         "cusip": "852234103",
@@ -381,7 +381,7 @@
         "marketValue": 58017146.95,
         "weight": 3.26,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411379+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655871+00:00",
         "rankInFund": 8,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -393,7 +393,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROBLOX CORP -CLASS A",
         "ticker": "RBLX",
         "cusip": "771049103",
@@ -401,7 +401,7 @@
         "marketValue": 57349556.55,
         "weight": 3.22,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411386+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655878+00:00",
         "rankInFund": 9,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -413,7 +413,7 @@
       {
         "fund": "ARKW",
         "fundName": "ARK Next Generation Internet ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "CIRCLE INTERNET GROUP INC",
         "ticker": "CRCL",
         "cusip": "172573107",
@@ -421,7 +421,7 @@
         "marketValue": 56309232.14,
         "weight": 3.17,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.411399+00:00",
+        "updatedAt": "2026-07-16T01:14:36.655882+00:00",
         "rankInFund": 10,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -431,22 +431,22 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-16T00:50:36.823534+00:00"
+    "updatedAt": "2026-07-16T01:14:42.905701+00:00"
   },
   {
     "fund": "ARKG",
     "fundName": "ARK Genomic Revolution ETF",
-    "date": "07/15/2026",
+    "date": "2026-07-15",
     "holdingsCount": 31,
     "totalMarketValue": 1636240931.98,
     "topTenWeight": 59.86,
-    "buyCount": 0,
+    "buyCount": 31,
     "sellCount": 0,
     "topHoldings": [
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "10X GENOMICS INC-CLASS A",
         "ticker": "TXG",
         "cusip": "88025U109",
@@ -454,7 +454,7 @@
         "marketValue": 140312053.29,
         "weight": 8.57,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741760+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884140+00:00",
         "rankInFund": 1,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -465,7 +465,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TEMPUS AI INC-CL A",
         "ticker": "TEM",
         "cusip": "88023B103",
@@ -473,7 +473,7 @@
         "marketValue": 131513498.6,
         "weight": 8.03,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741774+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884155+00:00",
         "rankInFund": 2,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -484,7 +484,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TWIST BIOSCIENCE CORP",
         "ticker": "TWST",
         "cusip": "90184D100",
@@ -492,7 +492,7 @@
         "marketValue": 121819908.85,
         "weight": 7.44,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741779+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884161+00:00",
         "rankInFund": 3,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -503,7 +503,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "PERSONALIS INC",
         "ticker": "PSNL",
         "cusip": "71535D106",
@@ -511,7 +511,7 @@
         "marketValue": 106036980.66,
         "weight": 6.47,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741783+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884166+00:00",
         "rankInFund": 4,
         "heldByFundCount": 1,
         "heldByFunds": [
@@ -521,7 +521,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "CRISPR THERAPEUTICS AG",
         "ticker": "CRSP",
         "cusip": "H17182108",
@@ -529,7 +529,7 @@
         "marketValue": 101895089.04,
         "weight": 6.22,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741791+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884171+00:00",
         "rankInFund": 5,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -540,7 +540,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ABSCI CORP",
         "ticker": "ABSI",
         "cusip": "00091E109",
@@ -548,7 +548,7 @@
         "marketValue": 100394815.95,
         "weight": 6.13,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741797+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884175+00:00",
         "rankInFund": 6,
         "heldByFundCount": 1,
         "heldByFunds": [
@@ -558,7 +558,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "GUARDANT HEALTH INC",
         "ticker": "GH",
         "cusip": "40131M109",
@@ -566,7 +566,7 @@
         "marketValue": 72269331.03,
         "weight": 4.41,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741801+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884180+00:00",
         "rankInFund": 7,
         "heldByFundCount": 1,
         "heldByFunds": [
@@ -576,7 +576,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ELI LILLY & CO",
         "ticker": "LLY",
         "cusip": "532457108",
@@ -584,7 +584,7 @@
         "marketValue": 69392128.32,
         "weight": 4.24,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741804+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884184+00:00",
         "rankInFund": 8,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -595,7 +595,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "BEAM THERAPEUTICS INC",
         "ticker": "BEAM",
         "cusip": "07373V105",
@@ -603,7 +603,7 @@
         "marketValue": 68588897.36,
         "weight": 4.19,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741808+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884189+00:00",
         "rankInFund": 9,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -614,7 +614,7 @@
       {
         "fund": "ARKG",
         "fundName": "ARK Genomic Revolution ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ILLUMINA INC",
         "ticker": "ILMN",
         "cusip": "452327109",
@@ -622,7 +622,7 @@
         "marketValue": 68113279.2,
         "weight": 4.16,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:35.741811+00:00",
+        "updatedAt": "2026-07-16T01:14:36.884193+00:00",
         "rankInFund": 10,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -631,22 +631,22 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-16T00:50:36.823551+00:00"
+    "updatedAt": "2026-07-16T01:14:42.905727+00:00"
   },
   {
     "fund": "ARKQ",
     "fundName": "ARK Autonomous Technology & Robotics ETF",
-    "date": "07/15/2026",
+    "date": "2026-07-15",
     "holdingsCount": 40,
     "totalMarketValue": 2007544834.24,
     "topTenWeight": 54.28,
-    "buyCount": 0,
+    "buyCount": 40,
     "sellCount": 0,
     "topHoldings": [
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TESLA INC",
         "ticker": "TSLA",
         "cusip": "88160R101",
@@ -654,7 +654,7 @@
         "marketValue": 217435469.4,
         "weight": 10.77,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046243+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108393+00:00",
         "rankInFund": 1,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -667,7 +667,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ADVANCED MICRO DEVICES",
         "ticker": "AMD",
         "cusip": "007903107",
@@ -675,7 +675,7 @@
         "marketValue": 136611536.16,
         "weight": 6.77,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046257+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108403+00:00",
         "rankInFund": 2,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -689,7 +689,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TERADYNE INC",
         "ticker": "TER",
         "cusip": "880770102",
@@ -697,7 +697,7 @@
         "marketValue": 121020483.53,
         "weight": 5.99,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046265+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108407+00:00",
         "rankInFund": 3,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -709,7 +709,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "SPACE EXPLORATION TECHN-CL A",
         "ticker": "SPCX",
         "cusip": "84615Q103",
@@ -717,7 +717,7 @@
         "marketValue": 116465020.56,
         "weight": 5.77,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046270+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108410+00:00",
         "rankInFund": 4,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -730,7 +730,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "KRATOS DEFENSE & SECURITY",
         "ticker": "KTOS",
         "cusip": "50077B207",
@@ -738,7 +738,7 @@
         "marketValue": 110549415.88,
         "weight": 5.48,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046274+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108414+00:00",
         "rankInFund": 5,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -750,7 +750,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ALPHABET INC-CL C",
         "ticker": "GOOG",
         "cusip": "02079K107",
@@ -758,7 +758,7 @@
         "marketValue": 97910921.31,
         "weight": 4.85,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046278+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108417+00:00",
         "rankInFund": 6,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -771,7 +771,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "PALANTIR TECHNOLOGIES INC-A",
         "ticker": "PLTR",
         "cusip": "69608A108",
@@ -779,7 +779,7 @@
         "marketValue": 77897783.68,
         "weight": 3.86,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046281+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108420+00:00",
         "rankInFund": 7,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -793,7 +793,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "DEERE & CO",
         "ticker": "DE",
         "cusip": "244199105",
@@ -801,7 +801,7 @@
         "marketValue": 75619606.8,
         "weight": 3.75,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046285+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108423+00:00",
         "rankInFund": 8,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -813,7 +813,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROCKET LAB",
         "ticker": "RKLB UQ",
         "cusip": "773121108",
@@ -821,7 +821,7 @@
         "marketValue": 73865460.6,
         "weight": 3.66,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046288+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108426+00:00",
         "rankInFund": 9,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -832,7 +832,7 @@
       {
         "fund": "ARKQ",
         "fundName": "ARK Autonomous Technology & Robotics ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TAIWAN SEMICONDUCTOR-SP ADR",
         "ticker": "TSM",
         "cusip": "874039100",
@@ -840,7 +840,7 @@
         "marketValue": 68262087.42,
         "weight": 3.38,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.046292+00:00",
+        "updatedAt": "2026-07-16T01:14:37.108429+00:00",
         "rankInFund": 10,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -851,22 +851,22 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-16T00:50:36.823569+00:00"
+    "updatedAt": "2026-07-16T01:14:42.905754+00:00"
   },
   {
     "fund": "ARKF",
     "fundName": "ARK Fintech Innovation ETF",
-    "date": "07/15/2026",
+    "date": "2026-07-15",
     "holdingsCount": 35,
     "totalMarketValue": 690932622.42,
     "topTenWeight": 52.15,
-    "buyCount": 0,
+    "buyCount": 35,
     "sellCount": 0,
     "topHoldings": [
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "SHOPIFY INC - CLASS A",
         "ticker": "SHOP",
         "cusip": "82509L107",
@@ -874,7 +874,7 @@
         "marketValue": 75570127.2,
         "weight": 9.89,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383054+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508750+00:00",
         "rankInFund": 1,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -886,7 +886,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROBINHOOD MARKETS INC - A",
         "ticker": "HOOD",
         "cusip": "770700102",
@@ -894,7 +894,7 @@
         "marketValue": 50595523.4,
         "weight": 6.62,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383068+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508776+00:00",
         "rankInFund": 2,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -906,7 +906,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "BLOCK INC",
         "ticker": "XYZ",
         "cusip": "852234103",
@@ -914,7 +914,7 @@
         "marketValue": 47080754.17,
         "weight": 6.16,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383073+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508784+00:00",
         "rankInFund": 3,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -926,7 +926,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "COINBASE GLOBAL INC -CLASS A",
         "ticker": "COIN",
         "cusip": "19260Q107",
@@ -934,7 +934,7 @@
         "marketValue": 41743228.0,
         "weight": 5.46,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383081+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508800+00:00",
         "rankInFund": 4,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -946,7 +946,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TOAST INC-CLASS A",
         "ticker": "TOST",
         "cusip": "888787108",
@@ -954,7 +954,7 @@
         "marketValue": 34343070.0,
         "weight": 4.49,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383085+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508807+00:00",
         "rankInFund": 5,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -965,7 +965,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "CIRCLE INTERNET GROUP INC",
         "ticker": "CRCL",
         "cusip": "172573107",
@@ -973,7 +973,7 @@
         "marketValue": 33384269.3,
         "weight": 4.37,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383089+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508814+00:00",
         "rankInFund": 6,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -985,7 +985,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "PALANTIR TECHNOLOGIES INC-A",
         "ticker": "PLTR",
         "cusip": "69608A108",
@@ -993,7 +993,7 @@
         "marketValue": 33117095.2,
         "weight": 4.33,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383093+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508821+00:00",
         "rankInFund": 7,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -1007,7 +1007,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ADVANCED MICRO DEVICES",
         "ticker": "AMD",
         "cusip": "007903107",
@@ -1015,7 +1015,7 @@
         "marketValue": 29125983.81,
         "weight": 3.81,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383097+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508828+00:00",
         "rankInFund": 8,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -1029,7 +1029,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "AMAZON.COM INC",
         "ticker": "AMZN",
         "cusip": "023135106",
@@ -1037,7 +1037,7 @@
         "marketValue": 28555148.71,
         "weight": 3.74,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383100+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508835+00:00",
         "rankInFund": 9,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -1051,7 +1051,7 @@
       {
         "fund": "ARKF",
         "fundName": "ARK Fintech Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "META PLATFORMS INC-CLASS A",
         "ticker": "META",
         "cusip": "30303M102",
@@ -1059,7 +1059,7 @@
         "marketValue": 25073908.24,
         "weight": 3.28,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.383108+00:00",
+        "updatedAt": "2026-07-16T01:14:37.508842+00:00",
         "rankInFund": 10,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -1069,22 +1069,22 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-16T00:50:36.823582+00:00"
+    "updatedAt": "2026-07-16T01:14:42.905779+00:00"
   },
   {
     "fund": "ARKX",
     "fundName": "ARK Space Exploration & Innovation ETF",
-    "date": "07/15/2026",
+    "date": "2026-07-15",
     "holdingsCount": 36,
     "totalMarketValue": 835380075.53,
     "topTenWeight": 54.27,
-    "buyCount": 0,
+    "buyCount": 36,
     "sellCount": 0,
     "topHoldings": [
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "SPACE EXPLORATION TECHN-CL A",
         "ticker": "SPCX",
         "cusip": "84615Q103",
@@ -1092,7 +1092,7 @@
         "marketValue": 67184873.28,
         "weight": 8.02,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711165+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741328+00:00",
         "rankInFund": 1,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -1105,7 +1105,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "L3HARRIS TECHNOLOGIES INC",
         "ticker": "LHX",
         "cusip": "502431109",
@@ -1113,7 +1113,7 @@
         "marketValue": 58487476.74,
         "weight": 6.98,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711179+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741352+00:00",
         "rankInFund": 2,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -1124,7 +1124,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "KRATOS DEFENSE & SECURITY",
         "ticker": "KTOS",
         "cusip": "50077B207",
@@ -1132,7 +1132,7 @@
         "marketValue": 50910485.16,
         "weight": 6.08,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711184+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741360+00:00",
         "rankInFund": 3,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -1144,7 +1144,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "DEERE & CO",
         "ticker": "DE",
         "cusip": "244199105",
@@ -1152,7 +1152,7 @@
         "marketValue": 48890904.0,
         "weight": 5.84,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711187+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741366+00:00",
         "rankInFund": 4,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -1164,7 +1164,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ADVANCED MICRO DEVICES",
         "ticker": "AMD",
         "cusip": "007903107",
@@ -1172,7 +1172,7 @@
         "marketValue": 47639074.56,
         "weight": 5.69,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711192+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741371+00:00",
         "rankInFund": 5,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -1186,7 +1186,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ROCKET LAB",
         "ticker": "RKLB UQ",
         "cusip": "773121108",
@@ -1194,7 +1194,7 @@
         "marketValue": 44982304.89,
         "weight": 5.37,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711195+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741377+00:00",
         "rankInFund": 6,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -1205,7 +1205,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "AMAZON.COM INC",
         "ticker": "AMZN",
         "cusip": "023135106",
@@ -1213,7 +1213,7 @@
         "marketValue": 36056570.61,
         "weight": 4.31,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711199+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741383+00:00",
         "rankInFund": 7,
         "heldByFundCount": 5,
         "heldByFunds": [
@@ -1227,7 +1227,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "ALPHABET INC-CL C",
         "ticker": "GOOG",
         "cusip": "02079K107",
@@ -1235,7 +1235,7 @@
         "marketValue": 35262039.06,
         "weight": 4.21,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711202+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741389+00:00",
         "rankInFund": 8,
         "heldByFundCount": 4,
         "heldByFunds": [
@@ -1248,7 +1248,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "AEROVIRONMENT INC",
         "ticker": "AVAV",
         "cusip": "008073108",
@@ -1256,7 +1256,7 @@
         "marketValue": 33610429.96,
         "weight": 4.01,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711211+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741396+00:00",
         "rankInFund": 9,
         "heldByFundCount": 2,
         "heldByFunds": [
@@ -1267,7 +1267,7 @@
       {
         "fund": "ARKX",
         "fundName": "ARK Space Exploration & Innovation ETF",
-        "date": "07/15/2026",
+        "date": "2026-07-15",
         "company": "TERADYNE INC",
         "ticker": "TER",
         "cusip": "880770102",
@@ -1275,7 +1275,7 @@
         "marketValue": 31503877.24,
         "weight": 3.76,
         "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-        "updatedAt": "2026-07-16T00:50:36.711215+00:00",
+        "updatedAt": "2026-07-16T01:14:37.741402+00:00",
         "rankInFund": 10,
         "heldByFundCount": 3,
         "heldByFunds": [
@@ -1285,6 +1285,6 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-16T00:50:36.823596+00:00"
+    "updatedAt": "2026-07-16T01:14:42.905804+00:00"
   }
 ]

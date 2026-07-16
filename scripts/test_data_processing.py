@@ -6,12 +6,14 @@ from __future__ import annotations
 import json
 import shutil
 import subprocess
+from datetime import date
 from pathlib import Path
 
 import fetch_ark_holdings
-from common import FUNDS, build_fund_status, parse_number
+from common import FUNDS, build_fund_status, data_freshness, normalize_date, parse_number
 from compare_daily_trades import infer_action
-from fetch_ark_holdings import fetch_fund, static_candidate_urls
+from fetch_ark_holdings import MAX_ATTEMPTS, RETRYABLE_STATUS_CODES, build_session, fetch_fund, static_candidate_urls
+from normalize_holdings import normalize_history_dates
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,7 +46,7 @@ def test_official_holdings_urls_and_parsing() -> None:
         "date,fund,company,ticker,cusip,shares,market value ($),weight (%)\n"
         "07/15/2026,Example Fund,Example Company,TEST,123456789,1000,$10000.00,1.25%\n"
     )
-    original_get = fetch_ark_holdings.requests.get
+    original_get = fetch_ark_holdings.HTTP.get
 
     class FakeResponse:
         status_code = 200
@@ -64,7 +66,7 @@ def test_official_holdings_urls_and_parsing() -> None:
                 requested_urls.append(url)
                 return FakeResponse()
 
-            fetch_ark_holdings.requests.get = fake_get
+            fetch_ark_holdings.HTTP.get = fake_get
             diagnostics: list[dict] = []
             rows, error = fetch_fund(fund, diagnostics)
 
@@ -75,7 +77,47 @@ def test_official_holdings_urls_and_parsing() -> None:
             assert diagnostics[0]["rowCount"] == 1
             assert diagnostics[0]["url"].startswith(fetch_ark_holdings.ASSET_BASE_URL)
     finally:
-        fetch_ark_holdings.requests.get = original_get
+        fetch_ark_holdings.HTTP.get = original_get
+
+
+def test_retry_policy() -> None:
+    session = build_session()
+    try:
+        retry = session.get_adapter("https://").max_retries
+        assert retry.total == MAX_ATTEMPTS - 1
+        assert retry.connect == MAX_ATTEMPTS - 1
+        assert retry.read == MAX_ATTEMPTS - 1
+        assert retry.status == MAX_ATTEMPTS - 1
+        assert set(retry.status_forcelist) == set(RETRYABLE_STATUS_CODES)
+        assert 403 not in retry.status_forcelist
+        assert 404 not in retry.status_forcelist
+        assert retry.allowed_methods == frozenset({"GET"})
+    finally:
+        session.close()
+
+
+def test_date_normalization_and_freshness() -> None:
+    assert normalize_date("2026-07-15") == "2026-07-15"
+    assert normalize_date("07/15/2026") == "2026-07-15"
+    assert normalize_date("2026/07/15") == "2026-07-15"
+    assert normalize_date("July 15, 2026") == ""
+    assert normalize_date("2026-02-30") == ""
+
+    today = date(2026, 7, 16)
+    assert data_freshness("07/15/2026", today) == ("fresh", 1)
+    assert data_freshness("2026-07-09", today) == ("stale", 7)
+    assert data_freshness("2026/07/08", today) == ("old", 8)
+    assert data_freshness("not-a-date", today) == ("unknown", None)
+
+
+def test_mixed_history_dates_are_migrated() -> None:
+    rows = [
+        {"fund": "ARKK", "date": "07/15/2026", "ticker": "AAA"},
+        {"fund": "ARKK", "date": "2026-06-09", "ticker": "BBB"},
+        {"fund": "ARKK", "date": "2026/06/10", "ticker": "CCC"},
+    ]
+    migrated = normalize_history_dates(rows)
+    assert [row["date"] for row in migrated] == ["2026-07-15", "2026-06-09", "2026-06-10"]
 
 
 def test_normalize_complete_fixture() -> None:
@@ -133,6 +175,35 @@ def test_normalize_missing_fund_preserves_data() -> None:
         code, output = run_normalize_fixture(rows)
         assert code != 0
         assert "missing holdings for required funds: ARKX" in output
+        after = (DATA_DIR / "latest_holdings.json").read_text(encoding="utf-8")
+        status = json.loads((DATA_DIR / "data_status.json").read_text(encoding="utf-8"))
+        assert before == after
+        assert any("Candidate holdings failed validation" in warning for warning in status["warnings"])
+    finally:
+        shutil.rmtree(DATA_DIR)
+        shutil.copytree(backup, DATA_DIR)
+        shutil.rmtree(backup)
+
+
+def test_normalize_invalid_date_preserves_data() -> None:
+    backup = ROOT / ".tmp-test-data-backup"
+    if backup.exists():
+        shutil.rmtree(backup)
+    shutil.copytree(DATA_DIR, backup)
+    try:
+        before = (DATA_DIR / "latest_holdings.json").read_text(encoding="utf-8")
+        rows = [
+            fixture_row("ARKK", "AAA", "1,000"),
+            fixture_row("ARKW", "BBB", "1,000"),
+            fixture_row("ARKG", "CCC", "1,000"),
+            fixture_row("ARKQ", "DDD", "1,000"),
+            fixture_row("ARKF", "EEE", "1,000"),
+            fixture_row("ARKX", "FFF", "1,000"),
+        ]
+        rows[0]["date"] = "July 15, 2026"
+        code, output = run_normalize_fixture(rows)
+        assert code != 0
+        assert "missing required fields: date" in output
         after = (DATA_DIR / "latest_holdings.json").read_text(encoding="utf-8")
         status = json.loads((DATA_DIR / "data_status.json").read_text(encoding="utf-8"))
         assert before == after
@@ -210,8 +281,12 @@ def main() -> None:
     assert infer_action(missing_shares_previous, missing_shares_current, 0, 200, 0.1) == "Buy"
 
     test_official_holdings_urls_and_parsing()
+    test_retry_policy()
+    test_date_normalization_and_freshness()
+    test_mixed_history_dates_are_migrated()
     test_normalize_complete_fixture()
     test_normalize_missing_fund_preserves_data()
+    test_normalize_invalid_date_preserves_data()
     test_compare_outputs_market_value_changes()
     print("Data processing checks passed")
 
