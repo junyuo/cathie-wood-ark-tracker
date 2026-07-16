@@ -1,8 +1,8 @@
 {
-  "lastSuccessfulUpdate": "2026-07-16T04:59:01.123497+00:00",
-  "latestHoldingDate": "2026-07-15",
+  "lastSuccessfulUpdate": "2026-07-16T13:01:44.434234+00:00",
+  "latestHoldingDate": "2026-07-16",
   "freshnessStatus": "fresh",
-  "dataAgeDays": 1,
+  "dataAgeDays": 0,
   "isSampleData": false,
   "funds": {
     "ARKK": {
@@ -31,7 +31,7 @@
     },
     "ARKF": {
       "status": "success",
-      "rowCount": 35,
+      "rowCount": 36,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
       "error": ""
     },
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-07-16T04:59:01.125061+00:00"
+  "updatedAt": "2026-07-16T13:01:44.435796+00:00"
 }
