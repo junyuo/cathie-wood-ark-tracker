@@ -1,8 +1,8 @@
 {
-  "lastSuccessfulUpdate": "2026-07-20T05:22:36.349206+00:00",
-  "latestHoldingDate": "2026-07-17",
+  "lastSuccessfulUpdate": "2026-07-21T12:55:32.687513+00:00",
+  "latestHoldingDate": "2026-07-21",
   "freshnessStatus": "fresh",
-  "dataAgeDays": 3,
+  "dataAgeDays": 0,
   "isSampleData": false,
   "funds": {
     "ARKK": {
@@ -13,7 +13,7 @@
     },
     "ARKW": {
       "status": "success",
-      "rowCount": 40,
+      "rowCount": 39,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
       "error": ""
     },
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-07-20T05:22:36.350869+00:00"
+  "updatedAt": "2026-07-21T12:55:32.689134+00:00"
 }
