@@ -1,13 +1,13 @@
 {
-  "lastSuccessfulUpdate": "2026-08-12T12:11:31.859154+00:00",
-  "latestHoldingDate": "2026-08-12",
+  "lastSuccessfulUpdate": "2026-08-13T12:10:50.446482+00:00",
+  "latestHoldingDate": "2026-08-13",
   "freshnessStatus": "fresh",
   "dataAgeDays": 0,
   "isSampleData": false,
   "funds": {
     "ARKK": {
       "status": "success",
-      "rowCount": 45,
+      "rowCount": 44,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
       "error": ""
     },
@@ -25,7 +25,7 @@
     },
     "ARKQ": {
       "status": "success",
-      "rowCount": 39,
+      "rowCount": 38,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
       "error": ""
     },
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-08-12T12:11:31.860932+00:00"
+  "updatedAt": "2026-08-13T12:10:50.448880+00:00"
 }
