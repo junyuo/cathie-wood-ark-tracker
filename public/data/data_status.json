@@ -1,8 +1,8 @@
 {
-  "lastSuccessfulUpdate": "2026-08-15T11:46:20.170312+00:00",
-  "latestHoldingDate": "2026-08-14",
+  "lastSuccessfulUpdate": "2026-08-18T11:52:07.572734+00:00",
+  "latestHoldingDate": "2026-08-18",
   "freshnessStatus": "fresh",
-  "dataAgeDays": 1,
+  "dataAgeDays": 0,
   "isSampleData": false,
   "funds": {
     "ARKK": {
@@ -19,7 +19,7 @@
     },
     "ARKG": {
       "status": "success",
-      "rowCount": 32,
+      "rowCount": 33,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
       "error": ""
     },
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-08-15T11:46:20.171985+00:00"
+  "updatedAt": "2026-08-18T11:52:07.573973+00:00"
 }
