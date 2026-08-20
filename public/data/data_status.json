@@ -1,13 +1,13 @@
 {
-  "lastSuccessfulUpdate": "2026-08-19T11:51:51.322603+00:00",
-  "latestHoldingDate": "2026-08-19",
+  "lastSuccessfulUpdate": "2026-08-20T11:54:19.000577+00:00",
+  "latestHoldingDate": "2026-08-20",
   "freshnessStatus": "fresh",
   "dataAgeDays": 0,
   "isSampleData": false,
   "funds": {
     "ARKK": {
       "status": "success",
-      "rowCount": 43,
+      "rowCount": 44,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
       "error": ""
     },
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-08-19T11:51:51.323537+00:00"
+  "updatedAt": "2026-08-20T11:54:19.001807+00:00"
 }
