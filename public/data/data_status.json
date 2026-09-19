@@ -1,8 +1,8 @@
 {
-  "lastSuccessfulUpdate": "2026-09-18T15:05:23.123929+00:00",
+  "lastSuccessfulUpdate": "2026-09-19T14:41:07.804477+00:00",
   "latestHoldingDate": "2026-09-18",
   "freshnessStatus": "fresh",
-  "dataAgeDays": 0,
+  "dataAgeDays": 1,
   "isSampleData": false,
   "funds": {
     "ARKK": {
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-09-18T15:05:23.125586+00:00"
+  "updatedAt": "2026-09-19T14:41:07.805773+00:00"
 }
