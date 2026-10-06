@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T15:11:46.400833+00:00",
-  "rowCount": 240,
+  "updatedAt": "2026-10-06T17:21:22.919609+00:00",
+  "rowCount": 239,
   "fundsAttempted": [
     "ARKK",
     "ARKW",
@@ -17,7 +17,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
       "statusCode": 200,
       "contentType": "application/octet-stream",
-      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/02/2026,ARKK,TESLA INC,TSLA,88160R101,\"2,322,170\",\"$822,303,618.70\",9.13% 10/02/2026,ARKK,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"3,720,499\",\"$550,894,286.93\",6.12% 10/02/2026,ARKK,TEMPUS AI INC-CL A,TEM,88023B103,\"6,543,15",
+      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/06/2026,ARKK,TESLA INC,TSLA,88160R101,\"2,355,230\",\"$891,996,257.90\",9.31% 10/06/2026,ARKK,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"3,773,482\",\"$645,605,035.38\",6.74% 10/06/2026,ARKK,TEMPUS AI INC-CL A,TEM,88023B103,\"6,636,33",
       "rowCount": 47,
       "headers": [
         "date",
@@ -37,7 +37,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
       "statusCode": 200,
       "contentType": "application/octet-stream",
-      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/02/2026,ARKW,TESLA INC,TSLA,88160R101,\"418,823\",\"$148,309,412.53\",7.23% 10/02/2026,ARKW,ROBINHOOD MARKETS INC - A,HOOD,770700102,\"811,109\",\"$90,154,765.35\",4.40% 10/02/2026,ARKW,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"609,7",
+      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/06/2026,ARKW,TESLA INC,TSLA,88160R101,\"448,379\",\"$169,814,578.67\",7.51% 10/06/2026,ARKW,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"652,774\",\"$111,683,103.66\",4.94% 10/06/2026,ARKW,NVIDIA CORP,NVDA,67066G104,\"415,897\",\"$99,357,",
       "rowCount": 44,
       "headers": [
         "date",
@@ -57,7 +57,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
       "statusCode": 200,
       "contentType": "application/octet-stream",
-      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/02/2026,ARKG,TWIST BIOSCIENCE CORP,TWST,90184D100,\"1,205,843\",\"$226,758,776.15\",10.23% 10/02/2026,ARKG,10X GENOMICS INC-CLASS A,TXG,88025U109,\"2,507,459\",\"$222,562,060.84\",10.04% 10/02/2026,ARKG,TEMPUS AI INC-CL A,TEM,88023B103,",
+      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/06/2026,ARKG,10X GENOMICS INC-CLASS A,TXG,88025U109,\"2,552,062\",\"$249,438,539.88\",10.23% 10/06/2026,ARKG,TWIST BIOSCIENCE CORP,TWST,90184D100,\"1,203,593\",\"$246,736,565.00\",10.12% 10/06/2026,ARKG,TEMPUS AI INC-CL A,TEM,88023B103,",
       "rowCount": 34,
       "headers": [
         "date",
@@ -77,7 +77,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
       "statusCode": 200,
       "contentType": "application/octet-stream",
-      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/02/2026,ARKQ,TESLA INC,TSLA,88160R101,\"562,147\",\"$199,061,874.17\",10.51% 10/02/2026,ARKQ,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"1,058,962\",\"$156,800,503.34\",8.28% 10/02/2026,ARKQ,TERADYNE INC,TER,880770102,\"323,927\",\"$134,",
+      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/06/2026,ARKQ,TESLA INC,TSLA,88160R101,\"565,749\",\"$214,266,118.77\",10.86% 10/06/2026,ARKQ,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"1,065,750\",\"$182,339,167.50\",9.24% 10/06/2026,ARKQ,TERADYNE INC,TER,880770102,\"326,003\",\"$144,",
       "rowCount": 38,
       "headers": [
         "date",
@@ -97,8 +97,8 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
       "statusCode": 200,
       "contentType": "application/octet-stream",
-      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/02/2026,ARKF,SHOPIFY INC - CLASS A,SHOP,82509L107,\"460,367\",\"$68,636,116.03\",7.81% 10/02/2026,ARKF,BLOCK INC,XYZ,852234103,\"898,399\",\"$66,517,461.96\",7.57% 10/02/2026,ARKF,CIRCLE INTERNET GROUP INC,CRCL,172573107,\"647,364\",\"$53,",
-      "rowCount": 42,
+      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/06/2026,ARKF,SHOPIFY INC - CLASS A,SHOP,82509L107,\"460,367\",\"$73,709,360.37\",8.23% 10/06/2026,ARKF,BLOCK INC,XYZ,852234103,\"898,399\",\"$68,484,955.77\",7.64% 10/06/2026,ARKF,CIRCLE INTERNET GROUP INC,CRCL,172573107,\"647,364\",\"$53,",
+      "rowCount": 41,
       "headers": [
         "date",
         "fund",
@@ -117,7 +117,7 @@
       "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
       "statusCode": 200,
       "contentType": "application/octet-stream",
-      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/02/2026,ARKX,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"529,499\",\"$78,402,916.93\",10.62% 10/02/2026,ARKX,L3HARRIS TECHNOLOGIES INC,LHX,502431109,\"192,159\",\"$45,810,705.60\",6.21% 10/02/2026,ARKX,ROCKET LAB,RKLB UQ,773121108,\"63",
+      "excerpt": "date,fund,company,ticker,cusip,shares,market value ($),weight (%) 10/06/2026,ARKX,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"529,499\",\"$90,591,983.91\",11.93% 10/06/2026,ARKX,ROCKET LAB,RKLB UQ,773121108,\"635,922\",\"$46,435,024.44\",6.11% 10/06/2026,ARKX,L3HARRIS TECHNOLOGIES INC,LHX,502431109,\"19",
       "rowCount": 35,
       "headers": [
         "date",
