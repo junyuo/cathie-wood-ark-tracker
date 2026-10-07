@@ -1,6 +1,6 @@
 {
-  "lastSuccessfulUpdate": "2026-10-06T17:21:23.252789+00:00",
-  "latestHoldingDate": "2026-10-06",
+  "lastSuccessfulUpdate": "2026-10-07T17:55:39.413312+00:00",
+  "latestHoldingDate": "2026-10-07",
   "freshnessStatus": "fresh",
   "dataAgeDays": 0,
   "isSampleData": false,
@@ -19,7 +19,7 @@
     },
     "ARKG": {
       "status": "success",
-      "rowCount": 32,
+      "rowCount": 33,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
       "error": ""
     },
@@ -31,7 +31,7 @@
     },
     "ARKF": {
       "status": "success",
-      "rowCount": 35,
+      "rowCount": 36,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
       "error": ""
     },
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-10-06T17:21:23.254389+00:00"
+  "updatedAt": "2026-10-07T17:55:39.414961+00:00"
 }
