@@ -1,602 +1,602 @@
 {
   "rows": [
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "TESLA INC",
       "ticker": "TSLA",
       "cusip": "88160R101",
-      "shares": "1,772,690",
-      "market value ($)": "$722,300,267.40",
-      "weight (%)": "10.99%",
+      "shares": "1,716,830",
+      "market value ($)": "$693,977,022.60",
+      "weight (%)": "10.65%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936130+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.067946+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "SPACE EXPLORATION TECHN-CL A",
       "ticker": "SPCX",
       "cusip": "84615Q103",
-      "shares": "2,839,885",
-      "market value ($)": "$421,950,113.30",
-      "weight (%)": "6.42%",
+      "shares": "2,750,362",
+      "market value ($)": "$399,435,073.26",
+      "weight (%)": "6.13%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936147+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.067966+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "TEMPUS AI INC-CL A",
       "ticker": "TEM",
       "cusip": "88023B103",
-      "shares": "4,987,693",
-      "market value ($)": "$359,862,049.95",
-      "weight (%)": "5.47%",
+      "shares": "4,772,081",
+      "market value ($)": "$365,589,125.41",
+      "weight (%)": "5.61%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936154+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.067974+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "CIRCLE INTERNET GROUP INC",
       "ticker": "CRCL",
       "cusip": "172573107",
-      "shares": "3,855,553",
-      "market value ($)": "$314,536,013.74",
-      "weight (%)": "4.79%",
+      "shares": "3,733,984",
+      "market value ($)": "$305,103,832.64",
+      "weight (%)": "4.68%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936159+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.067980+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "CRISPR THERAPEUTICS AG",
       "ticker": "CRSP",
       "cusip": "H17182108",
-      "shares": "5,520,347",
-      "market value ($)": "$284,132,260.09",
-      "weight (%)": "4.32%",
+      "shares": "5,346,299",
+      "market value ($)": "$289,288,238.89",
+      "weight (%)": "4.44%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936165+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.067985+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "COINBASE GLOBAL INC -CLASS A",
       "ticker": "COIN",
       "cusip": "19260Q107",
-      "shares": "1,636,420",
-      "market value ($)": "$263,610,897.80",
-      "weight (%)": "4.01%",
+      "shares": "1,584,823",
+      "market value ($)": "$257,248,469.36",
+      "weight (%)": "3.95%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936174+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.067995+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "OPENAI GROUP PBC SERIES C",
       "ticker": "",
       "cusip": "PPOPENAIC",
       "shares": "254,476",
       "market value ($)": "$249,369,582.79",
-      "weight (%)": "3.79%",
+      "weight (%)": "3.83%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936179+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068000+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "TWIST BIOSCIENCE CORP",
       "ticker": "TWST",
       "cusip": "90184D100",
-      "shares": "1,424,243",
-      "market value ($)": "$227,665,243.55",
-      "weight (%)": "3.46%",
+      "shares": "1,337,172",
+      "market value ($)": "$231,932,483.40",
+      "weight (%)": "3.56%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936184+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068005+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "SHOPIFY INC - CLASS A",
       "ticker": "SHOP",
       "cusip": "82509L107",
-      "shares": "1,243,470",
-      "market value ($)": "$206,179,760.70",
-      "weight (%)": "3.14%",
+      "shares": "1,204,270",
+      "market value ($)": "$202,582,299.40",
+      "weight (%)": "3.11%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936188+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068009+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "NVIDIA CORP",
       "ticker": "NVDA",
       "cusip": "67066G104",
-      "shares": "915,014",
-      "market value ($)": "$199,418,151.16",
-      "weight (%)": "3.03%",
+      "shares": "886,202",
+      "market value ($)": "$190,870,186.76",
+      "weight (%)": "2.93%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936192+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068013+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "ROBINHOOD MARKETS INC - A",
       "ticker": "HOOD",
       "cusip": "770700102",
-      "shares": "2,028,278",
-      "market value ($)": "$191,793,967.68",
-      "weight (%)": "2.92%",
+      "shares": "2,033,937",
+      "market value ($)": "$185,962,859.91",
+      "weight (%)": "2.85%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936197+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068018+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "10X GENOMICS INC-CLASS A",
       "ticker": "TXG",
       "cusip": "88025U109",
-      "shares": "2,310,811",
-      "market value ($)": "$180,289,474.22",
-      "weight (%)": "2.74%",
+      "shares": "2,189,808",
+      "market value ($)": "$183,111,744.96",
+      "weight (%)": "2.81%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936203+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068025+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "PALANTIR TECHNOLOGIES INC-A",
-      "ticker": "PLTR",
-      "cusip": "69608A108",
-      "shares": "892,462",
-      "market value ($)": "$177,358,973.26",
-      "weight (%)": "2.70%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936208+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "COREWEAVE INC-CL A",
-      "ticker": "CRWV",
-      "cusip": "21873S108",
-      "shares": "2,757,209",
-      "market value ($)": "$164,246,940.13",
-      "weight (%)": "2.50%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936212+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "BEAM THERAPEUTICS INC",
       "ticker": "BEAM",
       "cusip": "07373V105",
-      "shares": "6,366,791",
-      "market value ($)": "$158,533,095.90",
-      "weight (%)": "2.41%",
+      "shares": "6,166,038",
+      "market value ($)": "$177,458,573.64",
+      "weight (%)": "2.72%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936216+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068030+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "COREWEAVE INC-CL A",
+      "ticker": "CRWV",
+      "cusip": "21873S108",
+      "shares": "2,670,283",
+      "market value ($)": "$170,711,192.19",
+      "weight (%)": "2.62%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068034+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "PALANTIR TECHNOLOGIES INC-A",
+      "ticker": "PLTR",
+      "cusip": "69608A108",
+      "shares": "864,336",
+      "market value ($)": "$170,109,968.16",
+      "weight (%)": "2.61%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068039+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "AMAZON.COM INC",
       "ticker": "AMZN",
       "cusip": "023135106",
-      "shares": "597,232",
-      "market value ($)": "$151,159,419.20",
-      "weight (%)": "2.30%",
+      "shares": "578,416",
+      "market value ($)": "$147,264,713.60",
+      "weight (%)": "2.26%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936223+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068045+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "BLOCK INC",
-      "ticker": "XYZ",
-      "cusip": "852234103",
-      "shares": "1,997,649",
-      "market value ($)": "$149,563,980.63",
-      "weight (%)": "2.28%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936227+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "INTELLIA THERAPEUTICS INC",
       "ticker": "NTLA",
       "cusip": "45826J105",
-      "shares": "11,347,343",
-      "market value ($)": "$139,345,372.04",
-      "weight (%)": "2.12%",
+      "shares": "10,989,545",
+      "market value ($)": "$146,380,739.40",
+      "weight (%)": "2.25%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936252+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068049+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "BLOCK INC",
+      "ticker": "XYZ",
+      "cusip": "852234103",
+      "shares": "1,934,684",
+      "market value ($)": "$145,507,583.64",
+      "weight (%)": "2.23%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068054+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "META PLATFORMS INC-CLASS A",
       "ticker": "META",
       "cusip": "30303M102",
-      "shares": "222,487",
-      "market value ($)": "$137,984,212.53",
-      "weight (%)": "2.10%",
+      "shares": "215,480",
+      "market value ($)": "$131,979,345.20",
+      "weight (%)": "2.03%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936257+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068058+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "BROADCOM INC",
       "ticker": "AVGO",
       "cusip": "11135F101",
-      "shares": "367,390",
-      "market value ($)": "$125,768,618.70",
-      "weight (%)": "1.91%",
+      "shares": "355,826",
+      "market value ($)": "$125,183,145.06",
+      "weight (%)": "1.92%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936261+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068063+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "cusip": "007903107",
-      "shares": "213,695",
-      "market value ($)": "$119,724,760.70",
-      "weight (%)": "1.82%",
+      "shares": "206,982",
+      "market value ($)": "$119,726,668.08",
+      "weight (%)": "1.84%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936265+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068067+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "CEREBRAS SYSTEMS INC - A",
-      "ticker": "CBRS",
-      "cusip": "15675D103",
-      "shares": "994,625",
-      "market value ($)": "$118,668,708.75",
-      "weight (%)": "1.81%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936269+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "BULLISH",
       "ticker": "BLSH",
       "cusip": "G16910120",
-      "shares": "4,013,314",
-      "market value ($)": "$116,145,307.16",
-      "weight (%)": "1.77%",
+      "shares": "3,886,796",
+      "market value ($)": "$111,667,649.08",
+      "weight (%)": "1.71%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936274+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068071+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "CEREBRAS SYSTEMS INC - A",
+      "ticker": "CBRS",
+      "cusip": "15675D103",
+      "shares": "991,433",
+      "market value ($)": "$111,595,698.48",
+      "weight (%)": "1.71%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068075+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "BITMINE IMMERSION TECHNOLOGI",
       "ticker": "BMNR",
       "cusip": "09175A206",
-      "shares": "5,183,911",
-      "market value ($)": "$112,076,155.82",
-      "weight (%)": "1.71%",
+      "shares": "5,020,496",
+      "market value ($)": "$110,701,936.80",
+      "weight (%)": "1.70%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936278+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068080+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "RECURSION PHARMACEUTICALS-A",
       "ticker": "RXRX",
       "cusip": "75629V104",
-      "shares": "24,935,610",
-      "market value ($)": "$100,989,220.50",
-      "weight (%)": "1.54%",
+      "shares": "24,149,356",
+      "market value ($)": "$105,049,698.60",
+      "weight (%)": "1.61%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936283+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068084+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "KALSHI INC.",
       "ticker": "",
       "cusip": "PPKALSHIC",
       "shares": "90,024",
       "market value ($)": "$95,999,805.72",
-      "weight (%)": "1.46%",
+      "weight (%)": "1.47%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936290+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068091+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "ROCKET LAB",
       "ticker": "RKLB UQ",
       "cusip": "773121108",
-      "shares": "1,482,723",
-      "market value ($)": "$86,457,578.13",
-      "weight (%)": "1.32%",
+      "shares": "1,435,977",
+      "market value ($)": "$84,148,252.20",
+      "weight (%)": "1.29%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936295+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068095+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "CLOUDFLARE INC - CLASS A",
-      "ticker": "NET",
-      "cusip": "18915M107",
-      "shares": "240,916",
-      "market value ($)": "$78,972,264.80",
-      "weight (%)": "1.20%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936299+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "VERACYTE INC",
-      "ticker": "VCYT",
-      "cusip": "92337F107",
-      "shares": "1,537,034",
-      "market value ($)": "$77,282,069.52",
-      "weight (%)": "1.18%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936303+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "NATERA INC",
       "ticker": "NTRA",
       "cusip": "632307104",
-      "shares": "186,485",
-      "market value ($)": "$76,611,767.70",
-      "weight (%)": "1.17%",
+      "shares": "180,605",
+      "market value ($)": "$76,652,374.10",
+      "weight (%)": "1.18%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936307+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068100+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "VERACYTE INC",
+      "ticker": "VCYT",
+      "cusip": "92337F107",
+      "shares": "1,488,573",
+      "market value ($)": "$74,890,107.63",
+      "weight (%)": "1.15%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068104+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "CLOUDFLARE INC - CLASS A",
+      "ticker": "NET",
+      "cusip": "18915M107",
+      "shares": "233,321",
+      "market value ($)": "$74,364,069.12",
+      "weight (%)": "1.14%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068108+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "KRATOS DEFENSE & SECURITY",
       "ticker": "KTOS",
       "cusip": "50077B207",
-      "shares": "1,747,282",
-      "market value ($)": "$72,188,955.83",
-      "weight (%)": "1.10%",
+      "shares": "1,692,206",
+      "market value ($)": "$69,668,121.02",
+      "weight (%)": "1.07%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936311+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068113+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "ARCHER AVIATION INC-A",
       "ticker": "ACHR",
       "cusip": "03945R102",
-      "shares": "16,071,851",
-      "market value ($)": "$67,983,929.73",
-      "weight (%)": "1.03%",
+      "shares": "15,565,093",
+      "market value ($)": "$67,552,503.62",
+      "weight (%)": "1.04%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936315+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068117+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "BWX TECHNOLOGIES INC",
       "ticker": "BWXT",
       "cusip": "05605H100",
-      "shares": "502,217",
-      "market value ($)": "$67,332,233.19",
-      "weight (%)": "1.02%",
+      "shares": "486,390",
+      "market value ($)": "$65,643,194.40",
+      "weight (%)": "1.01%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936320+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068121+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "TAIWAN SEMICONDUCTOR-SP ADR",
       "ticker": "TSM",
       "cusip": "874039100",
-      "shares": "154,158",
-      "market value ($)": "$67,347,005.46",
-      "weight (%)": "1.02%",
+      "shares": "149,307",
+      "market value ($)": "$65,621,919.57",
+      "weight (%)": "1.01%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936324+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068126+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "ILLUMINA INC",
       "ticker": "ILMN",
       "cusip": "452327109",
-      "shares": "227,831",
-      "market value ($)": "$63,671,929.57",
-      "weight (%)": "0.97%",
+      "shares": "220,677",
+      "market value ($)": "$63,729,310.83",
+      "weight (%)": "0.98%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936328+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068130+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "GENEDX HOLDINGS CORP",
       "ticker": "WGS",
       "cusip": "81663L200",
-      "shares": "948,318",
-      "market value ($)": "$59,497,471.32",
+      "shares": "918,428",
+      "market value ($)": "$59,413,107.32",
       "weight (%)": "0.91%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936333+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068135+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "ALPHABET INC-CL C",
       "ticker": "GOOG",
       "cusip": "02079K107",
-      "shares": "184,430",
-      "market value ($)": "$58,432,956.90",
-      "weight (%)": "0.89%",
+      "shares": "178,648",
+      "market value ($)": "$57,505,004.72",
+      "weight (%)": "0.88%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936337+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068140+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "X-ENERGY INC",
-      "ticker": "XE",
-      "cusip": "98386P102",
-      "shares": "4,876,673",
-      "market value ($)": "$56,276,806.42",
-      "weight (%)": "0.86%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936341+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "GOLDMAN FS TRSY OBLIG INST 468",
       "ticker": "",
       "cusip": "X9USDGSFT",
-      "shares": "47,148,488",
-      "market value ($)": "$47,148,487.64",
-      "weight (%)": "0.72%",
+      "shares": "55,674,875",
+      "market value ($)": "$55,674,875.16",
+      "weight (%)": "0.85%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936346+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068144+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
-      "company": "ARK ACTIVE AUTOCALL INC ETF",
-      "ticker": "ARKY",
-      "cusip": "00214Q724",
-      "shares": "2,087,090",
-      "market value ($)": "$41,428,736.50",
-      "weight (%)": "0.63%",
+      "company": "X-ENERGY INC",
+      "ticker": "XE",
+      "cusip": "98386P102",
+      "shares": "4,722,911",
+      "market value ($)": "$54,502,392.94",
+      "weight (%)": "0.84%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936350+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068148+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "ELI LILLY & CO",
-      "ticker": "LLY",
-      "cusip": "532457108",
-      "shares": "28,254",
-      "market value ($)": "$36,219,085.14",
-      "weight (%)": "0.55%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936355+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKK",
-      "company": "SOFI TECHNOLOGIES INC",
-      "ticker": "SOFI",
-      "cusip": "83406F102",
-      "shares": "2,218,139",
-      "market value ($)": "$36,377,479.60",
-      "weight (%)": "0.55%",
-      "_fund": "ARKK",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936359+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "TERADYNE INC",
       "ticker": "TER",
       "cusip": "880770102",
-      "shares": "109,669",
-      "market value ($)": "$35,497,661.92",
-      "weight (%)": "0.54%",
+      "shares": "160,331",
+      "market value ($)": "$50,222,082.44",
+      "weight (%)": "0.77%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936363+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068153+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "ARK ACTIVE AUTOCALL INC ETF",
+      "ticker": "ARKY",
+      "cusip": "00214Q724",
+      "shares": "2,021,283",
+      "market value ($)": "$40,284,170.19",
+      "weight (%)": "0.62%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068157+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "PACIFIC BIOSCIENCES OF CALIF",
       "ticker": "PACB",
       "cusip": "69404D108",
-      "shares": "13,731,672",
-      "market value ($)": "$33,642,596.40",
-      "weight (%)": "0.51%",
+      "shares": "13,298,708",
+      "market value ($)": "$37,635,343.64",
+      "weight (%)": "0.58%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936368+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068162+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "SOFI TECHNOLOGIES INC",
+      "ticker": "SOFI",
+      "cusip": "83406F102",
+      "shares": "2,148,216",
+      "market value ($)": "$36,820,422.24",
+      "weight (%)": "0.57%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068166+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKK",
+      "company": "ELI LILLY & CO",
+      "ticker": "LLY",
+      "cusip": "532457108",
+      "shares": "27,372",
+      "market value ($)": "$35,263,347.60",
+      "weight (%)": "0.54%",
+      "_fund": "ARKK",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.068170+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "CERUS CORP",
       "ticker": "CERS",
       "cusip": "157085101",
-      "shares": "9,034,983",
-      "market value ($)": "$21,683,959.20",
+      "shares": "8,750,097",
+      "market value ($)": "$21,175,234.74",
       "weight (%)": "0.33%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936372+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068174+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKK",
       "company": "BRERA HOLDINGS PLC WTS",
       "ticker": "",
       "cusip": "BREADUMMY",
       "shares": "431,626",
-      "market value ($)": "$513,634.58",
+      "market value ($)": "$612,908.49",
       "weight (%)": "0.01%",
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936376+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068179+00:00"
     },
     {
       "date": "Investors should carefully consider the investment objectives and risks as well as charges and expenses of an ARK ETF before investing. This and other information are contained in the ARK ETFs' prospectuses, which may be obtained on ark-funds.com. The prospectus should be read carefully before investing. An investment in an ARK ETF is subject to risks and you can lose money on your investment in an ARK ETF. There can be no assurance that the ARK ETFs will achieve their investment objectives. The ARK ETFs\u2019 portfolios are more volatile than broad market averages. The ARK ETFs also have specific risks, which are described in the ARK ETFs' prospectuses.Shares of the ARK ETFs may be bought or sold throughout the day at their market price on the exchange on which they are listed. The market price of an ARK ETF's shares may be at, above, or below the ARK ETF\u2019s net asset value (\"NAV\") and will fluctuate with changes in the NAV as well as supply and demand in the market for the shares. The market price of ARK ETF shares may differ significantly from their NAV during periods of market volatility. Shares of the ARK ETFs may only be redeemed directly with the ARK ETFs at NAV by Authorized Participants, in very large creation units. There can be no guarantee that an active trading market for ARK ETF shares will develop or be maintained, or that their listing will continue or remain unchanged. Buying or selling ARK ETF shares on an exchange may require the payment of brokerage commissions, and frequent trading may incur brokerage costs that detract significantly from investment returns. Not FDIC Insured \u2013 No Bank Guarantee \u2013 May Lose ValueAll statements made regarding companies, securities, or other financial information are strictly beliefs and points of view held by ARK Investment Management LLC and/or ARK ETF Trust and are not endorsements by ARK of any company or security or recommendations by ARK to buy, sell or hold any security. Holdings are subject to change without notice.Foreside Fund Services, LLC, distributor.\u00a9 2026. ARK ETF Trust. No part of this material may be reproduced in any form or referred to in any other publication without written permission.",
@@ -609,7 +609,7 @@
       "weight (%)": null,
       "_fund": "ARKK",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.936401+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.068204+00:00"
     },
     {
       "date": "10/06/2026",
@@ -622,7 +622,7 @@
       "weight (%)": "7.51%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946053+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141640+00:00"
     },
     {
       "date": "10/06/2026",
@@ -635,7 +635,7 @@
       "weight (%)": "4.94%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946063+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141653+00:00"
     },
     {
       "date": "10/06/2026",
@@ -648,7 +648,7 @@
       "weight (%)": "4.39%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946069+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141659+00:00"
     },
     {
       "date": "10/06/2026",
@@ -661,7 +661,7 @@
       "weight (%)": "4.38%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946074+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141664+00:00"
     },
     {
       "date": "10/06/2026",
@@ -674,7 +674,7 @@
       "weight (%)": "4.26%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946078+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141669+00:00"
     },
     {
       "date": "10/06/2026",
@@ -687,7 +687,7 @@
       "weight (%)": "4.22%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946083+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141675+00:00"
     },
     {
       "date": "10/06/2026",
@@ -700,7 +700,7 @@
       "weight (%)": "4.09%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946088+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141680+00:00"
     },
     {
       "date": "10/06/2026",
@@ -713,7 +713,7 @@
       "weight (%)": "3.84%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946093+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141685+00:00"
     },
     {
       "date": "10/06/2026",
@@ -726,7 +726,7 @@
       "weight (%)": "3.75%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946098+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141690+00:00"
     },
     {
       "date": "10/06/2026",
@@ -739,7 +739,7 @@
       "weight (%)": "3.73%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946103+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141695+00:00"
     },
     {
       "date": "10/06/2026",
@@ -752,7 +752,7 @@
       "weight (%)": "3.41%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946108+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141700+00:00"
     },
     {
       "date": "10/06/2026",
@@ -765,7 +765,7 @@
       "weight (%)": "3.35%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946113+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141705+00:00"
     },
     {
       "date": "10/06/2026",
@@ -778,7 +778,7 @@
       "weight (%)": "3.24%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946117+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141710+00:00"
     },
     {
       "date": "10/06/2026",
@@ -791,7 +791,7 @@
       "weight (%)": "3.10%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946122+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141714+00:00"
     },
     {
       "date": "10/06/2026",
@@ -804,7 +804,7 @@
       "weight (%)": "2.67%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946126+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141719+00:00"
     },
     {
       "date": "10/06/2026",
@@ -817,7 +817,7 @@
       "weight (%)": "2.59%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946130+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141724+00:00"
     },
     {
       "date": "10/06/2026",
@@ -830,7 +830,7 @@
       "weight (%)": "2.58%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946134+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141729+00:00"
     },
     {
       "date": "10/06/2026",
@@ -843,7 +843,7 @@
       "weight (%)": "2.44%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946139+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141733+00:00"
     },
     {
       "date": "10/06/2026",
@@ -856,7 +856,7 @@
       "weight (%)": "2.33%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946143+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141738+00:00"
     },
     {
       "date": "10/06/2026",
@@ -869,7 +869,7 @@
       "weight (%)": "2.33%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946147+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141743+00:00"
     },
     {
       "date": "10/06/2026",
@@ -882,7 +882,7 @@
       "weight (%)": "2.26%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946152+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141748+00:00"
     },
     {
       "date": "10/06/2026",
@@ -895,7 +895,7 @@
       "weight (%)": "2.09%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946156+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141753+00:00"
     },
     {
       "date": "10/06/2026",
@@ -908,7 +908,7 @@
       "weight (%)": "2.08%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946160+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141758+00:00"
     },
     {
       "date": "10/06/2026",
@@ -921,7 +921,7 @@
       "weight (%)": "1.92%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946164+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141763+00:00"
     },
     {
       "date": "10/06/2026",
@@ -934,7 +934,7 @@
       "weight (%)": "1.90%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946169+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141767+00:00"
     },
     {
       "date": "10/06/2026",
@@ -947,7 +947,7 @@
       "weight (%)": "1.86%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946173+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141772+00:00"
     },
     {
       "date": "10/06/2026",
@@ -960,7 +960,7 @@
       "weight (%)": "1.66%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946178+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141777+00:00"
     },
     {
       "date": "10/06/2026",
@@ -973,7 +973,7 @@
       "weight (%)": "1.53%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946183+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141782+00:00"
     },
     {
       "date": "10/06/2026",
@@ -986,7 +986,7 @@
       "weight (%)": "1.19%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946187+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141787+00:00"
     },
     {
       "date": "10/06/2026",
@@ -999,7 +999,7 @@
       "weight (%)": "1.10%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946192+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141792+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1012,7 +1012,7 @@
       "weight (%)": "1.06%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946197+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141797+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1025,7 +1025,7 @@
       "weight (%)": "1.03%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946298+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141906+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1038,7 +1038,7 @@
       "weight (%)": "0.95%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946306+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141912+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1051,7 +1051,7 @@
       "weight (%)": "0.92%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946310+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141917+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1064,7 +1064,7 @@
       "weight (%)": "0.92%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946315+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141922+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1077,7 +1077,7 @@
       "weight (%)": "0.90%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946319+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141926+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1090,7 +1090,7 @@
       "weight (%)": "0.78%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946324+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141930+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1103,7 +1103,7 @@
       "weight (%)": "0.74%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946328+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141935+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1116,7 +1116,7 @@
       "weight (%)": "0.63%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946337+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141943+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1129,7 +1129,7 @@
       "weight (%)": "0.63%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946341+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141948+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1142,7 +1142,7 @@
       "weight (%)": "0.42%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946348+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141955+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1155,7 +1155,7 @@
       "weight (%)": "0.25%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946353+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141960+00:00"
     },
     {
       "date": "10/06/2026",
@@ -1168,7 +1168,7 @@
       "weight (%)": "0.01%",
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946358+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141964+00:00"
     },
     {
       "date": "Investors should carefully consider the investment objectives and risks as well as charges and expenses of an ARK ETF before investing. This and other information are contained in the ARK ETFs' prospectuses, which may be obtained on ark-funds.com. The prospectus should be read carefully before investing. An investment in an ARK ETF is subject to risks and you can lose money on your investment in an ARK ETF. There can be no assurance that the ARK ETFs will achieve their investment objectives. The ARK ETFs\u2019 portfolios are more volatile than broad market averages. The ARK ETFs also have specific risks, which are described in the ARK ETFs' prospectuses.Shares of the ARK ETFs may be bought or sold throughout the day at their market price on the exchange on which they are listed. The market price of an ARK ETF's shares may be at, above or below the ARK ETF\u2019s net asset value (\"NAV\") and will fluctuate with changes in the NAV as well as supply and demand in the market for the shares. The market price of ARK ETF shares may differ significantly from their NAV during periods of market volatility. Shares of the ARK ETFs may only be redeemed directly with the ARK ETFs at NAV by Authorized Participants, in very large creation units. There can be no guarantee that an active trading market for ARK ETF shares will develop or be maintained, or that their listing will continue or remain unchanged. Buying or selling ARK ETF shares on an exchange may require the payment of brokerage commissions and frequent trading may incur brokerage costs that detract significantly from investment returns. Not FDIC Insured \u2013 No Bank Guarantee \u2013 May Lose ValueAll statements made regarding companies, securities or other financial information are strictly beliefs and points of view held by ARK Investment Management LLC and/or ARK ETF Trust and are not endorsements by ARK of any company or security or recommendations by ARK to buy, sell or hold any security. Holdings are subject to change without notice.Foreside Fund Services, LLC, distributor.\u00a9 2026. ARK ETF Trust. No part of this material may be reproduced in any form, or referred to in any other publication, without written permission.",
@@ -1181,462 +1181,462 @@
       "weight (%)": null,
       "_fund": "ARKW",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.946384+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.141990+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "10X GENOMICS INC-CLASS A",
       "ticker": "TXG",
       "cusip": "88025U109",
-      "shares": "2,544,058",
-      "market value ($)": "$198,487,405.16",
-      "weight (%)": "8.90%",
+      "shares": "2,558,793",
+      "market value ($)": "$213,966,270.66",
+      "weight (%)": "8.98%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957661+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214654+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "TWIST BIOSCIENCE CORP",
       "ticker": "TWST",
       "cusip": "90184D100",
-      "shares": "1,198,980",
-      "market value ($)": "$191,656,953.00",
-      "weight (%)": "8.59%",
+      "shares": "1,205,925",
+      "market value ($)": "$209,167,691.25",
+      "weight (%)": "8.78%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957671+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214667+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "TEMPUS AI INC-CL A",
       "ticker": "TEM",
       "cusip": "88023B103",
-      "shares": "2,554,503",
-      "market value ($)": "$184,307,391.45",
+      "shares": "2,569,303",
+      "market value ($)": "$196,834,302.83",
       "weight (%)": "8.26%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957677+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214673+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "CRISPR THERAPEUTICS AG",
-      "ticker": "CRSP",
-      "cusip": "H17182108",
-      "shares": "2,286,657",
-      "market value ($)": "$117,694,235.79",
-      "weight (%)": "5.28%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957682+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "ABSCI CORP",
       "ticker": "ABSI",
       "cusip": "00091E109",
-      "shares": "10,919,350",
-      "market value ($)": "$115,417,529.50",
-      "weight (%)": "5.18%",
+      "shares": "10,982,610",
+      "market value ($)": "$130,473,406.80",
+      "weight (%)": "5.48%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957689+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214677+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "CRISPR THERAPEUTICS AG",
+      "ticker": "CRSP",
+      "cusip": "H17182108",
+      "shares": "2,299,902",
+      "market value ($)": "$124,447,697.22",
+      "weight (%)": "5.22%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214687+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "GUARDANT HEALTH INC",
       "ticker": "GH",
       "cusip": "40131M109",
-      "shares": "626,410",
-      "market value ($)": "$111,538,564.60",
-      "weight (%)": "5.00%",
+      "shares": "630,035",
+      "market value ($)": "$115,038,090.65",
+      "weight (%)": "4.83%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957694+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214692+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "ILLUMINA INC",
       "ticker": "ILMN",
       "cusip": "452327109",
-      "shares": "384,721",
-      "market value ($)": "$107,517,977.87",
-      "weight (%)": "4.82%",
+      "shares": "386,946",
+      "market value ($)": "$111,746,135.34",
+      "weight (%)": "4.69%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957698+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214696+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "NATERA INC",
       "ticker": "NTRA",
       "cusip": "632307104",
-      "shares": "256,777",
-      "market value ($)": "$105,489,127.14",
-      "weight (%)": "4.73%",
+      "shares": "258,262",
+      "market value ($)": "$109,611,558.04",
+      "weight (%)": "4.60%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957702+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214700+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "ELI LILLY & CO",
-      "ticker": "LLY",
-      "cusip": "532457108",
-      "shares": "67,870",
-      "market value ($)": "$87,003,231.70",
-      "weight (%)": "3.90%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957706+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "CAREDX INC",
-      "ticker": "CDNA",
-      "cusip": "14167L103",
-      "shares": "1,164,727",
-      "market value ($)": "$82,148,195.31",
-      "weight (%)": "3.68%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957711+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "VERACYTE INC",
-      "ticker": "VCYT",
-      "cusip": "92337F107",
-      "shares": "1,615,424",
-      "market value ($)": "$81,223,518.72",
-      "weight (%)": "3.64%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957715+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "BEAM THERAPEUTICS INC",
       "ticker": "BEAM",
       "cusip": "07373V105",
-      "shares": "3,034,112",
-      "market value ($)": "$75,549,388.80",
-      "weight (%)": "3.39%",
+      "shares": "3,056,184",
+      "market value ($)": "$87,956,975.52",
+      "weight (%)": "3.69%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957719+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214704+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
-      "company": "RECURSION PHARMACEUTICALS-A",
-      "ticker": "RXRX",
-      "cusip": "75629V104",
-      "shares": "15,848,004",
-      "market value ($)": "$64,184,416.20",
-      "weight (%)": "2.88%",
+      "company": "ELI LILLY & CO",
+      "ticker": "LLY",
+      "cusip": "532457108",
+      "shares": "68,260",
+      "market value ($)": "$87,939,358.00",
+      "weight (%)": "3.69%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957724+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214709+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
-      "company": "NURIX THERAPEUTICS INC",
-      "ticker": "NRIX",
-      "cusip": "67080M103",
-      "shares": "2,337,928",
-      "market value ($)": "$62,422,677.60",
-      "weight (%)": "2.80%",
+      "company": "CAREDX INC",
+      "ticker": "CDNA",
+      "cusip": "14167L103",
+      "shares": "1,171,472",
+      "market value ($)": "$84,498,275.36",
+      "weight (%)": "3.55%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957728+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214713+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "VERACYTE INC",
+      "ticker": "VCYT",
+      "cusip": "92337F107",
+      "shares": "1,624,779",
+      "market value ($)": "$81,742,631.49",
+      "weight (%)": "3.43%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214717+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "SCHRODINGER INC",
       "ticker": "SDGR",
       "cusip": "80810D103",
-      "shares": "2,334,759",
-      "market value ($)": "$62,384,760.48",
-      "weight (%)": "2.80%",
+      "shares": "2,348,284",
+      "market value ($)": "$72,491,527.08",
+      "weight (%)": "3.04%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957734+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214721+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "RECURSION PHARMACEUTICALS-A",
+      "ticker": "RXRX",
+      "cusip": "75629V104",
+      "shares": "15,939,819",
+      "market value ($)": "$69,338,212.65",
+      "weight (%)": "2.91%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214726+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "NURIX THERAPEUTICS INC",
+      "ticker": "NRIX",
+      "cusip": "67080M103",
+      "shares": "2,351,473",
+      "market value ($)": "$64,101,153.98",
+      "weight (%)": "2.69%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214733+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "COMPASS PATHWAYS PLC",
       "ticker": "CMPS",
       "cusip": "20451W101",
-      "shares": "5,076,229",
-      "market value ($)": "$59,950,264.49",
-      "weight (%)": "2.69%",
+      "shares": "5,105,639",
+      "market value ($)": "$62,697,246.92",
+      "weight (%)": "2.63%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957739+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214740+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "ADAPTIVE BIOTECHNOLOGIES",
       "ticker": "ADPT",
       "cusip": "00650F109",
-      "shares": "1,897,900",
-      "market value ($)": "$52,495,914.00",
-      "weight (%)": "2.35%",
+      "shares": "1,908,895",
+      "market value ($)": "$54,155,351.15",
+      "weight (%)": "2.27%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957743+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214744+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "INTELLIA THERAPEUTICS INC",
       "ticker": "NTLA",
       "cusip": "45826J105",
-      "shares": "3,383,611",
-      "market value ($)": "$41,550,743.08",
-      "weight (%)": "1.86%",
+      "shares": "3,403,211",
+      "market value ($)": "$45,330,770.52",
+      "weight (%)": "1.90%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957748+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214749+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "IONIS PHARMACEUTICALS INC",
-      "ticker": "IONS",
-      "cusip": "462222100",
-      "shares": "906,668",
-      "market value ($)": "$39,857,125.28",
-      "weight (%)": "1.79%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957752+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "BUTTERFLY NETWORK INC",
-      "ticker": "BFLY",
-      "cusip": "124155102",
-      "shares": "5,101,825",
-      "market value ($)": "$37,651,468.50",
-      "weight (%)": "1.69%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957757+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "ALAMAR BIOSCIENCES INC",
-      "ticker": "ALMR",
-      "cusip": "010911105",
-      "shares": "1,160,819",
-      "market value ($)": "$37,064,950.67",
-      "weight (%)": "1.66%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957761+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "PRIME MEDICINE INC",
       "ticker": "PRME",
       "cusip": "74168J101",
-      "shares": "8,034,845",
-      "market value ($)": "$34,951,575.75",
-      "weight (%)": "1.57%",
+      "shares": "8,081,395",
+      "market value ($)": "$43,316,277.20",
+      "weight (%)": "1.82%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957765+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214753+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
-      "company": "GENEDX HOLDINGS CORP",
-      "ticker": "WGS",
-      "cusip": "81663L200",
-      "shares": "535,833",
-      "market value ($)": "$33,618,162.42",
-      "weight (%)": "1.51%",
+      "company": "IONIS PHARMACEUTICALS INC",
+      "ticker": "IONS",
+      "cusip": "462222100",
+      "shares": "911,918",
+      "market value ($)": "$40,945,118.20",
+      "weight (%)": "1.72%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957769+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214757+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "ALAMAR BIOSCIENCES INC",
+      "ticker": "ALMR",
+      "cusip": "010911105",
+      "shares": "1,167,544",
+      "market value ($)": "$40,046,759.20",
+      "weight (%)": "1.68%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214762+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "BUTTERFLY NETWORK INC",
+      "ticker": "BFLY",
+      "cusip": "124155102",
+      "shares": "5,131,380",
+      "market value ($)": "$40,076,077.80",
+      "weight (%)": "1.68%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214766+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "ARCTURUS THERAPEUTICS HOLDIN",
       "ticker": "ARCT UQ",
       "cusip": "03969T109",
-      "shares": "2,967,318",
-      "market value ($)": "$33,322,981.14",
-      "weight (%)": "1.49%",
+      "shares": "2,984,508",
+      "market value ($)": "$36,023,011.56",
+      "weight (%)": "1.51%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957774+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214771+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "GENEDX HOLDINGS CORP",
+      "ticker": "WGS",
+      "cusip": "81663L200",
+      "shares": "538,933",
+      "market value ($)": "$34,863,575.77",
+      "weight (%)": "1.46%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214775+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "PACIFIC BIOSCIENCES OF CALIF",
       "ticker": "PACB",
       "cusip": "69404D108",
-      "shares": "11,683,511",
-      "market value ($)": "$28,624,601.95",
-      "weight (%)": "1.28%",
+      "shares": "11,751,201",
+      "market value ($)": "$33,255,898.83",
+      "weight (%)": "1.40%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957781+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214782+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "908 DEVICES INC",
       "ticker": "MASS",
       "cusip": "65443P102",
-      "shares": "2,037,548",
-      "market value ($)": "$25,184,093.28",
-      "weight (%)": "1.13%",
+      "shares": "2,049,353",
+      "market value ($)": "$26,375,173.11",
+      "weight (%)": "1.11%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957788+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214789+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "FREENOME INC",
-      "ticker": "FRNM",
-      "cusip": "35661P100",
-      "shares": "1,779,256",
-      "market value ($)": "$23,201,498.24",
-      "weight (%)": "1.04%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957792+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "GENERATE BIOMEDICINES INC",
       "ticker": "GENB",
       "cusip": "370920100",
-      "shares": "1,634,350",
-      "market value ($)": "$21,589,763.50",
-      "weight (%)": "0.97%",
+      "shares": "1,643,815",
+      "market value ($)": "$25,281,874.70",
+      "weight (%)": "1.06%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957796+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214794+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "FREENOME INC",
+      "ticker": "FRNM",
+      "cusip": "35661P100",
+      "shares": "1,789,561",
+      "market value ($)": "$24,051,699.84",
+      "weight (%)": "1.01%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214798+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "SCRIBE THERAPEUTICS INC",
       "ticker": "SCTX",
       "cusip": "811033109",
-      "shares": "1,298,109",
-      "market value ($)": "$20,717,819.64",
-      "weight (%)": "0.93%",
+      "shares": "1,305,629",
+      "market value ($)": "$22,900,732.66",
+      "weight (%)": "0.96%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957801+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214803+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "CERUS CORP",
-      "ticker": "CERS",
-      "cusip": "157085101",
-      "shares": "7,993,444",
-      "market value ($)": "$19,184,265.60",
-      "weight (%)": "0.86%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957805+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "IAMBIC THERAPEUTICS INC",
       "ticker": "IAM",
       "cusip": "45076A101",
-      "shares": "1,355,357",
-      "market value ($)": "$18,974,998.00",
+      "shares": "1,363,207",
+      "market value ($)": "$20,148,199.46",
       "weight (%)": "0.85%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957810+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214808+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "CERUS CORP",
+      "ticker": "CERS",
+      "cusip": "157085101",
+      "shares": "8,039,754",
+      "market value ($)": "$19,456,204.68",
+      "weight (%)": "0.82%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214813+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "PERSONALIS INC",
       "ticker": "PSNL",
       "cusip": "71535D106",
-      "shares": "1,164,210",
-      "market value ($)": "$18,604,075.80",
-      "weight (%)": "0.83%",
+      "shares": "1,170,955",
+      "market value ($)": "$18,735,280.00",
+      "weight (%)": "0.79%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957814+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214817+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKG",
-      "company": "GOLDMAN FS TRSY OBLIG INST 468",
-      "ticker": "",
-      "cusip": "X9USDGSFT",
-      "shares": "12,173,132",
-      "market value ($)": "$12,173,131.59",
-      "weight (%)": "0.55%",
-      "_fund": "ARKG",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957819+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "KYMERA THERAPEUTICS INC",
       "ticker": "KYMR",
       "cusip": "501575104",
-      "shares": "104,707",
-      "market value ($)": "$12,310,401.99",
-      "weight (%)": "0.55%",
+      "shares": "105,312",
+      "market value ($)": "$12,901,773.12",
+      "weight (%)": "0.54%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957823+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214821+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKG",
       "company": "QUANTUM-SI INC",
       "ticker": "QSI",
       "cusip": "74765K105",
-      "shares": "7,229,915",
-      "market value ($)": "$11,929,359.75",
+      "shares": "7,271,800",
+      "market value ($)": "$12,507,496.00",
       "weight (%)": "0.53%",
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957831+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214826+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKG",
+      "company": "GOLDMAN FS TRSY OBLIG INST 468",
+      "ticker": "",
+      "cusip": "X9USDGSFT",
+      "shares": "9,649,407",
+      "market value ($)": "$9,649,407.22",
+      "weight (%)": "0.41%",
+      "_fund": "ARKG",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.214832+00:00"
     },
     {
       "date": "Investors should carefully consider the investment objectives and risks as well as charges and expenses of an ARK ETF before investing. This and other information are contained in the ARK ETFs' prospectuses, which may be obtained on ark-funds.com. The prospectus should be read carefully before investing. An investment in an ARK ETF is subject to risks and you can lose money on your investment in an ARK ETF. There can be no assurance that the ARK ETFs will achieve their investment objectives. The ARK ETFs\u2019 portfolios are more volatile than broad market averages. The ARK ETFs also have specific risks, which are described in the ARK ETFs' prospectuses.Shares of the ARK ETFs may be bought or sold throughout the day at their market price on the exchange on which they are listed. The market price of an ARK ETF's shares may be at, above or below the ARK ETF\u2019s net asset value (\"NAV\") and will fluctuate with changes in the NAV as well as supply and demand in the market for the shares. The market price of ARK ETF shares may differ significantly from their NAV during periods of market volatility. Shares of the ARK ETFs may only be redeemed directly with the ARK ETFs at NAV by Authorized Participants, in very large creation units. There can be no guarantee that an active trading market for ARK ETF shares will develop or be maintained, or that their listing will continue or remain unchanged. Buying or selling ARK ETF shares on an exchange may require the payment of brokerage commissions and frequent trading may incur brokerage costs that detract significantly from investment returns. Not FDIC Insured \u2013 No Bank Guarantee \u2013 May Lose ValueAll statements made regarding companies, securities or other financial information are strictly beliefs and points of view held by ARK Investment Management LLC and/or ARK ETF Trust and are not endorsements by ARK of any company or security or recommendations by ARK to buy, sell or hold any security. Holdings are subject to change without notice.Foreside Fund Services, LLC, distributor.\u00a9 2026. ARK ETF Trust. No part of this material may be reproduced in any form, or referred to in any other publication, without written permission.",
@@ -1649,374 +1649,374 @@
       "weight (%)": null,
       "_fund": "ARKG",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.957856+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.214859+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "TESLA INC",
       "ticker": "TSLA",
       "cusip": "88160R101",
       "shares": "565,749",
-      "market value ($)": "$230,520,087.54",
-      "weight (%)": "12.60%",
+      "market value ($)": "$228,687,060.78",
+      "weight (%)": "12.45%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967419+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289365+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "SPACE EXPLORATION TECHN-CL A",
       "ticker": "SPCX",
       "cusip": "84615Q103",
       "shares": "1,065,750",
-      "market value ($)": "$158,349,135.00",
-      "weight (%)": "8.65%",
+      "market value ($)": "$154,778,872.50",
+      "weight (%)": "8.43%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967429+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289379+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "NVIDIA CORP",
       "ticker": "NVDA",
       "cusip": "67066G104",
       "shares": "492,778",
-      "market value ($)": "$107,396,037.32",
-      "weight (%)": "5.87%",
+      "market value ($)": "$106,134,525.64",
+      "weight (%)": "5.78%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967435+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289385+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "KRATOS DEFENSE & SECURITY",
       "ticker": "KTOS",
       "cusip": "50077B207",
       "shares": "2,381,036",
-      "market value ($)": "$98,372,502.34",
-      "weight (%)": "5.38%",
+      "market value ($)": "$98,027,252.12",
+      "weight (%)": "5.34%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967440+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289390+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "PALANTIR TECHNOLOGIES INC-A",
       "ticker": "PLTR",
       "cusip": "69608A108",
       "shares": "478,140",
-      "market value ($)": "$95,020,762.20",
-      "weight (%)": "5.19%",
+      "market value ($)": "$94,102,733.40",
+      "weight (%)": "5.12%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967445+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289395+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "ALPHABET INC-CL C",
       "ticker": "GOOG",
       "cusip": "02079K107",
       "shares": "260,727",
-      "market value ($)": "$82,606,135.41",
-      "weight (%)": "4.51%",
+      "market value ($)": "$83,925,414.03",
+      "weight (%)": "4.57%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967450+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289400+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKQ",
+      "company": "TERADYNE INC",
+      "ticker": "TER",
+      "cusip": "880770102",
+      "shares": "234,044",
+      "market value ($)": "$73,311,942.56",
+      "weight (%)": "3.99%",
+      "_fund": "ARKQ",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.289404+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "ROCKET LAB",
       "ticker": "RKLB UQ",
       "cusip": "773121108",
       "shares": "1,230,208",
-      "market value ($)": "$71,733,428.48",
+      "market value ($)": "$72,090,188.80",
       "weight (%)": "3.92%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967454+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289409+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKQ",
-      "company": "TERADYNE INC",
-      "ticker": "TER",
-      "cusip": "880770102",
-      "shares": "219,200",
-      "market value ($)": "$70,950,656.00",
-      "weight (%)": "3.88%",
-      "_fund": "ARKQ",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967458+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "AMAZON.COM INC",
       "ticker": "AMZN",
       "cusip": "023135106",
       "shares": "261,434",
-      "market value ($)": "$66,168,945.40",
+      "market value ($)": "$66,561,096.40",
       "weight (%)": "3.62%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967468+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289416+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "AEROVIRONMENT INC",
       "ticker": "AVAV",
       "cusip": "008073108",
-      "shares": "469,009",
-      "market value ($)": "$59,437,510.57",
-      "weight (%)": "3.25%",
+      "shares": "479,122",
+      "market value ($)": "$60,345,415.90",
+      "weight (%)": "3.28%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967473+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289423+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKQ",
-      "company": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM",
-      "cusip": "874039100",
-      "shares": "130,402",
-      "market value ($)": "$56,968,721.74",
-      "weight (%)": "3.11%",
-      "_fund": "ARKQ",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967477+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "L3HARRIS TECHNOLOGIES INC",
       "ticker": "LHX",
       "cusip": "502431109",
       "shares": "217,005",
-      "market value ($)": "$56,291,097.00",
+      "market value ($)": "$56,553,673.05",
       "weight (%)": "3.08%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967482+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289428+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKQ",
+      "company": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM",
+      "cusip": "874039100",
+      "shares": "122,911",
+      "market value ($)": "$54,020,613.61",
+      "weight (%)": "2.94%",
+      "_fund": "ARKQ",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.289433+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "cusip": "007903107",
-      "shares": "96,139",
-      "market value ($)": "$53,862,836.14",
-      "weight (%)": "2.94%",
+      "shares": "92,004",
+      "market value ($)": "$53,218,793.76",
+      "weight (%)": "2.90%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967486+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289437+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "DEERE & CO",
       "ticker": "DE",
       "cusip": "244199105",
       "shares": "82,800",
-      "market value ($)": "$52,957,224.00",
+      "market value ($)": "$53,047,476.00",
       "weight (%)": "2.89%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967491+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289442+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "ARCHER AVIATION INC-A",
       "ticker": "ACHR",
       "cusip": "03945R102",
-      "shares": "10,715,021",
-      "market value ($)": "$45,324,538.83",
-      "weight (%)": "2.48%",
+      "shares": "11,364,261",
+      "market value ($)": "$49,320,892.74",
+      "weight (%)": "2.68%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967495+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289446+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "TRIMBLE INC",
       "ticker": "TRMB",
       "cusip": "896239100",
       "shares": "670,650",
-      "market value ($)": "$42,358,254.00",
-      "weight (%)": "2.31%",
+      "market value ($)": "$43,156,327.50",
+      "weight (%)": "2.35%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967499+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289450+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "BROADCOM INC",
       "ticker": "AVGO",
       "cusip": "11135F101",
       "shares": "121,590",
-      "market value ($)": "$41,623,904.70",
-      "weight (%)": "2.27%",
+      "market value ($)": "$42,776,577.90",
+      "weight (%)": "2.33%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967504+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289455+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKQ",
-      "company": "KOMATSU LTD -SPONS ADR",
-      "ticker": "KMTUY",
-      "cusip": "500458401",
-      "shares": "785,875",
-      "market value ($)": "$34,224,856.25",
-      "weight (%)": "1.87%",
-      "_fund": "ARKQ",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967508+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "SYMBOTIC INC",
       "ticker": "SYM UQ",
       "cusip": "87151X101",
       "shares": "873,751",
-      "market value ($)": "$34,058,813.98",
-      "weight (%)": "1.86%",
+      "market value ($)": "$34,050,076.47",
+      "weight (%)": "1.85%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967515+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289459+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKQ",
+      "company": "KOMATSU LTD -SPONS ADR",
+      "ticker": "KMTUY",
+      "cusip": "500458401",
+      "shares": "785,875",
+      "market value ($)": "$33,831,918.75",
+      "weight (%)": "1.84%",
+      "_fund": "ARKQ",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.289466+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "INTUITIVE SURGICAL INC",
       "ticker": "ISRG",
       "cusip": "46120E602",
       "shares": "72,537",
-      "market value ($)": "$32,342,797.56",
-      "weight (%)": "1.77%",
+      "market value ($)": "$32,219,484.66",
+      "weight (%)": "1.75%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967519+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289470+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "INTUITIVE MACHINES INC",
       "ticker": "LUNR",
       "cusip": "46125A100",
       "shares": "2,602,346",
-      "market value ($)": "$30,083,119.76",
+      "market value ($)": "$30,161,190.14",
       "weight (%)": "1.64%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967525+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289477+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "AURORA INNOVATION INC",
       "ticker": "AUR",
       "cusip": "051774107",
       "shares": "5,617,734",
-      "market value ($)": "$28,762,798.08",
-      "weight (%)": "1.57%",
+      "market value ($)": "$28,594,266.06",
+      "weight (%)": "1.56%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967530+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289481+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKQ",
+      "company": "JOBY AVIATION INC",
+      "ticker": "JOBY",
+      "cusip": "G65163100",
+      "shares": "5,433,710",
+      "market value ($)": "$27,603,246.80",
+      "weight (%)": "1.50%",
+      "_fund": "ARKQ",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.289486+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "BWX TECHNOLOGIES INC",
       "ticker": "BWXT",
       "cusip": "05605H100",
       "shares": "202,778",
-      "market value ($)": "$27,186,446.46",
+      "market value ($)": "$27,366,918.88",
       "weight (%)": "1.49%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967536+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289490+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "CAMECO CORP",
       "ticker": "CCJ",
       "cusip": "13321L108",
       "shares": "319,137",
-      "market value ($)": "$26,300,080.17",
-      "weight (%)": "1.44%",
+      "market value ($)": "$26,756,446.08",
+      "weight (%)": "1.46%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967540+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289494+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "DOORDASH INC - A",
       "ticker": "DASH",
       "cusip": "25809K105",
       "shares": "149,096",
-      "market value ($)": "$25,429,813.76",
-      "weight (%)": "1.39%",
+      "market value ($)": "$25,270,281.04",
+      "weight (%)": "1.38%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967544+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289498+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKQ",
-      "company": "JOBY AVIATION INC",
-      "ticker": "JOBY",
-      "cusip": "G65163100",
-      "shares": "4,991,615",
-      "market value ($)": "$25,007,991.15",
-      "weight (%)": "1.37%",
-      "_fund": "ARKQ",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967548+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "CATERPILLAR INC",
       "ticker": "CAT",
       "cusip": "149123101",
       "shares": "32,233",
-      "market value ($)": "$22,992,121.23",
-      "weight (%)": "1.26%",
+      "market value ($)": "$22,994,377.54",
+      "weight (%)": "1.25%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967552+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289503+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "SYNOPSYS INC",
       "ticker": "SNPS",
       "cusip": "871607107",
       "shares": "42,981",
-      "market value ($)": "$20,391,046.02",
-      "weight (%)": "1.11%",
+      "market value ($)": "$20,712,114.09",
+      "weight (%)": "1.13%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967557+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289507+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "X-ENERGY INC",
       "ticker": "XE",
@@ -2026,111 +2026,111 @@
       "weight (%)": "1.10%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967561+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289511+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "ELBIT SYSTEMS LTD",
       "ticker": "ESLT",
       "cusip": "M3760D101",
       "shares": "24,658",
-      "market value ($)": "$19,479,820.00",
-      "weight (%)": "1.06%",
+      "market value ($)": "$19,215,486.24",
+      "weight (%)": "1.05%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967566+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289516+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKQ",
-      "company": "OKLO INC",
-      "ticker": "OKLO",
-      "cusip": "02156V109",
-      "shares": "638,874",
-      "market value ($)": "$17,460,426.42",
-      "weight (%)": "0.95%",
-      "_fund": "ARKQ",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967573+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "WERIDE INC-ADR",
       "ticker": "WRD",
       "cusip": "950915108",
       "shares": "3,987,097",
-      "market value ($)": "$17,423,613.89",
-      "weight (%)": "0.95%",
+      "market value ($)": "$18,021,678.44",
+      "weight (%)": "0.98%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967577+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289523+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKQ",
+      "company": "OKLO INC",
+      "ticker": "OKLO",
+      "cusip": "02156V109",
+      "shares": "638,874",
+      "market value ($)": "$17,326,262.88",
+      "weight (%)": "0.94%",
+      "_fund": "ARKQ",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.289528+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "PONY AI INC",
       "ticker": "PONY",
       "cusip": "732908108",
       "shares": "3,126,445",
-      "market value ($)": "$15,851,076.15",
-      "weight (%)": "0.87%",
+      "market value ($)": "$15,788,547.25",
+      "weight (%)": "0.86%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967581+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289532+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "BAIDU INC - SPON ADR",
       "ticker": "BIDU",
       "cusip": "056752108",
       "shares": "197,023",
-      "market value ($)": "$15,420,990.21",
-      "weight (%)": "0.84%",
+      "market value ($)": "$15,663,328.50",
+      "weight (%)": "0.85%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967586+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289537+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "BYD CO LTD-UNSPONSORED ADR",
       "ticker": "BYDDY",
       "cusip": "05606L100",
       "shares": "1,618,276",
-      "market value ($)": "$14,515,935.72",
+      "market value ($)": "$14,435,021.92",
       "weight (%)": "0.79%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967590+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289541+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "KODIAK AI INC",
       "ticker": "KDK",
       "cusip": "500081104",
-      "shares": "6,590,802",
-      "market value ($)": "$7,381,698.24",
-      "weight (%)": "0.40%",
+      "shares": "6,868,693",
+      "market value ($)": "$8,997,987.83",
+      "weight (%)": "0.49%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967594+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289546+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKQ",
       "company": "GOLDMAN FS TRSY OBLIG INST 468",
       "ticker": "",
       "cusip": "X9USDGSFT",
-      "shares": "5,372,366",
-      "market value ($)": "$5,372,365.86",
-      "weight (%)": "0.29%",
+      "shares": "7,870,116",
+      "market value ($)": "$7,870,115.86",
+      "weight (%)": "0.43%",
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967599+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289551+00:00"
     },
     {
       "date": "Investors should carefully consider the investment objectives and risks as well as charges and expenses of an ARK ETF before investing. This and other information are contained in the ARK ETFs' prospectuses, which may be obtained on ark-funds.com. The prospectus should be read carefully before investing. An investment in an ARK ETF is subject to risks and you can lose money on your investment in an ARK ETF. There can be no assurance that the ARK ETFs will achieve their investment objectives. The ARK ETFs\u2019 portfolios are more volatile than broad market averages. The ARK ETFs also have specific risks, which are described in the ARK ETFs' prospectuses.Shares of the ARK ETFs may be bought or sold throughout the day at their market price on the exchange on which they are listed. The market price of an ARK ETF's shares may be at, above or below the ARK ETF\u2019s net asset value (\"NAV\") and will fluctuate with changes in the NAV as well as supply and demand in the market for the shares. The market price of ARK ETF shares may differ significantly from their NAV during periods of market volatility. Shares of the ARK ETFs may only be redeemed directly with the ARK ETFs at NAV by Authorized Participants, in very large creation units. There can be no guarantee that an active trading market for ARK ETF shares will develop or be maintained, or that their listing will continue or remain unchanged. Buying or selling ARK ETF shares on an exchange may require the payment of brokerage commissions and frequent trading may incur brokerage costs that detract significantly from investment returns. Not FDIC Insured \u2013 No Bank Guarantee \u2013 May Lose ValueAll statements made regarding companies, securities or other financial information are strictly beliefs and points of view held by ARK Investment Management LLC and/or ARK ETF Trust and are not endorsements by ARK of any company or security or recommendations by ARK to buy, sell or hold any security. Holdings are subject to change without notice.Foreside Fund Services, LLC, distributor.\u00a9 2026. ARK ETF Trust. No part of this material may be reproduced in any form, or referred to in any other publication, without written permission.",
@@ -2143,309 +2143,309 @@
       "weight (%)": null,
       "_fund": "ARKQ",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.967626+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.289576+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "SHOPIFY INC - CLASS A",
       "ticker": "SHOP",
       "cusip": "82509L107",
       "shares": "411,372",
-      "market value ($)": "$68,209,591.32",
-      "weight (%)": "8.90%",
+      "market value ($)": "$69,200,997.84",
+      "weight (%)": "9.06%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978477+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364924+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "BLOCK INC",
       "ticker": "XYZ",
       "cusip": "852234103",
       "shares": "828,215",
-      "market value ($)": "$62,008,457.05",
-      "weight (%)": "8.09%",
+      "market value ($)": "$62,290,050.15",
+      "weight (%)": "8.15%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978487+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364937+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "CIRCLE INTERNET GROUP INC",
       "ticker": "CRCL",
       "cusip": "172573107",
       "shares": "578,443",
-      "market value ($)": "$47,189,379.94",
-      "weight (%)": "6.16%",
+      "market value ($)": "$47,264,577.53",
+      "weight (%)": "6.18%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978493+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364943+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "COINBASE GLOBAL INC -CLASS A",
       "ticker": "COIN",
       "cusip": "19260Q107",
       "shares": "249,709",
-      "market value ($)": "$40,225,622.81",
-      "weight (%)": "5.25%",
+      "market value ($)": "$40,532,764.88",
+      "weight (%)": "5.30%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978498+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364948+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "ROBINHOOD MARKETS INC - A",
       "ticker": "HOOD",
       "cusip": "770700102",
-      "shares": "387,526",
-      "market value ($)": "$36,644,458.56",
+      "shares": "399,641",
+      "market value ($)": "$36,539,176.63",
       "weight (%)": "4.78%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978503+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364953+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "PALANTIR TECHNOLOGIES INC-A",
       "ticker": "PLTR",
       "cusip": "69608A108",
       "shares": "179,580",
-      "market value ($)": "$35,687,933.40",
-      "weight (%)": "4.66%",
+      "market value ($)": "$35,343,139.80",
+      "weight (%)": "4.62%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978507+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364958+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "META PLATFORMS INC-CLASS A",
       "ticker": "META",
       "cusip": "30303M102",
       "shares": "56,734",
-      "market value ($)": "$35,185,859.46",
-      "weight (%)": "4.59%",
+      "market value ($)": "$34,749,007.66",
+      "weight (%)": "4.55%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978516+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364962+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "TOAST INC-CLASS A",
       "ticker": "TOST",
       "cusip": "888787108",
       "shares": "1,005,806",
-      "market value ($)": "$31,954,456.62",
-      "weight (%)": "4.17%",
+      "market value ($)": "$32,125,443.64",
+      "weight (%)": "4.20%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978521+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364966+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "OPENAI GROUP PBC SERIES C",
       "ticker": "",
       "cusip": "PPOPENAIC",
       "shares": "31,991",
       "market value ($)": "$31,349,055.80",
-      "weight (%)": "4.09%",
+      "weight (%)": "4.10%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978525+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364971+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKF",
-      "company": "ARK BITCOIN ETF HOLDCO (ARKF)",
-      "ticker": "",
-      "cusip": "MM005473T",
-      "shares": "1,098,464",
-      "market value ($)": "$29,389,404.32",
-      "weight (%)": "3.84%",
-      "_fund": "ARKF",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978530+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "AMAZON.COM INC",
       "ticker": "AMZN",
       "cusip": "023135106",
       "shares": "114,181",
-      "market value ($)": "$28,899,211.10",
-      "weight (%)": "3.77%",
+      "market value ($)": "$29,070,482.60",
+      "weight (%)": "3.80%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978539+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364976+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKF",
+      "company": "ARK BITCOIN ETF HOLDCO (ARKF)",
+      "ticker": "",
+      "cusip": "MM005473T",
+      "shares": "1,056,100",
+      "market value ($)": "$28,535,822.00",
+      "weight (%)": "3.73%",
+      "_fund": "ARKF",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.364985+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "NVIDIA CORP",
       "ticker": "NVDA",
       "cusip": "67066G104",
       "shares": "109,146",
-      "market value ($)": "$23,787,279.24",
-      "weight (%)": "3.11%",
+      "market value ($)": "$23,507,865.48",
+      "weight (%)": "3.08%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978543+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364990+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "MERCADOLIBRE INC",
       "ticker": "MELI",
       "cusip": "58733R102",
       "shares": "13,395",
-      "market value ($)": "$22,510,431.45",
-      "weight (%)": "2.94%",
+      "market value ($)": "$22,411,040.55",
+      "weight (%)": "2.93%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978548+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364994+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "BULLISH",
       "ticker": "BLSH",
       "cusip": "G16910120",
       "shares": "726,843",
-      "market value ($)": "$21,034,836.42",
-      "weight (%)": "2.75%",
+      "market value ($)": "$20,882,199.39",
+      "weight (%)": "2.73%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978552+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.364998+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "AIRBNB INC-CLASS A",
       "ticker": "ABNB",
       "cusip": "009066101",
       "shares": "120,040",
-      "market value ($)": "$20,265,152.80",
-      "weight (%)": "2.65%",
+      "market value ($)": "$19,932,041.80",
+      "weight (%)": "2.61%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978556+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365002+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKF",
-      "company": "CROWDSTRIKE HOLDINGS INC - A",
-      "ticker": "CRWD",
-      "cusip": "22788C105",
-      "shares": "69,089",
-      "market value ($)": "$18,517,233.78",
-      "weight (%)": "2.42%",
-      "_fund": "ARKF",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978560+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "SOFI TECHNOLOGIES INC",
       "ticker": "SOFI",
       "cusip": "83406F102",
       "shares": "1,108,260",
-      "market value ($)": "$18,175,464.00",
-      "weight (%)": "2.37%",
+      "market value ($)": "$18,995,576.40",
+      "weight (%)": "2.49%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978564+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365007+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKF",
+      "company": "CROWDSTRIKE HOLDINGS INC - A",
+      "ticker": "CRWD",
+      "cusip": "22788C105",
+      "shares": "69,089",
+      "market value ($)": "$18,423,272.74",
+      "weight (%)": "2.41%",
+      "_fund": "ARKF",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.365011+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "ROBLOX CORP -CLASS A",
       "ticker": "RBLX",
       "cusip": "771049103",
       "shares": "312,046",
-      "market value ($)": "$16,997,145.62",
-      "weight (%)": "2.22%",
+      "market value ($)": "$16,625,810.88",
+      "weight (%)": "2.18%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978569+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365015+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "BITMINE IMMERSION TECHNOLOGI",
       "ticker": "BMNR",
       "cusip": "09175A206",
       "shares": "715,746",
-      "market value ($)": "$15,474,428.52",
-      "weight (%)": "2.02%",
+      "market value ($)": "$15,782,199.30",
+      "weight (%)": "2.07%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978573+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365020+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKF",
-      "company": "ADYEN NV",
-      "ticker": "ADYEN",
-      "cusip": "BZ1HM42",
-      "shares": "13,934",
-      "market value ($)": "$14,647,931.49",
-      "weight (%)": "1.91%",
-      "_fund": "ARKF",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978577+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "cusip": "007903107",
       "shares": "25,558",
-      "market value ($)": "$14,319,125.08",
-      "weight (%)": "1.87%",
+      "market value ($)": "$14,783,769.52",
+      "weight (%)": "1.93%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978583+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365024+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "SPOTIFY TECHNOLOGY SA",
       "ticker": "SPOT",
       "cusip": "L8681T102",
       "shares": "25,801",
-      "market value ($)": "$14,331,165.45",
-      "weight (%)": "1.87%",
+      "market value ($)": "$13,891,258.40",
+      "weight (%)": "1.82%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978588+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365035+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "NU HOLDINGS LTD/CAYMAN ISL-A",
       "ticker": "NU UN",
       "cusip": "G6683N103",
       "shares": "1,131,177",
-      "market value ($)": "$14,026,594.80",
-      "weight (%)": "1.83%",
+      "market value ($)": "$13,540,188.69",
+      "weight (%)": "1.77%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978598+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365039+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKF",
+      "company": "ADYEN NV",
+      "ticker": "ADYEN",
+      "cusip": "BZ1HM42",
+      "shares": "13,934",
+      "market value ($)": "$12,721,847.45",
+      "weight (%)": "1.66%",
+      "_fund": "ARKF",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.365046+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "KALSHI INC.",
       "ticker": "",
@@ -2455,166 +2455,166 @@
       "weight (%)": "1.57%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978602+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365050+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKF",
-      "company": "DOORDASH INC - A",
-      "ticker": "DASH",
-      "cusip": "25809K105",
-      "shares": "65,449",
-      "market value ($)": "$11,162,981.44",
-      "weight (%)": "1.46%",
-      "_fund": "ARKF",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978607+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "SEA LTD-ADR",
       "ticker": "SE",
       "cusip": "81141R100",
       "shares": "148,497",
-      "market value ($)": "$11,097,180.81",
+      "market value ($)": "$11,164,004.46",
+      "weight (%)": "1.46%",
+      "_fund": "ARKF",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.365055+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKF",
+      "company": "DOORDASH INC - A",
+      "ticker": "DASH",
+      "cusip": "25809K105",
+      "shares": "65,449",
+      "market value ($)": "$11,092,951.01",
       "weight (%)": "1.45%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978611+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365059+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "FUTU HOLDINGS LTD-ADR",
       "ticker": "FUTU",
       "cusip": "36118L106",
       "shares": "104,663",
-      "market value ($)": "$10,713,304.68",
-      "weight (%)": "1.40%",
+      "market value ($)": "$10,657,833.29",
+      "weight (%)": "1.39%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978615+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365064+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "KLARNA GROUP PLC",
       "ticker": "KLAR",
       "cusip": "G5279N105",
       "shares": "789,022",
-      "market value ($)": "$10,012,689.18",
-      "weight (%)": "1.31%",
+      "market value ($)": "$10,383,529.52",
+      "weight (%)": "1.36%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978619+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365068+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKF",
-      "company": "CLOUDFLARE INC - CLASS A",
-      "ticker": "NET",
-      "cusip": "18915M107",
-      "shares": "29,696",
-      "market value ($)": "$9,734,348.80",
-      "weight (%)": "1.27%",
-      "_fund": "ARKF",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978624+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "SECURITIZE CORP",
       "ticker": "SECZ",
       "cusip": "81517B101",
       "shares": "1,149,790",
-      "market value ($)": "$9,382,286.40",
-      "weight (%)": "1.22%",
+      "market value ($)": "$9,577,750.70",
+      "weight (%)": "1.25%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978629+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365072+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKF",
+      "company": "CLOUDFLARE INC - CLASS A",
+      "ticker": "NET",
+      "cusip": "18915M107",
+      "shares": "29,696",
+      "market value ($)": "$9,464,709.12",
+      "weight (%)": "1.24%",
+      "_fund": "ARKF",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.365076+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "GENIUS SPORTS LTD",
       "ticker": "GENI",
       "cusip": "G3934V109",
       "shares": "1,278,166",
-      "market value ($)": "$8,078,009.12",
-      "weight (%)": "1.05%",
+      "market value ($)": "$8,116,354.10",
+      "weight (%)": "1.06%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978636+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365081+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "ETORO GROUP LTD-A",
       "ticker": "ETOR",
       "cusip": "G32089107",
       "shares": "241,533",
-      "market value ($)": "$5,721,916.77",
+      "market value ($)": "$5,702,594.13",
       "weight (%)": "0.75%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978640+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365085+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "3IQ ETHER STAKING ETF",
       "ticker": "ETHQ/U",
       "cusip": "BQ84B35",
       "shares": "484,735",
-      "market value ($)": "$4,352,920.30",
-      "weight (%)": "0.57%",
+      "market value ($)": "$4,440,172.60",
+      "weight (%)": "0.58%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978645+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365089+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "JSC KASPI.KZ ADR",
       "ticker": "KSPI",
       "cusip": "BJY21K1",
       "shares": "38,926",
-      "market value ($)": "$3,534,091.54",
-      "weight (%)": "0.46%",
+      "market value ($)": "$3,561,339.74",
+      "weight (%)": "0.47%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978649+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365094+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "3IQ SOLANA STAKING ETF",
       "ticker": "SOLQ/U",
       "cusip": "BTRDQ40",
       "shares": "404,097",
-      "market value ($)": "$3,333,800.25",
-      "weight (%)": "0.44%",
+      "market value ($)": "$3,406,537.71",
+      "weight (%)": "0.45%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978656+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365100+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "PAYPAY CORP",
       "ticker": "PAYP",
       "cusip": "70450C101",
       "shares": "229,644",
-      "market value ($)": "$3,316,059.36",
+      "market value ($)": "$3,267,834.12",
       "weight (%)": "0.43%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978660+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365105+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "GOLDMAN FS TRSY OBLIG INST 468",
       "ticker": "",
@@ -2624,33 +2624,33 @@
       "weight (%)": "0.26%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978664+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365109+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "CANTON STRATEGIC HOLDINGS IN",
       "ticker": "CNTN",
       "cusip": "432705309",
       "shares": "380,123",
-      "market value ($)": "$726,034.93",
-      "weight (%)": "0.09%",
+      "market value ($)": "$775,450.92",
+      "weight (%)": "0.10%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978669+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365114+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKF",
       "company": "BRERA HOLDINGS PLC WTS",
       "ticker": "",
       "cusip": "BREADUMMY",
       "shares": "78,805",
-      "market value ($)": "$93,778.31",
+      "market value ($)": "$111,903.53",
       "weight (%)": "0.01%",
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978673+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365118+00:00"
     },
     {
       "date": "Investors should carefully consider the investment objectives and risks as well as charges and expenses of an ARK ETF before investing. This and other information are contained in the ARK ETFs' prospectuses, which may be obtained on ark-funds.com. The prospectus should be read carefully before investing. An investment in an ARK ETF is subject to risks and you can lose money on your investment in an ARK ETF. There can be no assurance that the ARK ETFs will achieve their investment objectives. The ARK ETFs\u2019 portfolios are more volatile than broad market averages. The ARK ETFs also have specific risks, which are described in the ARK ETFs' prospectuses.Shares of the ARK ETFs may be bought or sold throughout the day at their market price on the exchange on which they are listed. The market price of an ARK ETF's shares may be at, above or below the ARK ETF\u2019s net asset value (\"NAV\") and will fluctuate with changes in the NAV as well as supply and demand in the market for the shares. The market price of ARK ETF shares may differ significantly from their NAV during periods of market volatility. Shares of the ARK ETFs may only be redeemed directly with the ARK ETFs at NAV by Authorized Participants, in very large creation units. There can be no guarantee that an active trading market for ARK ETF shares will develop or be maintained, or that their listing will continue or remain unchanged. Buying or selling ARK ETF shares on an exchange may require the payment of brokerage commissions and frequent trading may incur brokerage costs that detract significantly from investment returns. Not FDIC Insured \u2013 No Bank Guarantee \u2013 May Lose ValueAll statements made regarding companies, securities or other financial information are strictly beliefs and points of view held by ARK Investment Management LLC and/or ARK ETF Trust and are not endorsements by ARK of any company or security or recommendations by ARK to buy, sell or hold any security. Holdings are subject to change without notice.Foreside Fund Services, LLC, distributor.\u00a9 2026. ARK ETF Trust. No part of this material may be reproduced in any form, or referred to in any other publication, without written permission.",
@@ -2663,348 +2663,348 @@
       "weight (%)": null,
       "_fund": "ARKF",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.978698+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.365143+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "SPACE EXPLORATION TECHN-CL A",
       "ticker": "SPCX",
       "cusip": "84615Q103",
       "shares": "526,061",
-      "market value ($)": "$78,162,143.38",
-      "weight (%)": "11.06%",
+      "market value ($)": "$76,399,839.03",
+      "weight (%)": "10.77%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988728+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.438986+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "L3HARRIS TECHNOLOGIES INC",
       "ticker": "LHX",
       "cusip": "502431109",
       "shares": "190,914",
-      "market value ($)": "$49,523,091.60",
+      "market value ($)": "$49,754,097.54",
       "weight (%)": "7.01%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988738+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.438998+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "KRATOS DEFENSE & SECURITY",
       "ticker": "KTOS",
       "cusip": "50077B207",
       "shares": "1,010,701",
-      "market value ($)": "$41,757,111.82",
-      "weight (%)": "5.91%",
+      "market value ($)": "$41,610,560.17",
+      "weight (%)": "5.86%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988744+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439004+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "AEROVIRONMENT INC",
       "ticker": "AVAV",
       "cusip": "008073108",
-      "shares": "309,140",
-      "market value ($)": "$39,177,312.20",
-      "weight (%)": "5.54%",
+      "shares": "313,618",
+      "market value ($)": "$39,500,187.10",
+      "weight (%)": "5.57%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988748+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439008+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "DEERE & CO",
       "ticker": "DE",
       "cusip": "244199105",
       "shares": "61,049",
-      "market value ($)": "$39,045,719.42",
-      "weight (%)": "5.53%",
+      "market value ($)": "$39,112,262.83",
+      "weight (%)": "5.51%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988753+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439013+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "ROCKET LAB",
       "ticker": "RKLB UQ",
       "cusip": "773121108",
       "shares": "645,066",
-      "market value ($)": "$37,613,798.46",
-      "weight (%)": "5.32%",
+      "market value ($)": "$37,800,867.60",
+      "weight (%)": "5.33%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988758+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439023+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "NVIDIA CORP",
       "ticker": "NVDA",
       "cusip": "67066G104",
       "shares": "172,103",
-      "market value ($)": "$37,508,127.82",
-      "weight (%)": "5.31%",
+      "market value ($)": "$37,067,544.14",
+      "weight (%)": "5.22%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988766+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439028+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "AMAZON.COM INC",
       "ticker": "AMZN",
       "cusip": "023135106",
       "shares": "130,299",
-      "market value ($)": "$32,978,676.90",
-      "weight (%)": "4.67%",
+      "market value ($)": "$33,174,125.40",
+      "weight (%)": "4.68%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988771+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439032+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "PALANTIR TECHNOLOGIES INC-A",
       "ticker": "PLTR",
       "cusip": "69608A108",
       "shares": "144,795",
-      "market value ($)": "$28,775,110.35",
-      "weight (%)": "4.07%",
+      "market value ($)": "$28,497,103.95",
+      "weight (%)": "4.02%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988775+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439037+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "TESLA INC",
       "ticker": "TSLA",
       "cusip": "88160R101",
       "shares": "68,622",
-      "market value ($)": "$27,960,720.12",
-      "weight (%)": "3.96%",
+      "market value ($)": "$27,738,384.84",
+      "weight (%)": "3.91%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988782+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439041+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "ALPHABET INC-CL C",
       "ticker": "GOOG",
       "cusip": "02079K107",
       "shares": "85,836",
-      "market value ($)": "$27,195,419.88",
-      "weight (%)": "3.85%",
+      "market value ($)": "$27,629,750.04",
+      "weight (%)": "3.89%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988789+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439048+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "TRIMBLE INC",
       "ticker": "TRMB",
       "cusip": "896239100",
       "shares": "415,016",
-      "market value ($)": "$26,212,410.56",
-      "weight (%)": "3.71%",
+      "market value ($)": "$26,706,279.60",
+      "weight (%)": "3.76%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988793+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439052+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "ARCHER AVIATION INC-A",
       "ticker": "ACHR",
       "cusip": "03945R102",
-      "shares": "5,510,209",
-      "market value ($)": "$23,308,184.07",
-      "weight (%)": "3.30%",
+      "shares": "5,828,844",
+      "market value ($)": "$25,297,182.96",
+      "weight (%)": "3.57%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988798+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439056+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "KOMATSU LTD",
       "ticker": "6301",
       "cusip": "6496584",
       "shares": "509,825",
-      "market value ($)": "$22,000,679.91",
-      "weight (%)": "3.11%",
+      "market value ($)": "$21,995,805.11",
+      "weight (%)": "3.10%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988802+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439061+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "cusip": "007903107",
-      "shares": "37,132",
-      "market value ($)": "$20,803,574.32",
-      "weight (%)": "2.94%",
+      "shares": "35,532",
+      "market value ($)": "$20,553,130.08",
+      "weight (%)": "2.90%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988806+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439065+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "TERADYNE INC",
       "ticker": "TER",
       "cusip": "880770102",
-      "shares": "58,998",
-      "market value ($)": "$19,096,472.64",
-      "weight (%)": "2.70%",
+      "shares": "64,753",
+      "market value ($)": "$20,283,229.72",
+      "weight (%)": "2.86%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988811+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439069+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "INTUITIVE MACHINES INC",
       "ticker": "LUNR",
       "cusip": "46125A100",
       "shares": "1,393,825",
-      "market value ($)": "$16,112,617.00",
+      "market value ($)": "$16,154,431.75",
       "weight (%)": "2.28%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988815+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439076+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "JOBY AVIATION INC",
       "ticker": "JOBY",
       "cusip": "G65163100",
-      "shares": "2,893,003",
-      "market value ($)": "$14,493,945.03",
-      "weight (%)": "2.05%",
+      "shares": "3,104,600",
+      "market value ($)": "$15,771,368.00",
+      "weight (%)": "2.22%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988821+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439080+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "DOORDASH INC - A",
       "ticker": "DASH",
       "cusip": "25809K105",
       "shares": "71,142",
-      "market value ($)": "$12,133,979.52",
-      "weight (%)": "1.72%",
+      "market value ($)": "$12,057,857.58",
+      "weight (%)": "1.70%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988826+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439084+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "THALES SA",
       "ticker": "HO",
       "cusip": "4162791",
       "shares": "45,900",
-      "market value ($)": "$11,970,935.09",
+      "market value ($)": "$11,982,956.45",
       "weight (%)": "1.69%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988830+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439088+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKX",
-      "company": "GARMIN LTD",
-      "ticker": "GRMN UN",
-      "cusip": "B3Z5T14",
-      "shares": "38,796",
-      "market value ($)": "$11,225,234.64",
-      "weight (%)": "1.59%",
-      "_fund": "ARKX",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988836+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "HEICO CORP",
       "ticker": "HEI",
       "cusip": "422806109",
       "shares": "35,632",
-      "market value ($)": "$11,004,230.56",
+      "market value ($)": "$11,075,138.24",
       "weight (%)": "1.56%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988840+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439094+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKX",
+      "company": "GARMIN LTD",
+      "ticker": "GRMN UN",
+      "cusip": "B3Z5T14",
+      "shares": "38,796",
+      "market value ($)": "$10,572,297.96",
+      "weight (%)": "1.49%",
+      "_fund": "ARKX",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.439099+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "BWX TECHNOLOGIES INC",
       "ticker": "BWXT",
       "cusip": "05605H100",
       "shares": "77,430",
-      "market value ($)": "$10,381,040.10",
+      "market value ($)": "$10,449,952.80",
       "weight (%)": "1.47%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988845+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439103+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "ELBIT SYSTEMS LTD",
       "ticker": "ESLT",
       "cusip": "M3760D101",
       "shares": "11,666",
-      "market value ($)": "$9,216,140.00",
-      "weight (%)": "1.30%",
+      "market value ($)": "$9,091,080.48",
+      "weight (%)": "1.28%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988849+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439107+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "TELEDYNE TECHNOLOGIES INC",
       "ticker": "TDY",
       "cusip": "879360105",
       "shares": "12,993",
-      "market value ($)": "$8,510,285.07",
-      "weight (%)": "1.20%",
+      "market value ($)": "$8,647,621.08",
+      "weight (%)": "1.22%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988853+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439112+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "SYNOPSYS INC",
       "ticker": "SNPS",
       "cusip": "871607107",
       "shares": "17,456",
-      "market value ($)": "$8,281,475.52",
-      "weight (%)": "1.17%",
+      "market value ($)": "$8,411,871.84",
+      "weight (%)": "1.19%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988857+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439116+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "X-ENERGY INC",
       "ticker": "XE",
@@ -3014,85 +3014,85 @@
       "weight (%)": "1.14%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988862+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439122+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "LOCKHEED MARTIN CORP",
       "ticker": "LMT",
       "cusip": "539830109",
       "shares": "12,430",
-      "market value ($)": "$7,743,765.70",
+      "market value ($)": "$7,827,792.50",
       "weight (%)": "1.10%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988866+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439126+00:00"
     },
     {
-      "date": "10/28/2026",
-      "fund": "ARKX",
-      "company": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM",
-      "cusip": "874039100",
-      "shares": "16,363",
-      "market value ($)": "$7,148,503.81",
-      "weight (%)": "1.01%",
-      "_fund": "ARKX",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988870+00:00"
-    },
-    {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "JD LOGISTICS INC",
       "ticker": "2618",
       "cusip": "BNMBPD9",
       "shares": "5,580,258",
-      "market value ($)": "$7,006,665.77",
+      "market value ($)": "$6,992,082.51",
       "weight (%)": "0.99%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988877+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439133+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "AIRBUS SE",
       "ticker": "AIR",
       "cusip": "4012250",
       "shares": "30,674",
-      "market value ($)": "$6,583,711.13",
+      "market value ($)": "$6,570,701.25",
       "weight (%)": "0.93%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988883+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439137+00:00"
     },
     {
-      "date": "10/28/2026",
+      "date": "10/29/2026",
+      "fund": "ARKX",
+      "company": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM",
+      "cusip": "874039100",
+      "shares": "13,139",
+      "market value ($)": "$5,774,721.89",
+      "weight (%)": "0.81%",
+      "_fund": "ARKX",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.439141+00:00"
+    },
+    {
+      "date": "10/29/2026",
+      "fund": "ARKX",
+      "company": "GOLDMAN FS TRSY OBLIG INST 468",
+      "ticker": "",
+      "cusip": "X9USDGSFT",
+      "shares": "3,756,526",
+      "market value ($)": "$3,756,525.90",
+      "weight (%)": "0.53%",
+      "_fund": "ARKX",
+      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+      "_updatedAt": "2026-10-29T17:29:54.439146+00:00"
+    },
+    {
+      "date": "10/29/2026",
       "fund": "ARKX",
       "company": "HONEYWELL AEROSPACE INC",
       "ticker": "HONA",
       "cusip": "43849R105",
       "shares": "18,470",
-      "market value ($)": "$3,101,113.00",
-      "weight (%)": "0.44%",
+      "market value ($)": "$3,269,744.10",
+      "weight (%)": "0.46%",
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988888+00:00"
-    },
-    {
-      "date": "10/28/2026",
-      "fund": "ARKX",
-      "company": "GOLDMAN FS TRSY OBLIG INST 468",
-      "ticker": "",
-      "cusip": "X9USDGSFT",
-      "shares": "2,597,452",
-      "market value ($)": "$2,597,452.05",
-      "weight (%)": "0.37%",
-      "_fund": "ARKX",
-      "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988892+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439150+00:00"
     },
     {
       "date": "Investors should carefully consider the investment objectives and risks as well as charges and expenses of an ARK ETF before investing. This and other information are contained in the ARK ETFs' prospectuses, which may be obtained on ark-funds.com. The prospectus should be read carefully before investing. An investment in an ARK ETF is subject to risks and you can lose money on your investment in an ARK ETF. There can be no assurance that the ARK ETFs will achieve their investment objectives. The ARK ETFs\u2019 portfolios are more volatile than broad market averages. The ARK ETFs also have specific risks, which are described in the ARK ETFs' prospectuses.Shares of the ARK ETFs may be bought or sold throughout the day at their market price on the exchange on which they are listed. The market price of an ARK ETF's shares may be at, above or below the ARK ETF\u2019s net asset value (\"NAV\") and will fluctuate with changes in the NAV as well as supply and demand in the market for the shares. The market price of ARK ETF shares may differ significantly from their NAV during periods of market volatility. Shares of the ARK ETFs may only be redeemed directly with the ARK ETFs at NAV by Authorized Participants, in very large creation units. There can be no guarantee that an active trading market for ARK ETF shares will develop or be maintained, or that their listing will continue or remain unchanged. Buying or selling ARK ETF shares on an exchange may require the payment of brokerage commissions and frequent trading may incur brokerage costs that detract significantly from investment returns. Not FDIC Insured \u2013 No Bank Guarantee \u2013 May Lose ValueAll statements made regarding companies, securities or other financial information are strictly beliefs and points of view held by ARK Investment Management LLC and/or ARK ETF Trust and are not endorsements by ARK of any company or security or recommendations by ARK to buy, sell or hold any security. Holdings are subject to change without notice.Foreside Fund Services, LLC, distributor.\u00a9 2026. ARK ETF Trust. No part of this material may be reproduced in any form, or referred to in any other publication, without written permission.",
@@ -3105,7 +3105,7 @@
       "weight (%)": null,
       "_fund": "ARKX",
       "_sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
-      "_updatedAt": "2026-10-28T17:15:54.988921+00:00"
+      "_updatedAt": "2026-10-29T17:29:54.439180+00:00"
     }
   ],
   "errors": {}
