@@ -8,7 +8,7 @@
     "volatility": null,
     "sharpeRatio": null,
     "note": "Performance data not available yet. No fake price metrics are generated.",
-    "updatedAt": "2026-11-14T17:15:31.525502+00:00"
+    "updatedAt": "2026-11-17T19:58:10.917759+00:00"
   },
   {
     "label": "ARKW vs QQQ",
@@ -19,7 +19,7 @@
     "volatility": null,
     "sharpeRatio": null,
     "note": "Performance data not available yet. No fake price metrics are generated.",
-    "updatedAt": "2026-11-14T17:15:31.525512+00:00"
+    "updatedAt": "2026-11-17T19:58:10.917772+00:00"
   },
   {
     "label": "ARKG vs XLV or IBB",
@@ -30,7 +30,7 @@
     "volatility": null,
     "sharpeRatio": null,
     "note": "Performance data not available yet. No fake price metrics are generated.",
-    "updatedAt": "2026-11-14T17:15:31.525515+00:00"
+    "updatedAt": "2026-11-17T19:58:10.917774+00:00"
   },
   {
     "label": "ARKF vs FINX or QQQ",
@@ -41,6 +41,6 @@
     "volatility": null,
     "sharpeRatio": null,
     "note": "Performance data not available yet. No fake price metrics are generated.",
-    "updatedAt": "2026-11-14T17:15:31.525517+00:00"
+    "updatedAt": "2026-11-17T19:58:10.917776+00:00"
   }
 ]

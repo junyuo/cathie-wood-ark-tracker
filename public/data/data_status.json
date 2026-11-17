@@ -1,8 +1,8 @@
 {
-  "lastSuccessfulUpdate": "2026-11-14T17:15:31.353460+00:00",
-  "latestHoldingDate": "2026-11-13",
+  "lastSuccessfulUpdate": "2026-11-17T19:58:10.751079+00:00",
+  "latestHoldingDate": "2026-11-17",
   "freshnessStatus": "fresh",
-  "dataAgeDays": 1,
+  "dataAgeDays": 0,
   "isSampleData": false,
   "funds": {
     "ARKK": {
@@ -37,11 +37,11 @@
     },
     "ARKX": {
       "status": "success",
-      "rowCount": 32,
+      "rowCount": 31,
       "sourceUrl": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
       "error": ""
     }
   },
   "warnings": [],
-  "updatedAt": "2026-11-14T17:15:31.354760+00:00"
+  "updatedAt": "2026-11-17T19:58:10.752632+00:00"
 }
