@@ -1,6 +1,6 @@
 {
-  "lastSuccessfulUpdate": "2026-11-18T19:29:47.562687+00:00",
-  "latestHoldingDate": "2026-11-18",
+  "lastSuccessfulUpdate": "2026-11-19T19:34:44.799975+00:00",
+  "latestHoldingDate": "2026-11-19",
   "freshnessStatus": "fresh",
   "dataAgeDays": 0,
   "isSampleData": false,
@@ -43,5 +43,5 @@
     }
   },
   "warnings": [],
-  "updatedAt": "2026-11-18T19:29:47.564431+00:00"
+  "updatedAt": "2026-11-19T19:34:44.801029+00:00"
 }
